@@ -24,5 +24,3 @@ python skill/verify_scripts/verify_repository.py
 ```
 
 该检查同时支持 Git 克隆和源码 ZIP。原始神经活动输入从官方数据源获取，步骤见 README。
-
-`file_manifest_sha256.json` 列出交付文件的内容哈希。交付压缩包按该清单生成，并附校验结果。
