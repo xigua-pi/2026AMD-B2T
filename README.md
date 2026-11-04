@@ -113,6 +113,7 @@ pynq-gru-bci/
 │   ├── pitfall_list/         # 结构化踩坑清单
 │   └── pynq_common_skill/    # 通用 PYNQ Skill
 └── report/
+    ├── communications.txt    # 部分关键的与竞赛相关的大模型交互记录
     ├── design_report.pdf     # 设计报告
     ├── design_report.docx    # 可编辑报告
     ├── llm_trace/            # 协作流程说明
