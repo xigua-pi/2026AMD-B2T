@@ -45,10 +45,25 @@ def check(name, data, depth=0):
 
 def main():
     # 只输出类别和文件；审计日志本身不保存凭据或原文片段。
-    files = subprocess.check_output(["git", "ls-files", "-z"], cwd=ROOT).decode().split("\0")
+    # 源码 ZIP 不含 .git；也不能误用解压目录上层的另一个 Git 仓库。
+    try:
+        git_root = Path(subprocess.check_output(
+            ["git", "rev-parse", "--show-toplevel"], cwd=ROOT,
+            stderr=subprocess.DEVNULL,
+        ).decode().strip()).resolve()
+    except (OSError, subprocess.CalledProcessError):
+        git_root = None
+    if git_root == ROOT:
+        files = subprocess.check_output(["git", "ls-files", "-z"], cwd=ROOT).decode().split("\0")
+    else:
+        manifest = json.loads((ROOT / "file_manifest_sha256.json").read_text(encoding="utf-8"))
+        files = list(manifest) + ["file_manifest_sha256.json"]
     count = 0
     for name in files:
         path = ROOT / name
+        if not path.resolve().is_relative_to(ROOT):
+            issues.append({"file": "manifest", "kind": "path_outside_release"})
+            continue
         if name and path.is_file():
             check(name, path.read_bytes())
             count += 1

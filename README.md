@@ -109,8 +109,18 @@ pynq-gru-bci/
 ├── data/
 │   ├── eeg_dataset/          # 数据输入目录，实际为植入式神经活动特征
 │   └── golden_ref/           # 冻结权重、ROM、参考输出与测试向量
-├── skill/                    # 工作流、案例模板、校验脚本与 PYNQ 技能包
-└── report/                   # 设计报告与配图
+├── skill/
+│   ├── README.md             # 技能包说明
+│   ├── prompt_workflow/      # 技术提示工作流
+│   ├── case_templates/       # 可复用实验模板
+│   ├── verify_scripts/      # 完整性与隐私检查
+│   ├── pitfall_list/         # 结构化踩坑清单
+│   └── pynq_common_skill/    # 通用 PYNQ Skill
+└── report/
+    ├── design_report.pdf     # 设计报告
+    ├── design_report.docx    # 可编辑报告
+    ├── llm_trace/            # 仅保留协作说明，不收录对话原文
+    └── figures/              # 系统、架构与性能配图
 ```
 
 ## 环境要求
@@ -132,13 +142,15 @@ pynq-gru-bci/
 ### 1. 获取代码
 
 ```powershell
-git clone git@github.com:xigua-pi/2026AMD-B2T.git pynq-gru-bci
+git clone <REPOSITORY_SSH_URL> pynq-gru-bci
 cd pynq-gru-bci
 python -m pip install -r requirements.txt
 python skill/verify_scripts/verify_repository.py
 ```
 
-校验脚本检查目录、IP 文件、仿真日志和板测结果的一致性。
+将 `<REPOSITORY_SSH_URL>` 替换为仓库 Code 菜单中复制的 SSH 地址。使用源码 ZIP 时，解压后直接进入 `pynq-gru-bci/`，从安装依赖开始执行。
+
+校验脚本检查目录、全部交付文件的 SHA-256、IP 文件、仿真日志、板测结果及隐私规则；解压后的源码包无需 Git 历史即可校验。
 
 ### 2. 准备测试输入
 
@@ -235,5 +247,6 @@ python board/scripts/serve_ui.py --board-api http://192.168.2.99:8765 --port 876
 
 - [最终实验报告 PDF](report/design_report.pdf) · [Word 原稿](report/design_report.docx)
 - [最终网络结构图 PNG](report/figures/b2tnet_architecture_final.png) · [可编辑框图源文件](report/figures/B2Tnet_editable_figures.pptx)
+- [最终交付说明](RELEASE.md)
 
 数据与原始研究：[Willett et al., Nature 2021](https://doi.org/10.1038/s41586-021-03506-2) · [Dryad 数据集](https://doi.org/10.5061/dryad.wh70rxwmv)。相关硬件工作：[Shaeri et al., MiBMI, JSSC 2024](https://doi.org/10.1109/JSSC.2024.3443254)。
