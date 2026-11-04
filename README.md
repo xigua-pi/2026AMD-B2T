@@ -129,7 +129,7 @@ pynq-gru-bci/
 | 板端运行 | PYNQ-Z2、PYNQ 3.0.1、MicroSD、Micro USB 数据线、以太网 |
 | 演示界面 | PC 浏览器，与板卡网络互通 |
 
-冻结比特流可直接加载至 PYNQ-Z2，由板端执行推理，PC 浏览器展示解码过程。
+比特流可直接加载至 PYNQ-Z2，由板端执行推理，PC 浏览器展示解码过程。
 
 ## 复现步骤
 
@@ -146,7 +146,6 @@ python skill/verify_scripts/verify_repository.py
 
 将 `<REPOSITORY_SSH_URL>` 替换为仓库 Code 菜单中复制的 SSH 地址。使用源码 ZIP 时，解压后直接进入 `pynq-gru-bci/`，从安装依赖开始执行。
 
-校验脚本检查目录、全部交付文件的 SHA-256、IP 文件、仿真日志、板测结果及隐私规则，支持 Git 克隆与源码 ZIP 两种方式。
 
 ### 2. 准备测试输入
 
