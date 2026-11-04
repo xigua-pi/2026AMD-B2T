@@ -13,7 +13,7 @@ Willett, F. R., Avansino, D. T., Hochberg, L. R., Henderson, J. M., Shenoy, K. V
 
 ## AMD/Xilinx与PYNQ
 
-Vivado、PS7、AXI DMA、互连等属于相应权利人。`build/scripts/pynq_3_0_1_base_reference.tcl`保留其已有版权头。冻结bitstream/HWH用于对应板卡的研究复现，不是商业IP独立源码或工具安装包。
+Vivado、PS7、AXI DMA、互连等属于相应权利人。`build/scripts/pynq_3_0_1_base_reference.tcl`保留其已有版权头。冻结bitstream/HWH用于对应板卡的研究复现.
 
 
 
