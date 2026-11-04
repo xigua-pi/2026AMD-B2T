@@ -1,0 +1,29 @@
+{
+  "record_index": 176,
+  "session_id": 6,
+  "reference": "the>access>door>was>somewhere>in>that>square~",
+  "modes": {
+    "0": {
+      "hypothesis": "the>access>doon>was>sommmeene>n>thattsque~",
+      "low_elements": 0,
+      "total_elements": 327456,
+      "gate_register_bit_flips": 6243587,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "the>access>doon>was>sommmeene>n>thattsqe~",
+      "low_elements": 327456,
+      "total_elements": 327456,
+      "gate_register_bit_flips": 4358832,
+      "mismatches_vs_frozen": 11216
+    },
+    "2": {
+      "hypothesis": "the>access>doon>was>sommmene>n>thttsqe~",
+      "low_elements": 35712,
+      "total_elements": 327456,
+      "gate_register_bit_flips": 6087050,
+      "mismatches_vs_frozen": 11120
+    }
+  },
+  "seconds": 1.243110179901123
+}

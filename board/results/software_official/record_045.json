@@ -1,0 +1,29 @@
+{
+  "record_index": 45,
+  "session_id": 2,
+  "reference": "these>are>like>miniature>straws>which>suck>water>up>the>stem~",
+  "modes": {
+    "0": {
+      "hypothesis": "these>are>lilke>miniatune>sthaws>which>suck>water>up>the>stem~",
+      "low_elements": 0,
+      "total_elements": 582768,
+      "gate_register_bit_flips": 11095565,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "these>are>lilke>miniatune>sthaws>which>suck>water>up>the>stem~",
+      "low_elements": 582768,
+      "total_elements": 582768,
+      "gate_register_bit_flips": 7723572,
+      "mismatches_vs_frozen": 19830
+    },
+    "2": {
+      "hypothesis": "these>are>lilke>miniatune>sthaws>which>suck>water>up>the>stem~",
+      "low_elements": 25200,
+      "total_elements": 582768,
+      "gate_register_bit_flips": 11018804,
+      "mismatches_vs_frozen": 19501
+    }
+  },
+  "seconds": 2.186713933944702
+}

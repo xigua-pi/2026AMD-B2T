@@ -1,0 +1,29 @@
+{
+  "record_index": 113,
+  "session_id": 4,
+  "reference": "i>tried>to>reason>but>succeeded>only>in>further>ruffling>her>feathers~",
+  "modes": {
+    "0": {
+      "hypothesis": ">l>tried>to>reason>but>succeeded>onmk>in>further>ruffling>her>feathars~mmm",
+      "low_elements": 0,
+      "total_elements": 826560,
+      "gate_register_bit_flips": 15527614,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">l>tried>to>reason>but>succeeded>onmk>in>further>ruffling>her>feathars~mmm",
+      "low_elements": 826560,
+      "total_elements": 826560,
+      "gate_register_bit_flips": 10794141,
+      "mismatches_vs_frozen": 28374
+    },
+    "2": {
+      "hypothesis": ">l>tried>to>reason>but>succeeded>onmk>in>further>ruffling>her>feathars~mmm",
+      "low_elements": 140256,
+      "total_elements": 826560,
+      "gate_register_bit_flips": 14966637,
+      "mismatches_vs_frozen": 28245
+    }
+  },
+  "seconds": 2.846153974533081
+}

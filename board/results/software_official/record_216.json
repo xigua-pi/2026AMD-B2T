@@ -1,0 +1,29 @@
+{
+  "record_index": 216,
+  "session_id": 7,
+  "reference": "their>patient>was>still>alive>but>his>condition>was>deteriorating>visibly~",
+  "modes": {
+    "0": {
+      "hypothesis": ">>hein>patient>was>stil>alive>but>his>condition>was>deterionating>visibly~",
+      "low_elements": 0,
+      "total_elements": 509472,
+      "gate_register_bit_flips": 9896270,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">>hein>patient>was>stil>alive>but>his>condition>was>deterionating>visibly~",
+      "low_elements": 509472,
+      "total_elements": 509472,
+      "gate_register_bit_flips": 6930407,
+      "mismatches_vs_frozen": 17473
+    },
+    "2": {
+      "hypothesis": ">>hein>patient>was>stil>alive>but>hs>condition>was>deterionating>visibly~",
+      "low_elements": 19008,
+      "total_elements": 509472,
+      "gate_register_bit_flips": 9849823,
+      "mismatches_vs_frozen": 17372
+    }
+  },
+  "seconds": 1.9451861381530762
+}

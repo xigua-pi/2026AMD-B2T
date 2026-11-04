@@ -1,0 +1,29 @@
+{
+  "record_index": 145,
+  "session_id": 5,
+  "reference": "you>wish>to>purchase>something?",
+  "modes": {
+    "0": {
+      "hypothesis": "you>wish>to>purchase>something?",
+      "low_elements": 0,
+      "total_elements": 240480,
+      "gate_register_bit_flips": 4634015,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "you>wish>to>purchase>something?",
+      "low_elements": 240480,
+      "total_elements": 240480,
+      "gate_register_bit_flips": 3244891,
+      "mismatches_vs_frozen": 8198
+    },
+    "2": {
+      "hypothesis": "you>wish>to>purchase>something?",
+      "low_elements": 30528,
+      "total_elements": 240480,
+      "gate_register_bit_flips": 4504028,
+      "mismatches_vs_frozen": 7537
+    }
+  },
+  "seconds": 0.9354467391967773
+}

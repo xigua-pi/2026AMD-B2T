@@ -1,0 +1,29 @@
+{
+  "record_index": 156,
+  "session_id": 5,
+  "reference": "but>i>have>never>seen>such>a>total>lack>of>staff>discipline>in>my>entire>career>in>the>hotel>business~",
+  "modes": {
+    "0": {
+      "hypothesis": ">potsi>havelnever>scen>such>e>totol>lack>oflstaff>disciplire>in>my>ontire>career>in>the>holeel>busiresssi",
+      "low_elements": 0,
+      "total_elements": 727056,
+      "gate_register_bit_flips": 14131310,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">potsi>havelnever>scen>such>e>totol>lack>oflstaff>disciplire>in>my>ontire>career>in>the>holeel>busiresssi",
+      "low_elements": 727056,
+      "total_elements": 727056,
+      "gate_register_bit_flips": 9898324,
+      "mismatches_vs_frozen": 25010
+    },
+    "2": {
+      "hypothesis": ">potsi>havelnever>scen>such>e>totol>lack>oflstaff>disciplire>in>my>ontire>career>in>the>holeel>busiresssi",
+      "low_elements": 41616,
+      "total_elements": 727056,
+      "gate_register_bit_flips": 13975126,
+      "mismatches_vs_frozen": 24843
+    }
+  },
+  "seconds": 2.937669277191162
+}

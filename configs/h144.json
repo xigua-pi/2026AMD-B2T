@@ -1,0 +1,31 @@
+{
+  "freeze_id": "h144-recurrent-fixed-v1",
+  "model_config": {
+    "input_size": 192,
+    "bottleneck_size": 80,
+    "hidden_size": 144,
+    "num_sessions": 10,
+    "adapter_rank": 8,
+    "temporal_kernel": 13,
+    "causal_conv": false,
+    "skip_len": 5,
+    "dropout": 0.1
+  },
+  "classes": 31,
+  "output_size": 32,
+  "source_bin_ms": 10,
+  "model_step_ms": 20,
+  "numeric_format": "W8A8/H16/ACC32",
+  "activation_mode": "lut",
+  "lut_entries": 512,
+  "decode_threshold": 0.3,
+  "decode_delay_steps": 15,
+  "checkpoint": "data/golden_ref/checkpoints/fpga_candidate.pt",
+  "checkpoint_sha256": "6cff8438762f9a6e28476c9418dd37a53a32916a48fc81fb6b680d3ee6cb2e25",
+  "historical_training_checkpoint_sha256": "e1b8a5d960dba27306bf57061f1e781c78fbad7b3c7fec591ca6109130bddf14",
+  "inference_checkpoint_repackaged_without_weight_changes": true,
+  "new_hardware_optimizations_integrated": false,
+  "activity_aware_skipping_integrated": false,
+  "int4_integrated": false
+}
+

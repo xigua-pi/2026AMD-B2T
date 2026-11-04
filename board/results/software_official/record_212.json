@@ -1,0 +1,29 @@
+{
+  "record_index": 212,
+  "session_id": 7,
+  "reference": "but>now>i>thought,>he's>a>worm,>he's>squashable~",
+  "modes": {
+    "0": {
+      "hypothesis": ">but>row>i>thought,>hees>a>worm,>he's>squashable~",
+      "low_elements": 0,
+      "total_elements": 353232,
+      "gate_register_bit_flips": 6829193,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">but>row>i>thought,>hees>a>worm,>he's>squashable~",
+      "low_elements": 353232,
+      "total_elements": 353232,
+      "gate_register_bit_flips": 4778966,
+      "mismatches_vs_frozen": 12095
+    },
+    "2": {
+      "hypothesis": ">but>row>i>thought,>hees>a>worm,>he's>squashabl~",
+      "low_elements": 27360,
+      "total_elements": 353232,
+      "gate_register_bit_flips": 6737229,
+      "mismatches_vs_frozen": 12091
+    }
+  },
+  "seconds": 1.371734857559204
+}

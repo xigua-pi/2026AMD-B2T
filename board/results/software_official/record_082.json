@@ -1,0 +1,29 @@
+{
+  "record_index": 82,
+  "session_id": 3,
+  "reference": "the>farmer>took>off>his>cap>and>wiped>his>brow~",
+  "modes": {
+    "0": {
+      "hypothesis": "the>farme>took>off>his>cap>and>wibed>hs>brow",
+      "low_elements": 0,
+      "total_elements": 405504,
+      "gate_register_bit_flips": 7804956,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "the>farme>took>off>his>cap>and>wibed>hs>brow",
+      "low_elements": 405504,
+      "total_elements": 405504,
+      "gate_register_bit_flips": 5447015,
+      "mismatches_vs_frozen": 13852
+    },
+    "2": {
+      "hypothesis": "the>farme>took>off>his>cap>and>wibed>hs>brow",
+      "low_elements": 9072,
+      "total_elements": 405504,
+      "gate_register_bit_flips": 7786108,
+      "mismatches_vs_frozen": 13557
+    }
+  },
+  "seconds": 1.415452003479004
+}

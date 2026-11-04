@@ -1,0 +1,29 @@
+{
+  "record_index": 111,
+  "session_id": 4,
+  "reference": "he>promised>to>forward>my>mail>and>wished>me>luck~",
+  "modes": {
+    "0": {
+      "hypothesis": "he>promised>to>forward>mymail>and>wished>me>luck~",
+      "low_elements": 0,
+      "total_elements": 408096,
+      "gate_register_bit_flips": 7937758,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "he>promised>to>forward>mymail>and>wished>me>luck~",
+      "low_elements": 408096,
+      "total_elements": 408096,
+      "gate_register_bit_flips": 5554384,
+      "mismatches_vs_frozen": 13966
+    },
+    "2": {
+      "hypothesis": "he>promised>to>forward>mymai>and>wished>me>luck~",
+      "low_elements": 8928,
+      "total_elements": 408096,
+      "gate_register_bit_flips": 7910005,
+      "mismatches_vs_frozen": 6928
+    }
+  },
+  "seconds": 1.4982199668884277
+}

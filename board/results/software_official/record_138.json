@@ -1,0 +1,29 @@
+{
+  "record_index": 138,
+  "session_id": 5,
+  "reference": "infected>adults>develop>a>cough>and>their>skin>and>ears>turn>blue~",
+  "modes": {
+    "0": {
+      "hypothesis": ">infeclted>adults>derclep>a>cough>and>their>skin>and>ears>turn>bluc",
+      "low_elements": 0,
+      "total_elements": 417888,
+      "gate_register_bit_flips": 8214489,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">infeclted>adults>derclep>a>cough>and>their>skin>and>ears>turn>bluc",
+      "low_elements": 417888,
+      "total_elements": 417888,
+      "gate_register_bit_flips": 5772850,
+      "mismatches_vs_frozen": 14349
+    },
+    "2": {
+      "hypothesis": ">infeclted>adults>derclep>a>cough>and>their>skin>and>ears>turn>bluc",
+      "low_elements": 16992,
+      "total_elements": 417888,
+      "gate_register_bit_flips": 8161438,
+      "mismatches_vs_frozen": 14408
+    }
+  },
+  "seconds": 1.5418751239776611
+}

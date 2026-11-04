@@ -1,0 +1,46 @@
+{
+  "complete": true,
+  "device": "cuda:1",
+  "checkpoint": "/tmp/brain_ctc_yzhang_20260918/runs/h144_recurrent_fixed_v1/formal/experiment/fpga_candidate.pt",
+  "split_fingerprint": "514826f663b31ad11414c85e0dfa61e24df2bb9069b137d06a3da4cd2e42fe51",
+  "scope": "PyTorch recurrent fake-quant graph on development only; different from pure-integer board benchmark",
+  "training_performed": false,
+  "results": {
+    "high": {
+      "records": 99,
+      "metrics": {
+        "char_errors": 285,
+        "char_total": 5189,
+        "word_errors": 236,
+        "word_total": 977,
+        "cer": 0.05492387743303141,
+        "wer": 0.24155578300921188
+      },
+      "seconds": 271.1600110530853
+    },
+    "static": {
+      "records": 99,
+      "metrics": {
+        "char_errors": 288,
+        "char_total": 5189,
+        "word_errors": 238,
+        "word_total": 977,
+        "cer": 0.05550202351127385,
+        "wer": 0.2436028659160696
+      },
+      "seconds": 204.12555146217346
+    },
+    "dynamic": {
+      "records": 99,
+      "metrics": {
+        "char_errors": 288,
+        "char_total": 5189,
+        "word_errors": 238,
+        "word_total": 977,
+        "cer": 0.05550202351127385,
+        "wer": 0.2436028659160696
+      },
+      "seconds": 312.6533660888672
+    }
+  }
+}

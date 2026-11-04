@@ -1,0 +1,29 @@
+{
+  "record_index": 61,
+  "session_id": 2,
+  "reference": "is>that>standard>operating>procedure?",
+  "modes": {
+    "0": {
+      "hypothesis": "is>that>standard>operating>procedure?",
+      "low_elements": 0,
+      "total_elements": 398592,
+      "gate_register_bit_flips": 7514528,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "is>that>standard>operating>procedure?",
+      "low_elements": 398592,
+      "total_elements": 398592,
+      "gate_register_bit_flips": 5221202,
+      "mismatches_vs_frozen": 13584
+    },
+    "2": {
+      "hypothesis": "is>that>standard>operating>procedure?",
+      "low_elements": 35424,
+      "total_elements": 398592,
+      "gate_register_bit_flips": 7392862,
+      "mismatches_vs_frozen": 13474
+    }
+  },
+  "seconds": 1.3547930717468262
+}

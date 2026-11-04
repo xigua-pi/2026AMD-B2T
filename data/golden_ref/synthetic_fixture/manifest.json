@@ -1,0 +1,311 @@
+{
+  "kind": "synthetic_not_human_neural_data",
+  "seed": 20261019,
+  "frames": 32,
+  "session_id": 0,
+  "checkpoint_sha256": "6cff8438762f9a6e28476c9418dd37a53a32916a48fc81fb6b680d3ee6cb2e25",
+  "human_data_loaded": false,
+  "purpose": "bit-exact arithmetic/RTL regression only; not accuracy or power benchmark",
+  "tensors": {
+    "adapter": {
+      "file": "trace_record0/adapter.mem",
+      "shape": [
+        32,
+        192
+      ],
+      "elements": 6144,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 8,
+      "signed": true,
+      "source_dtype": "int64",
+      "minimum": -38,
+      "maximum": 35,
+      "sha256": "f9313b48319053fac98f2cb971240d1af22edcb00500bd84f9effeb1fd323048"
+    },
+    "bottleneck": {
+      "file": "trace_record0/bottleneck.mem",
+      "shape": [
+        32,
+        80
+      ],
+      "elements": 2560,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 8,
+      "signed": true,
+      "source_dtype": "int64",
+      "minimum": -40,
+      "maximum": 41,
+      "sha256": "bb0500ff66850f763a950062a2ee96e95c8cd4d3fb81a3dd03f1f1b06cab2e11"
+    },
+    "depthwise": {
+      "file": "trace_record0/depthwise.mem",
+      "shape": [
+        32,
+        192
+      ],
+      "elements": 6144,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 8,
+      "signed": true,
+      "source_dtype": "int64",
+      "minimum": -42,
+      "maximum": 35,
+      "sha256": "d8cceb65d81b40f693d286fc87be66db96c76199d4f698004f1d23e3b838215a"
+    },
+    "gru1_gates_candidate": {
+      "file": "trace_record0/gru1_gates_candidate.mem",
+      "shape": [
+        32,
+        144
+      ],
+      "elements": 4608,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 16,
+      "signed": true,
+      "source_dtype": "int64",
+      "minimum": -29182,
+      "maximum": 30107,
+      "sha256": "3073fdaba59e165b1ab60179d1ebb1bb4ce15429711d1c3ac2878c9e1e7ac88f"
+    },
+    "gru1_gates_hidden_linear": {
+      "file": "trace_record0/gru1_gates_hidden_linear.mem",
+      "shape": [
+        32,
+        432
+      ],
+      "elements": 13824,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 16,
+      "signed": true,
+      "source_dtype": "int64",
+      "minimum": -4448,
+      "maximum": 6879,
+      "sha256": "8ac19f186f09a7264ae399b99afe8b4381dcf09a3015dc26c1d5ff8ec5e36ebf"
+    },
+    "gru1_gates_input_linear": {
+      "file": "trace_record0/gru1_gates_input_linear.mem",
+      "shape": [
+        32,
+        432
+      ],
+      "elements": 13824,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 16,
+      "signed": true,
+      "source_dtype": "int64",
+      "minimum": -2526,
+      "maximum": 3519,
+      "sha256": "cce7beb248845609299e5c80ecc8901c5357ae76b71c14707d83af01459fe238"
+    },
+    "gru1_gates_previous_hidden": {
+      "file": "trace_record0/gru1_gates_previous_hidden.mem",
+      "shape": [
+        32,
+        144
+      ],
+      "elements": 4608,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 16,
+      "signed": true,
+      "source_dtype": "int64",
+      "minimum": -12652,
+      "maximum": 13215,
+      "sha256": "38fd2b60edae074a333fd98574afa47e5fe59b62dda792136853e805927348d4"
+    },
+    "gru1_gates_reset": {
+      "file": "trace_record0/gru1_gates_reset.mem",
+      "shape": [
+        32,
+        144
+      ],
+      "elements": 4608,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 16,
+      "signed": false,
+      "source_dtype": "int64",
+      "minimum": 3430,
+      "maximum": 59400,
+      "sha256": "e5705697eca43b79d267ad826d7d39beb06d1c1752cbc1b90105031787e9cb0a"
+    },
+    "gru1_gates_update": {
+      "file": "trace_record0/gru1_gates_update.mem",
+      "shape": [
+        32,
+        144
+      ],
+      "elements": 4608,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 16,
+      "signed": false,
+      "source_dtype": "int64",
+      "minimum": 10613,
+      "maximum": 64108,
+      "sha256": "83ed78c31cad8319dd19ec2a2bb02390419647d9afc6511667e180aba053895c"
+    },
+    "gru1_hidden": {
+      "file": "trace_record0/gru1_hidden.mem",
+      "shape": [
+        32,
+        144
+      ],
+      "elements": 4608,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 16,
+      "signed": true,
+      "source_dtype": "int64",
+      "minimum": -12652,
+      "maximum": 13215,
+      "sha256": "2552aba64019dc17172273fb7e1360b44635cb86690c1fca2d35bfd3d66b08fa"
+    },
+    "gru2_gates_candidate": {
+      "file": "trace_record0/gru2_gates_candidate.mem",
+      "shape": [
+        7,
+        144
+      ],
+      "elements": 1008,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 16,
+      "signed": true,
+      "source_dtype": "int64",
+      "minimum": -28232,
+      "maximum": 31129,
+      "sha256": "26f31a0f32167faddf861c1993a2dd472bccbcd6a35ca931ebe94e9080de2bfa"
+    },
+    "gru2_gates_hidden_linear": {
+      "file": "trace_record0/gru2_gates_hidden_linear.mem",
+      "shape": [
+        7,
+        432
+      ],
+      "elements": 3024,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 16,
+      "signed": true,
+      "source_dtype": "int64",
+      "minimum": -3665,
+      "maximum": 5717,
+      "sha256": "ecd5c4c673773c8dbee1be8c5988a1384742cb2824e6c395c428abc0af15ffce"
+    },
+    "gru2_gates_input_linear": {
+      "file": "trace_record0/gru2_gates_input_linear.mem",
+      "shape": [
+        7,
+        432
+      ],
+      "elements": 3024,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 16,
+      "signed": true,
+      "source_dtype": "int64",
+      "minimum": -2903,
+      "maximum": 3546,
+      "sha256": "a9722b49a6ce348ee9d4661dd0959282f212768d9579e280af3d96bd3c879f1e"
+    },
+    "gru2_gates_previous_hidden": {
+      "file": "trace_record0/gru2_gates_previous_hidden.mem",
+      "shape": [
+        7,
+        144
+      ],
+      "elements": 1008,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 16,
+      "signed": true,
+      "source_dtype": "int64",
+      "minimum": -13616,
+      "maximum": 15398,
+      "sha256": "7366800614268e1ab197bd9cd46ccf579b723732c5239aaec51b26958d54e553"
+    },
+    "gru2_gates_reset": {
+      "file": "trace_record0/gru2_gates_reset.mem",
+      "shape": [
+        7,
+        144
+      ],
+      "elements": 1008,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 16,
+      "signed": false,
+      "source_dtype": "int64",
+      "minimum": 6869,
+      "maximum": 62106,
+      "sha256": "a2bdd5ba46ad95ec08a46e11885fc5c054c09bd67fa97c6f9e3d0456b2e71463"
+    },
+    "gru2_gates_update": {
+      "file": "trace_record0/gru2_gates_update.mem",
+      "shape": [
+        7,
+        144
+      ],
+      "elements": 1008,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 16,
+      "signed": false,
+      "source_dtype": "int64",
+      "minimum": 8805,
+      "maximum": 64193,
+      "sha256": "d8cb8db694e7a71b0f31b18bff490653ba938468e25f24ebbc55706964764832"
+    },
+    "gru2_hidden": {
+      "file": "trace_record0/gru2_hidden.mem",
+      "shape": [
+        7,
+        144
+      ],
+      "elements": 1008,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 16,
+      "signed": true,
+      "source_dtype": "int64",
+      "minimum": -12690,
+      "maximum": 15398,
+      "sha256": "7398e5bc85f522a4af1b73d39b6a1a59d73c42f10b01d33a79e94643d9b38007"
+    },
+    "gru2_input": {
+      "file": "trace_record0/gru2_input.mem",
+      "shape": [
+        7,
+        144
+      ],
+      "elements": 1008,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 8,
+      "signed": true,
+      "source_dtype": "int64",
+      "minimum": -47,
+      "maximum": 51,
+      "sha256": "92887d2415e4389b6b8c2b78b3c131b708482dfcde6a08097a1d63d74dae939d"
+    },
+    "input": {
+      "file": "trace_record0/input.mem",
+      "shape": [
+        32,
+        192
+      ],
+      "elements": 6144,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 8,
+      "signed": true,
+      "source_dtype": "int64",
+      "minimum": -16,
+      "maximum": 16,
+      "sha256": "6106db78340bd75cbdda9572d1bcfcb4e457698f811ae4b74d7131e8ca1f59db"
+    },
+    "logits_down": {
+      "file": "trace_record0/logits_down.mem",
+      "shape": [
+        7,
+        32
+      ],
+      "elements": 224,
+      "flatten_order": "C (last dimension changes fastest)",
+      "bits": 16,
+      "signed": true,
+      "source_dtype": "int64",
+      "minimum": -764,
+      "maximum": 832,
+      "sha256": "361940b35babc980b914c1edefdbaa103c96a3e6d4e3f3a297f0294b2478b750"
+    }
+  }
+}

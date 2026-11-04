@@ -1,0 +1,29 @@
+{
+  "record_index": 8,
+  "session_id": 1,
+  "reference": "we>were>marked>for>extermination,>like>so>many>rats~",
+  "modes": {
+    "0": {
+      "hypothesis": ">w>aere>marked>for>extermination,>like>so>many>rats",
+      "low_elements": 0,
+      "total_elements": 597456,
+      "gate_register_bit_flips": 11496667,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">w>aere>marked>for>extermination,>like>so>many>rats",
+      "low_elements": 597456,
+      "total_elements": 597456,
+      "gate_register_bit_flips": 8021896,
+      "mismatches_vs_frozen": 20264
+    },
+    "2": {
+      "hypothesis": ">w>aere>marked>for>extermination,>like>so>many>rats",
+      "low_elements": 21024,
+      "total_elements": 597456,
+      "gate_register_bit_flips": 11439616,
+      "mismatches_vs_frozen": 19963
+    }
+  },
+  "seconds": 2.315751552581787
+}

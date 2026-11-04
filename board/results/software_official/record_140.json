@@ -1,0 +1,29 @@
+{
+  "record_index": 140,
+  "session_id": 5,
+  "reference": "i>dumped>the>tools>in>the>hut~",
+  "modes": {
+    "0": {
+      "hypothesis": ">ildumped>the>tools>in>the>hut~",
+      "low_elements": 0,
+      "total_elements": 214128,
+      "gate_register_bit_flips": 4196530,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">ildumped>the>tools>in>the>hut~",
+      "low_elements": 214128,
+      "total_elements": 214128,
+      "gate_register_bit_flips": 2946958,
+      "mismatches_vs_frozen": 7335
+    },
+    "2": {
+      "hypothesis": ">ildumped>the>tools>in>the>hut~",
+      "low_elements": 11088,
+      "total_elements": 214128,
+      "gate_register_bit_flips": 4159277,
+      "mismatches_vs_frozen": 2209
+    }
+  },
+  "seconds": 0.8413224220275879
+}

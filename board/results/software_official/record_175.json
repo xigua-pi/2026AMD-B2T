@@ -1,0 +1,29 @@
+{
+  "record_index": 175,
+  "session_id": 6,
+  "reference": "and>i'm>particularly>immune>to>crocodile>tears~",
+  "modes": {
+    "0": {
+      "hypothesis": "and>>m>pantielayyimmme>to>coccdle>teae~",
+      "low_elements": 0,
+      "total_elements": 298944,
+      "gate_register_bit_flips": 5748958,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "and>>m>pantielayyimmme>to>coccdle>teae~",
+      "low_elements": 298944,
+      "total_elements": 298944,
+      "gate_register_bit_flips": 4019231,
+      "mismatches_vs_frozen": 10300
+    },
+    "2": {
+      "hypothesis": "and>>mmpantielayyimmme>to>coccdle>teae~",
+      "low_elements": 19728,
+      "total_elements": 298944,
+      "gate_register_bit_flips": 5681828,
+      "mismatches_vs_frozen": 10011
+    }
+  },
+  "seconds": 1.268162727355957
+}

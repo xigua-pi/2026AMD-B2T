@@ -1,0 +1,29 @@
+{
+  "record_index": 104,
+  "session_id": 4,
+  "reference": "quiet,>secluded>places>often>attract>ghost>stories~",
+  "modes": {
+    "0": {
+      "hypothesis": "ouiet,>secluded>places>oftmm>attract>ghost>stories~",
+      "low_elements": 0,
+      "total_elements": 407232,
+      "gate_register_bit_flips": 7919154,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "ouiet,>secluded>places>oftmm>attract>ghost>stories~",
+      "low_elements": 407232,
+      "total_elements": 407232,
+      "gate_register_bit_flips": 5540498,
+      "mismatches_vs_frozen": 13804
+    },
+    "2": {
+      "hypothesis": "ouiet,>secluded>places>oftmm>attract>ghost>stories~",
+      "low_elements": 10368,
+      "total_elements": 407232,
+      "gate_register_bit_flips": 7884387,
+      "mismatches_vs_frozen": 13671
+    }
+  },
+  "seconds": 1.4864072799682617
+}

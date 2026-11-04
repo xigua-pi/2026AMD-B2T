@@ -1,0 +1,23 @@
+{
+  "record": 145,
+  "rank": 1,
+  "session": "t5.2019.12.20",
+  "low_elements": 30528,
+  "total_elements": 240480,
+  "text": "you wish to purchase something?",
+  "reference": "you wish to purchase something?",
+  "input_frames": 1391,
+  "output_frames": 279,
+  "elapsed_seconds": 2.1593922679999196,
+  "clock_mhz": 50.0,
+  "mismatches": 0,
+  "error_flags": 0,
+  "first_partial_seconds": 0.06379955700003848,
+  "partial_rows_before_done": 272,
+  "pl_cycle_count": 107152012,
+  "max_frame_cycles": 125428,
+  "input_byte_count": 267072,
+  "output_word_count": 8928,
+  "flush_completed_count": 6,
+  "signal_duration_seconds": 27.82
+}

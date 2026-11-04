@@ -1,0 +1,29 @@
+{
+  "record_index": 24,
+  "session_id": 1,
+  "reference": "i>mean>you're>lucky>to>get>that>one>mate,>i>mean>you>must>have>been,>caught>him>on>a>real>good>day~",
+  "modes": {
+    "0": {
+      "hypothesis": "l>mean>you're>lucky>to>get>that>one>mate,>imoa>you,must>havebeencaogntt>iim>or>a>noal>good>day~~si",
+      "low_elements": 0,
+      "total_elements": 1198944,
+      "gate_register_bit_flips": 22905118,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "l>mean>you're>lucky>to>get>that>one>mate,>imea>you,must>havebeencaogntt>iim>or>a>noal>good>day~~si",
+      "low_elements": 1198944,
+      "total_elements": 1198944,
+      "gate_register_bit_flips": 15939524,
+      "mismatches_vs_frozen": 40988
+    },
+    "2": {
+      "hypothesis": "l>mean>you're>lucky>to>get>that>one>mate,>imoa>you,must>havebeencaogntt>iim>or>a>noal>good>day~~si",
+      "low_elements": 55872,
+      "total_elements": 1198944,
+      "gate_register_bit_flips": 22741379,
+      "mismatches_vs_frozen": 39944
+    }
+  },
+  "seconds": 4.428125858306885
+}

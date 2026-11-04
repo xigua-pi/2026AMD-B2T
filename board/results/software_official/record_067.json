@@ -1,0 +1,29 @@
+{
+  "record_index": 67,
+  "session_id": 3,
+  "reference": "ask>not>what>your>country>can>do>for>you",
+  "modes": {
+    "0": {
+      "hypothesis": ">ask>not>what>yur>country>cnan>do>fon>you",
+      "low_elements": 0,
+      "total_elements": 342000,
+      "gate_register_bit_flips": 6608514,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">ask>not>what>yur>country>cnan>do>fon>you",
+      "low_elements": 342000,
+      "total_elements": 342000,
+      "gate_register_bit_flips": 4620631,
+      "mismatches_vs_frozen": 11696
+    },
+    "2": {
+      "hypothesis": ">ask>not>what>yur>country>cnan>do>fon>you",
+      "low_elements": 15840,
+      "total_elements": 342000,
+      "gate_register_bit_flips": 6544087,
+      "mismatches_vs_frozen": 11551
+    }
+  },
+  "seconds": 1.1808545589447021
+}

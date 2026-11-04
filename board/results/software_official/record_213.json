@@ -1,0 +1,29 @@
+{
+  "record_index": 213,
+  "session_id": 7,
+  "reference": "it>was>found>abandoned>a>short>distance>away>with>the>engine>still>running~",
+  "modes": {
+    "0": {
+      "hypothesis": "it>was>found>abandoned>a>shurt>distaance>away>witt>th>engine>stil>runn>ng~>",
+      "low_elements": 0,
+      "total_elements": 553680,
+      "gate_register_bit_flips": 10722966,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "it>was>found>abandoned>a>shurt>distaance>away>witt>th>engine>stil>runn>ng~>",
+      "low_elements": 553680,
+      "total_elements": 553680,
+      "gate_register_bit_flips": 7508851,
+      "mismatches_vs_frozen": 18952
+    },
+    "2": {
+      "hypothesis": "it>was>found>abandoned>a>shurt>distaance>away>witt>th>engine>stil>runn>ng~",
+      "low_elements": 38304,
+      "total_elements": 553680,
+      "gate_register_bit_flips": 10582584,
+      "mismatches_vs_frozen": 10674
+    }
+  },
+  "seconds": 2.088804006576538
+}

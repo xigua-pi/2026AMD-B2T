@@ -1,0 +1,29 @@
+{
+  "record_index": 152,
+  "session_id": 5,
+  "reference": "they>feed>some>material>through>the>printer~",
+  "modes": {
+    "0": {
+      "hypothesis": ">fheey>foed>some>material>through>the>printer~f",
+      "low_elements": 0,
+      "total_elements": 432576,
+      "gate_register_bit_flips": 8203991,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">fheey>foed>some>material>through>the>printer~f",
+      "low_elements": 432576,
+      "total_elements": 432576,
+      "gate_register_bit_flips": 5720699,
+      "mismatches_vs_frozen": 14770
+    },
+    "2": {
+      "hypothesis": ">fheey>foed>some>material>through>the>printer~f",
+      "low_elements": 66096,
+      "total_elements": 432576,
+      "gate_register_bit_flips": 7934168,
+      "mismatches_vs_frozen": 14823
+    }
+  },
+  "seconds": 1.7116901874542236
+}

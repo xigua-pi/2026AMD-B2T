@@ -1,0 +1,29 @@
+{
+  "record_index": 57,
+  "session_id": 2,
+  "reference": "it>would>be>criminal>not>to>get>him>proper>attention~",
+  "modes": {
+    "0": {
+      "hypothesis": ">it>would>be>chimina>hot>to>gat>him>prope>attention~",
+      "low_elements": 0,
+      "total_elements": 514080,
+      "gate_register_bit_flips": 9747878,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">it>would>be>chimina>hot>to>gat>him>proper>attention~",
+      "low_elements": 514080,
+      "total_elements": 514080,
+      "gate_register_bit_flips": 6776139,
+      "mismatches_vs_frozen": 17535
+    },
+    "2": {
+      "hypothesis": ">it>would>be>chimina>hot>to>gat>him>prope>attention~",
+      "low_elements": 28080,
+      "total_elements": 514080,
+      "gate_register_bit_flips": 9661342,
+      "mismatches_vs_frozen": 17454
+    }
+  },
+  "seconds": 1.7592570781707764
+}

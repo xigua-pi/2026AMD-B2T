@@ -1,0 +1,29 @@
+{
+  "record_index": 162,
+  "session_id": 5,
+  "reference": "you>must>be>the>change>you>wish>to>see>in>the>world",
+  "modes": {
+    "0": {
+      "hypothesis": ">kou>must>be>the>change>you>wish>to>see>in>the>world",
+      "low_elements": 0,
+      "total_elements": 328032,
+      "gate_register_bit_flips": 6415611,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">kou>must>be>the>change>you>wish>to>see>in>the>world",
+      "low_elements": 328032,
+      "total_elements": 328032,
+      "gate_register_bit_flips": 4499956,
+      "mismatches_vs_frozen": 11258
+    },
+    "2": {
+      "hypothesis": ">kou>must>be>the>change>you>wish>to>see>in>the>world",
+      "low_elements": 7056,
+      "total_elements": 328032,
+      "gate_register_bit_flips": 6389508,
+      "mismatches_vs_frozen": 10224
+    }
+  },
+  "seconds": 1.3038344383239746
+}

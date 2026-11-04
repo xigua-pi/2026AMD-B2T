@@ -1,0 +1,29 @@
+{
+  "record_index": 86,
+  "session_id": 3,
+  "reference": "the>ruby>in>her>belly>button>stayed>put~",
+  "modes": {
+    "0": {
+      "hypothesis": "the>ruby>in>he>bel>buton>stayed>but",
+      "low_elements": 0,
+      "total_elements": 299664,
+      "gate_register_bit_flips": 5801871,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">the>ruby>in>he>bel>buton>stayed>but",
+      "low_elements": 299664,
+      "total_elements": 299664,
+      "gate_register_bit_flips": 4051261,
+      "mismatches_vs_frozen": 10269
+    },
+    "2": {
+      "hypothesis": "the>ruby>in>he>bel>buton>stayed>but",
+      "low_elements": 4464,
+      "total_elements": 299664,
+      "gate_register_bit_flips": 5793791,
+      "mismatches_vs_frozen": 7106
+    }
+  },
+  "seconds": 1.0451111793518066
+}

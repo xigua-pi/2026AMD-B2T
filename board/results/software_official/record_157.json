@@ -1,0 +1,29 @@
+{
+  "record_index": 157,
+  "session_id": 5,
+  "reference": "a>wounded>elephant>is>a>dangerous>elephant~",
+  "modes": {
+    "0": {
+      "hypothesis": "alwounded>elephant>is>a>dongerous>elaphant'",
+      "low_elements": 0,
+      "total_elements": 300528,
+      "gate_register_bit_flips": 5855262,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "alwounded>elephant>is>a>dongerous>elaphant'",
+      "low_elements": 300528,
+      "total_elements": 300528,
+      "gate_register_bit_flips": 4105503,
+      "mismatches_vs_frozen": 10311
+    },
+    "2": {
+      "hypothesis": "alwounded>elephant>is>a>dongerous>elaphant'",
+      "low_elements": 15696,
+      "total_elements": 300528,
+      "gate_register_bit_flips": 5791152,
+      "mismatches_vs_frozen": 10028
+    }
+  },
+  "seconds": 1.1090686321258545
+}

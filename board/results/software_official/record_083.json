@@ -1,0 +1,29 @@
+{
+  "record_index": 83,
+  "session_id": 3,
+  "reference": "a>thicker>shell>presumably>protects>the>snail>better~",
+  "modes": {
+    "0": {
+      "hypothesis": ">a>thicker>shell>phesumably>bretects>the>snai>betten~",
+      "low_elements": 0,
+      "total_elements": 421632,
+      "gate_register_bit_flips": 8104459,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">a>thicker>shell>phesumably>bretects>the>snai>betten~",
+      "low_elements": 421632,
+      "total_elements": 421632,
+      "gate_register_bit_flips": 5657445,
+      "mismatches_vs_frozen": 14383
+    },
+    "2": {
+      "hypothesis": ">a>thicker>shell>phesumably>bretects>the>snai>betten~",
+      "low_elements": 12816,
+      "total_elements": 421632,
+      "gate_register_bit_flips": 8070932,
+      "mismatches_vs_frozen": 14312
+    }
+  },
+  "seconds": 1.5068094730377197
+}

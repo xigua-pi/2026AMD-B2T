@@ -1,0 +1,29 @@
+{
+  "record_index": 12,
+  "session_id": 1,
+  "reference": "and>recent>events>hadn't>helped>much,>either~",
+  "modes": {
+    "0": {
+      "hypothesis": "sand>recent>events>nadn't>helped>much,>elitherr",
+      "low_elements": 0,
+      "total_elements": 477360,
+      "gate_register_bit_flips": 9261406,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "sand>recent>events>hadn't>helped>much,>elither",
+      "low_elements": 477360,
+      "total_elements": 477360,
+      "gate_register_bit_flips": 6463101,
+      "mismatches_vs_frozen": 16143
+    },
+    "2": {
+      "hypothesis": "sand>recent>events>nadn't>helped>much,>elitherr",
+      "low_elements": 2448,
+      "total_elements": 477360,
+      "gate_register_bit_flips": 9259492,
+      "mismatches_vs_frozen": 11167
+    }
+  },
+  "seconds": 1.8402247428894043
+}

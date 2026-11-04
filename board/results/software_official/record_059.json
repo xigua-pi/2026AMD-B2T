@@ -1,0 +1,29 @@
+{
+  "record_index": 59,
+  "session_id": 2,
+  "reference": "the>scene>was>all>set>for>a>pitched>battle~",
+  "modes": {
+    "0": {
+      "hypothesis": "the>scene>was>al>set>for>a>pitched>batte~",
+      "low_elements": 0,
+      "total_elements": 431856,
+      "gate_register_bit_flips": 8134129,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "the>scene>was>al>set>for>a>pitched>batte~",
+      "low_elements": 431856,
+      "total_elements": 431856,
+      "gate_register_bit_flips": 5651582,
+      "mismatches_vs_frozen": 14777
+    },
+    "2": {
+      "hypothesis": "the>scene>was>al>set>for>a>pitched>batte~",
+      "low_elements": 42192,
+      "total_elements": 431856,
+      "gate_register_bit_flips": 7982393,
+      "mismatches_vs_frozen": 14312
+    }
+  },
+  "seconds": 1.5075104236602783
+}

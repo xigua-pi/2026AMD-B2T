@@ -1,0 +1,29 @@
+{
+  "record_index": 64,
+  "session_id": 2,
+  "reference": "he>cast>a>furtive>glance>to>left>and>to>right~",
+  "modes": {
+    "0": {
+      "hypothesis": "me>cast>a>furtive>gance>to>eft>and>to>right~",
+      "low_elements": 0,
+      "total_elements": 450576,
+      "gate_register_bit_flips": 8513708,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "me>cast>a>furtive>gance>to>eft>and>to>right~",
+      "low_elements": 450576,
+      "total_elements": 450576,
+      "gate_register_bit_flips": 5916900,
+      "mismatches_vs_frozen": 15421
+    },
+    "2": {
+      "hypothesis": "me>cast>a>furtive>gance>to>eft>and>to>right~",
+      "low_elements": 28368,
+      "total_elements": 450576,
+      "gate_register_bit_flips": 8430892,
+      "mismatches_vs_frozen": 15305
+    }
+  },
+  "seconds": 1.4929513931274414
+}

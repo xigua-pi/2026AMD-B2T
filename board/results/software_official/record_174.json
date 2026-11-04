@@ -1,0 +1,29 @@
+{
+  "record_index": 174,
+  "session_id": 6,
+  "reference": "the>other>battalions>were>infected>by>the>panic>and>also>fled~",
+  "modes": {
+    "0": {
+      "hypothesis": ">the>othh>battalions>wens>>mfected>b>the>paanc>ad>also>fled",
+      "low_elements": 0,
+      "total_elements": 372960,
+      "gate_register_bit_flips": 7233404,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">the>othh>battalions>wens>>mfected>b>the>paane>ad>also>fled",
+      "low_elements": 372960,
+      "total_elements": 372960,
+      "gate_register_bit_flips": 5063486,
+      "mismatches_vs_frozen": 12919
+    },
+    "2": {
+      "hypothesis": ">the>othh>battalions>wens>>mfected>b>the>paane>aa>also>fled",
+      "low_elements": 6048,
+      "total_elements": 372960,
+      "gate_register_bit_flips": 7220083,
+      "mismatches_vs_frozen": 12832
+    }
+  },
+  "seconds": 1.5498180389404297
+}

@@ -1,0 +1,29 @@
+{
+  "record_index": 22,
+  "session_id": 1,
+  "reference": "a>firm>therefore>becomes>a>farm~",
+  "modes": {
+    "0": {
+      "hypothesis": ">a>firm>therefore>beoommes>a>carn",
+      "low_elements": 0,
+      "total_elements": 384912,
+      "gate_register_bit_flips": 7363145,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">a>firm>therefore>beoommes>a>carn",
+      "low_elements": 384912,
+      "total_elements": 384912,
+      "gate_register_bit_flips": 5128190,
+      "mismatches_vs_frozen": 13069
+    },
+    "2": {
+      "hypothesis": ">a>firm>therefore>beoommes>a>carn",
+      "low_elements": 17712,
+      "total_elements": 384912,
+      "gate_register_bit_flips": 7318479,
+      "mismatches_vs_frozen": 12886
+    }
+  },
+  "seconds": 1.2896718978881836
+}

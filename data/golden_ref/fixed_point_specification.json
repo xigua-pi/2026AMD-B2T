@@ -1,0 +1,417 @@
+{
+  "protocol": {
+    "fit_records": 403,
+    "development_records": 99,
+    "development_blocks": {
+      "t5.2019.05.08": 24,
+      "t5.2019.11.25": 14,
+      "t5.2019.12.09": 8,
+      "t5.2019.12.11": 9,
+      "t5.2019.12.18": 10,
+      "t5.2019.12.20": 9,
+      "t5.2020.01.06": 9,
+      "t5.2020.01.08": 13,
+      "t5.2020.01.13": 13,
+      "t5.2020.01.15": 12
+    },
+    "official_heldout_signals_loaded": false,
+    "calibration_batches_from_fit_only": 32
+  },
+  "R0_fp32": {
+    "cer": 0.05511659279244556,
+    "wer": 0.24155578300921188,
+    "start_threshold": 0.3,
+    "start_delay": 15,
+    "loss": 0.7458115403468792,
+    "decode_candidates": 24
+  },
+  "R1_fixed_scale": {
+    "cer": 0.05608016958951628,
+    "wer": 0.24667349027635618,
+    "start_threshold": 0.35,
+    "start_delay": 15,
+    "loss": 0.7618440481332632,
+    "decode_candidates": 24
+  },
+  "R1_scale_exponents": {
+    "input_q": -4,
+    "adapter_mid_q": -3,
+    "adapter_out_q": -4,
+    "depthwise_q": -5,
+    "bottleneck_q": -5,
+    "gru2_input_q": -6,
+    "hidden1_q": -14,
+    "hidden2_q": -14
+  },
+  "R2_best_epoch": 0,
+  "R2_learned_scale": {
+    "cer": 0.05608016958951628,
+    "wer": 0.24667349027635618,
+    "start_threshold": 0.35,
+    "start_delay": 15,
+    "loss": 0.7618440481332632,
+    "decode_candidates": 24
+  },
+  "R3_best_epoch": 30,
+  "R3_recurrent_qat": {
+    "cer": 0.05492387743303141,
+    "wer": 0.24155578300921188,
+    "start_threshold": 0.3,
+    "start_delay": 15,
+    "loss": 0.7587435062115009,
+    "decode_candidates": 24
+  },
+  "nonlinear_results": {
+    "exact": {
+      "cer": 0.05492387743303141,
+      "wer": 0.24155578300921188,
+      "start_threshold": 0.3,
+      "start_delay": 15,
+      "loss": 0.7587435062115009,
+      "decode_candidates": 24
+    },
+    "lut256": {
+      "cer": 0.05550202351127385,
+      "wer": 0.24564994882292732,
+      "start_threshold": 0.3,
+      "start_delay": 15,
+      "loss": 0.758645603289971,
+      "decode_candidates": 24
+    },
+    "lut512": {
+      "cer": 0.05492387743303141,
+      "wer": 0.24155578300921188,
+      "start_threshold": 0.3,
+      "start_delay": 15,
+      "loss": 0.7585339683752793,
+      "decode_candidates": 24
+    },
+    "pwl8": {
+      "cer": 0.9886297937945654,
+      "wer": 0.9989764585465711,
+      "start_threshold": 0.3,
+      "start_delay": 25,
+      "loss": 3.8257759167597842,
+      "decode_candidates": 24
+    },
+    "pwl16": {
+      "cer": 0.09346694931586047,
+      "wer": 0.3592630501535312,
+      "start_threshold": 0.25,
+      "start_delay": 15,
+      "loss": 0.9159258695749136,
+      "decode_candidates": 24
+    }
+  },
+  "selected_nonlinear": "lut512",
+  "selected_metrics": {
+    "cer": 0.05492387743303141,
+    "wer": 0.24155578300921188,
+    "start_threshold": 0.3,
+    "start_delay": 15,
+    "loss": 0.7585339683752793,
+    "decode_candidates": 24
+  },
+  "fixed_point_specification": {
+    "rounding": "round_to_nearest_ties_to_even",
+    "saturation": "symmetric for signed tensors",
+    "accumulator_bits": 32,
+    "weight_bits": 8,
+    "weight_scale": "per-output-channel power-of-two",
+    "activation_scale": "per-layer power-of-two, invariant over time",
+    "hidden_feedback": "quantized INT16 h_t is the only state used at t+1",
+    "gate_order": [
+      "reset",
+      "update",
+      "new"
+    ],
+    "activation_mode": "lut",
+    "lut_entries": 512,
+    "lut_range": 8.0,
+    "pwl_segments": null,
+    "quantizers": {
+      "input_q": {
+        "bits": 8,
+        "signed": true,
+        "qmin": -127,
+        "qmax": 127,
+        "scale_exponent": -4,
+        "scale": 0.0625,
+        "clip_min": -7.9375,
+        "clip_max": 7.9375,
+        "learnable_during_qat": true
+      },
+      "adapter_mid_q": {
+        "bits": 8,
+        "signed": true,
+        "qmin": -127,
+        "qmax": 127,
+        "scale_exponent": -3,
+        "scale": 0.125,
+        "clip_min": -15.875,
+        "clip_max": 15.875,
+        "learnable_during_qat": true
+      },
+      "adapter_out_q": {
+        "bits": 8,
+        "signed": true,
+        "qmin": -127,
+        "qmax": 127,
+        "scale_exponent": -4,
+        "scale": 0.0625,
+        "clip_min": -7.9375,
+        "clip_max": 7.9375,
+        "learnable_during_qat": true
+      },
+      "depthwise_q": {
+        "bits": 8,
+        "signed": true,
+        "qmin": -127,
+        "qmax": 127,
+        "scale_exponent": -5,
+        "scale": 0.03125,
+        "clip_min": -3.96875,
+        "clip_max": 3.96875,
+        "learnable_during_qat": true
+      },
+      "bottleneck_q": {
+        "bits": 8,
+        "signed": true,
+        "qmin": -127,
+        "qmax": 127,
+        "scale_exponent": -5,
+        "scale": 0.03125,
+        "clip_min": -3.96875,
+        "clip_max": 3.96875,
+        "learnable_during_qat": true
+      },
+      "gru2_input_q": {
+        "bits": 8,
+        "signed": true,
+        "qmin": -127,
+        "qmax": 127,
+        "scale_exponent": -6,
+        "scale": 0.015625,
+        "clip_min": -1.984375,
+        "clip_max": 1.984375,
+        "learnable_during_qat": true
+      },
+      "hidden1_q": {
+        "bits": 16,
+        "signed": true,
+        "qmin": -32767,
+        "qmax": 32767,
+        "scale_exponent": -14,
+        "scale": 6.103515625e-05,
+        "clip_min": -1.99993896484375,
+        "clip_max": 1.99993896484375,
+        "learnable_during_qat": true
+      },
+      "hidden2_q": {
+        "bits": 16,
+        "signed": true,
+        "qmin": -32767,
+        "qmax": 32767,
+        "scale_exponent": -14,
+        "scale": 6.103515625e-05,
+        "clip_min": -1.99993896484375,
+        "clip_max": 1.99993896484375,
+        "learnable_during_qat": true
+      },
+      "preact1_q": {
+        "bits": 16,
+        "signed": true,
+        "qmin": -32767,
+        "qmax": 32767,
+        "scale_exponent": -11,
+        "scale": 0.00048828125,
+        "clip_min": -15.99951171875,
+        "clip_max": 15.99951171875,
+        "learnable_during_qat": false
+      },
+      "preact2_q": {
+        "bits": 16,
+        "signed": true,
+        "qmin": -32767,
+        "qmax": 32767,
+        "scale_exponent": -11,
+        "scale": 0.00048828125,
+        "clip_min": -15.99951171875,
+        "clip_max": 15.99951171875,
+        "learnable_during_qat": false
+      },
+      "reset_q": {
+        "bits": 16,
+        "signed": false,
+        "qmin": 0,
+        "qmax": 65535,
+        "scale_exponent": -16,
+        "scale": 1.52587890625e-05,
+        "clip_min": 0.0,
+        "clip_max": 0.9999847412109375,
+        "learnable_during_qat": false
+      },
+      "update_q": {
+        "bits": 16,
+        "signed": false,
+        "qmin": 0,
+        "qmax": 65535,
+        "scale_exponent": -16,
+        "scale": 1.52587890625e-05,
+        "clip_min": 0.0,
+        "clip_max": 0.9999847412109375,
+        "learnable_during_qat": false
+      },
+      "candidate_q": {
+        "bits": 16,
+        "signed": true,
+        "qmin": -32767,
+        "qmax": 32767,
+        "scale_exponent": -15,
+        "scale": 3.0517578125e-05,
+        "clip_min": -0.999969482421875,
+        "clip_max": 0.999969482421875,
+        "learnable_during_qat": false
+      },
+      "logit_q": {
+        "bits": 16,
+        "signed": true,
+        "qmin": -32767,
+        "qmax": 32767,
+        "scale_exponent": -8,
+        "scale": 0.00390625,
+        "clip_min": -127.99609375,
+        "clip_max": 127.99609375,
+        "learnable_during_qat": false
+      }
+    }
+  },
+  "diagnostics": {
+    "batches": 13,
+    "components": {
+      "gru1_hidden": {
+        "mean_relative_l2": 0.029342653733122323,
+        "first_50_relative_l2": 0.030858226798849052,
+        "last_50_relative_l2": 0.033241718639119094,
+        "time_steps": 4722
+      },
+      "gru1_reset": {
+        "mean_relative_l2": 0.013388496075385064,
+        "first_50_relative_l2": 0.013185389936774627,
+        "last_50_relative_l2": 0.014563053568151288,
+        "time_steps": 4722
+      },
+      "gru1_update": {
+        "mean_relative_l2": 0.007798642555262763,
+        "first_50_relative_l2": 0.007669834386663766,
+        "last_50_relative_l2": 0.007895720532309154,
+        "time_steps": 4722
+      },
+      "gru1_candidate": {
+        "mean_relative_l2": 0.0347337973643876,
+        "first_50_relative_l2": 0.037074110731470974,
+        "last_50_relative_l2": 0.038423960902107306,
+        "time_steps": 4722
+      },
+      "gru2_hidden": {
+        "mean_relative_l2": 0.021608821445049643,
+        "first_50_relative_l2": 0.02163082854824094,
+        "last_50_relative_l2": 0.02750987360583347,
+        "time_steps": 945
+      },
+      "gru2_reset": {
+        "mean_relative_l2": 0.008473952152163863,
+        "first_50_relative_l2": 0.00813859438712117,
+        "last_50_relative_l2": 0.010391644606557181,
+        "time_steps": 945
+      },
+      "gru2_update": {
+        "mean_relative_l2": 0.007965878409595183,
+        "first_50_relative_l2": 0.007286611585118574,
+        "last_50_relative_l2": 0.008751912229983146,
+        "time_steps": 945
+      },
+      "gru2_candidate": {
+        "mean_relative_l2": 0.024422943798554097,
+        "first_50_relative_l2": 0.02547810309088419,
+        "last_50_relative_l2": 0.028840153263189876,
+        "time_steps": 945
+      },
+      "character_logits": {
+        "mean_relative_l2": 0.015449954909121797,
+        "first_50_relative_l2": 0.018131791373750112,
+        "last_50_relative_l2": 0.019897610537394424,
+        "time_steps": 4722
+      },
+      "onset_logits": {
+        "mean_relative_l2": 0.02931485663316487,
+        "first_50_relative_l2": 0.01949833367487547,
+        "last_50_relative_l2": 0.040671261766729624,
+        "time_steps": 4722
+      }
+    },
+    "clip_rates": {
+      "gru1_hidden": {
+        "clipped": 0,
+        "total": 29975760,
+        "rate": 0.0
+      },
+      "gru2_hidden": {
+        "clipped": 0,
+        "total": 6000768,
+        "rate": 0.0
+      },
+      "gru1_reset": {
+        "clipped": 0,
+        "total": 29975760,
+        "rate": 0.0
+      },
+      "gru1_update": {
+        "clipped": 0,
+        "total": 29975760,
+        "rate": 0.0
+      },
+      "gru1_candidate": {
+        "clipped": 0,
+        "total": 29975760,
+        "rate": 0.0
+      },
+      "gru2_reset": {
+        "clipped": 0,
+        "total": 6000768,
+        "rate": 0.0
+      },
+      "gru2_update": {
+        "clipped": 0,
+        "total": 6000768,
+        "rate": 0.0
+      },
+      "gru2_candidate": {
+        "clipped": 0,
+        "total": 6000768,
+        "rate": 0.0
+      },
+      "output_logits": {
+        "clipped": 0,
+        "total": 1333504,
+        "rate": 0.0
+      }
+    }
+  },
+  "hardware": {
+    "parameters": 278416.0,
+    "mac_per_20ms_step": 143500.80000000002,
+    "adapter_mac": 3072.0,
+    "temporal_mac": 17856.0,
+    "gru1_mac": 96768.0,
+    "gru2_mac_amortized": 24883.2,
+    "readout_mac_amortized": 921.6,
+    "fixed_scale_constants": 14.0
+  },
+  "checkpoints": {
+    "R1": "/tmp/brain_ctc_yzhang_20260918/runs/h144_recurrent_fixed_v1/formal/experiment/R1_fixed_scale.pt",
+    "R2": "/tmp/brain_ctc_yzhang_20260918/runs/h144_recurrent_fixed_v1/formal/experiment/R2_learned_scale.pt",
+    "R3": "/tmp/brain_ctc_yzhang_20260918/runs/h144_recurrent_fixed_v1/formal/experiment/R3_recurrent_qat.pt",
+    "FPGA_candidate": "/tmp/brain_ctc_yzhang_20260918/runs/h144_recurrent_fixed_v1/formal/experiment/fpga_candidate.pt"
+  }
+}

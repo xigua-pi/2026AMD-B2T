@@ -1,0 +1,29 @@
+{
+  "record_index": 193,
+  "session_id": 6,
+  "reference": "when>the>sunlight>strikes>raindrops>in>the>air",
+  "modes": {
+    "0": {
+      "hypothesis": "when>th>suignt>strrkes>reindrops>in>th>ar",
+      "low_elements": 0,
+      "total_elements": 298080,
+      "gate_register_bit_flips": 5788053,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "when>th>suignt>strrkes>reindrops>in>th>ar",
+      "low_elements": 298080,
+      "total_elements": 298080,
+      "gate_register_bit_flips": 4056464,
+      "mismatches_vs_frozen": 10225
+    },
+    "2": {
+      "hypothesis": "when>th>suignt>strrkes>reindrops>in>th>ar",
+      "low_elements": 19152,
+      "total_elements": 298080,
+      "gate_register_bit_flips": 5724077,
+      "mismatches_vs_frozen": 6113
+    }
+  },
+  "seconds": 1.1304638385772705
+}

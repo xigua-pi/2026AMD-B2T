@@ -1,0 +1,29 @@
+{
+  "record_index": 109,
+  "session_id": 4,
+  "reference": "he>required>a>minimum>of>fifty>yards>for>safety~",
+  "modes": {
+    "0": {
+      "hypothesis": "pe>required>a>minimum>of>fifty>yads>for>safety~",
+      "low_elements": 0,
+      "total_elements": 459360,
+      "gate_register_bit_flips": 8854256,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "pe>required>a>minimum>of>fifty>yads>for>safety~",
+      "low_elements": 459360,
+      "total_elements": 459360,
+      "gate_register_bit_flips": 6180884,
+      "mismatches_vs_frozen": 15725
+    },
+    "2": {
+      "hypothesis": "pe>required>a>minimum>of>fifty>yads>for>safety~",
+      "low_elements": 17424,
+      "total_elements": 459360,
+      "gate_register_bit_flips": 8789875,
+      "mismatches_vs_frozen": 15509
+    }
+  },
+  "seconds": 1.6075313091278076
+}

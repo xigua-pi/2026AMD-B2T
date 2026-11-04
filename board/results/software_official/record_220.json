@@ -1,0 +1,29 @@
+{
+  "record_index": 220,
+  "session_id": 7,
+  "reference": "why>did>i>have>to>fall>for>a>suicidal>maniac?",
+  "modes": {
+    "0": {
+      "hypothesis": "why>did>i>have>to>fal>for>a>suicidal>maniac?",
+      "low_elements": 0,
+      "total_elements": 347184,
+      "gate_register_bit_flips": 6706774,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "why>did>i>have>to>fal>for>a>suicidal>maniac?",
+      "low_elements": 347184,
+      "total_elements": 347184,
+      "gate_register_bit_flips": 4688971,
+      "mismatches_vs_frozen": 11882
+    },
+    "2": {
+      "hypothesis": "why>did>i>have>to>fal>for>a>suicidal>maniac?",
+      "low_elements": 18144,
+      "total_elements": 347184,
+      "gate_register_bit_flips": 6650339,
+      "mismatches_vs_frozen": 11771
+    }
+  },
+  "seconds": 1.3374340534210205
+}

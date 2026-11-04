@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "test": "PYNQ-Z2 DDR-DMA-H144-DMA-DDR bit-exact test",
+  "platform": {
+    "hostname": "pynq",
+    "kernel": "5.15.19-xilinx-v2022.1",
+    "machine": "armv7l",
+    "python": "3.10.4",
+    "bitstream": "h144_dma_overlay.bit",
+    "accelerator_base_address": 1073741824,
+    "accelerator_address_range": 4096,
+    "pl_clock_hz": 50000000
+  },
+  "trace": {
+    "file": "official_000.npz",
+    "session_id": 1,
+    "input_shape": [
+      2864,
+      192
+    ],
+    "input_dtype": "int8",
+    "input_bytes": 549888,
+    "golden_logits_shape": [
+      573,
+      32
+    ],
+    "golden_logits_dtype": "int16",
+    "output_bytes": 36672
+  },
+  "repetitions": 1,
+  "latency_ms": {
+    "all": [
+      4410.360467
+    ],
+    "mean": 4410.360467,
+    "median": 4410.360467,
+    "p95": 4410.360467,
+    "p99": 4410.360467,
+    "minimum": 4410.360467,
+    "maximum": 4410.360467
+  },
+  "hardware_counters": {
+    "pl_transaction_ms": 4409.1506,
+    "max_frame_ms": 2.50818,
+    "final": {
+      "status": 6,
+      "session_id": 1,
+      "input_frames_configured": 2864,
+      "output_words_configured": 18336,
+      "input_byte_count": 549888,
+      "output_word_count": 18336,
+      "input_frame_count": 2864,
+      "frame_done_count": 2870,
+      "result_frame_count": 2864,
+      "flush_completed_count": 6,
+      "total_cycle_count": 220457530,
+      "max_frame_cycles": 125409,
+      "error_flags": 0,
+      "design_version": 65536,
+      "engine_state": 0
+    },
+    "all_runs": [
+      {
+        "status": 6,
+        "session_id": 1,
+        "input_frames_configured": 2864,
+        "output_words_configured": 18336,
+        "input_byte_count": 549888,
+        "output_word_count": 18336,
+        "input_frame_count": 2864,
+        "frame_done_count": 2870,
+        "result_frame_count": 2864,
+        "flush_completed_count": 6,
+        "total_cycle_count": 220457530,
+        "max_frame_cycles": 125409,
+        "error_flags": 0,
+        "design_version": 65536,
+        "engine_state": 0
+      }
+    ]
+  },
+  "comparison": {
+    "mismatch_counts": [
+      0
+    ],
+    "max_abs_errors": [
+      0
+    ],
+    "total_output_words_per_run": 18336
+  },
+  "checks": {
+    "bit_exact_all_runs": true,
+    "status_done_no_error": true,
+    "error_flags_zero": true,
+    "input_bytes_match": true,
+    "input_frames_match": true,
+    "output_words_match": true,
+    "post_warmup_frames_match": true,
+    "flush_frames_match": true
+  },
+  "passed": true
+}

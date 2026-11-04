@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/brain_to_text/artifacts/github_b2t_20261103/pynq-gru-bci/src/pl/rtl/h144_fixed_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/brain_to_text/artifacts/github_b2t_20261103/pynq-gru-bci/src/pl/rtl/h144_layout_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/brain_to_text/artifacts/github_b2t_20261103/pynq-gru-bci/src/pl/rtl/h144_fixed_math_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/brain_to_text/artifacts/github_b2t_20261103/pynq-gru-bci/src/pl/rtl/h144_activation_lut.sv" into library work
+INFO: [VRFC 10-311] analyzing module h144_activation_lut
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/brain_to_text/artifacts/github_b2t_20261103/pynq-gru-bci/src/pl/rtl/h144_dense_mac8.sv" into library work
+INFO: [VRFC 10-311] analyzing module h144_dense_mac8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/brain_to_text/artifacts/github_b2t_20261103/pynq-gru-bci/src/pl/rtl/h144_gru_element.sv" into library work
+INFO: [VRFC 10-311] analyzing module h144_gru_element
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/brain_to_text/artifacts/github_b2t_20261103/pynq-gru-bci/src/pl/rtl/h144_decoder_core.sv" into library work
+INFO: [VRFC 10-311] analyzing module h144_decoder_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/brain_to_text/artifacts/github_b2t_20261103/pynq-gru-bci/build/activity_sim/tb_activity.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_activity

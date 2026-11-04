@@ -1,0 +1,29 @@
+{
+  "record_index": 51,
+  "session_id": 2,
+  "reference": "the>meat>within>was>garnished>with>herbs>and>cooked>in>a>rich>onion>sauce~",
+  "modes": {
+    "0": {
+      "hypothesis": "the>meat>wthin>was>garnished>with>herbs>and>ccok>ed>in>a>mich>onon>sauce~",
+      "low_elements": 0,
+      "total_elements": 807840,
+      "gate_register_bit_flips": 15227220,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "the>meat>wthin>was>garnished>with>herbs>and>ccok>ed>in>a>mich>onon>sauce~",
+      "low_elements": 807840,
+      "total_elements": 807840,
+      "gate_register_bit_flips": 10571725,
+      "mismatches_vs_frozen": 27530
+    },
+    "2": {
+      "hypothesis": "the>meat>wthin>was>garnished>with>herbs>and>ccok>ed>in>a>mich>onon>sauce~",
+      "low_elements": 66096,
+      "total_elements": 807840,
+      "gate_register_bit_flips": 15006066,
+      "mismatches_vs_frozen": 27112
+    }
+  },
+  "seconds": 3.0592892169952393
+}

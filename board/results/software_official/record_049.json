@@ -1,0 +1,29 @@
+{
+  "record_index": 49,
+  "session_id": 2,
+  "reference": "at>that>moment>she>heard>rapid>footsteps~",
+  "modes": {
+    "0": {
+      "hypothesis": "at>that>moment>she>heand>napd>footsteps~",
+      "low_elements": 0,
+      "total_elements": 417024,
+      "gate_register_bit_flips": 7915988,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "at>that>moment>she>heand>napd>footsteps~",
+      "low_elements": 417024,
+      "total_elements": 417024,
+      "gate_register_bit_flips": 5505122,
+      "mismatches_vs_frozen": 14242
+    },
+    "2": {
+      "hypothesis": "at>that>moment>she>heand>napd>footsteps~",
+      "low_elements": 26208,
+      "total_elements": 417024,
+      "gate_register_bit_flips": 7831257,
+      "mismatches_vs_frozen": 13937
+    }
+  },
+  "seconds": 1.596212387084961
+}

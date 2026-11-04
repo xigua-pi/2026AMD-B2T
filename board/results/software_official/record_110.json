@@ -1,0 +1,29 @@
+{
+  "record_index": 110,
+  "session_id": 4,
+  "reference": "the>blade>snapped>open>with>a>soft>click~",
+  "modes": {
+    "0": {
+      "hypothesis": "the>blade>shapped>open>with>a>soft>click~",
+      "low_elements": 0,
+      "total_elements": 372096,
+      "gate_register_bit_flips": 7156645,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "the>blade>shapped>open>with>a>soft>click~",
+      "low_elements": 372096,
+      "total_elements": 372096,
+      "gate_register_bit_flips": 4994344,
+      "mismatches_vs_frozen": 12666
+    },
+    "2": {
+      "hypothesis": "the>blade>shapped>open>with>a>soft>click~",
+      "low_elements": 24768,
+      "total_elements": 372096,
+      "gate_register_bit_flips": 7052337,
+      "mismatches_vs_frozen": 12294
+    }
+  },
+  "seconds": 1.3936691284179688
+}

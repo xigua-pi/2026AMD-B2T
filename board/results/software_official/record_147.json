@@ -1,0 +1,29 @@
+{
+  "record_index": 147,
+  "session_id": 5,
+  "reference": "there>are>only>one>or>two>minor>casualties~",
+  "modes": {
+    "0": {
+      "hypothesis": ">there>are>only>ore>on>two>minor>casualties~>>",
+      "low_elements": 0,
+      "total_elements": 419040,
+      "gate_register_bit_flips": 7913797,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">there>are>only>ore>on>two>minor>casualties~>>",
+      "low_elements": 419040,
+      "total_elements": 419040,
+      "gate_register_bit_flips": 5521366,
+      "mismatches_vs_frozen": 14458
+    },
+    "2": {
+      "hypothesis": ">there>are>only>ore>on>two>minor>casualties~>>>",
+      "low_elements": 85248,
+      "total_elements": 419040,
+      "gate_register_bit_flips": 7587096,
+      "mismatches_vs_frozen": 11281
+    }
+  },
+  "seconds": 1.4438509941101074
+}

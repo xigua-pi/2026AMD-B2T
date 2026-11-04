@@ -1,0 +1,29 @@
+{
+  "record_index": 139,
+  "session_id": 5,
+  "reference": "i>interrupted,>unable>to>keep>silent~",
+  "modes": {
+    "0": {
+      "hypothesis": "i>interropted,>unoble>to>keep>silent~s",
+      "low_elements": 0,
+      "total_elements": 351504,
+      "gate_register_bit_flips": 6700724,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "i>interropted,>unoble>to>keep>silent~s",
+      "low_elements": 351504,
+      "total_elements": 351504,
+      "gate_register_bit_flips": 4678750,
+      "mismatches_vs_frozen": 12021
+    },
+    "2": {
+      "hypothesis": "i>interropted,>unoble>to>keep>silent~s",
+      "low_elements": 55152,
+      "total_elements": 351504,
+      "gate_register_bit_flips": 6484024,
+      "mismatches_vs_frozen": 11981
+    }
+  },
+  "seconds": 1.3028733730316162
+}

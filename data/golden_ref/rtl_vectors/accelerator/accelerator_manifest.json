@@ -1,0 +1,231 @@
+{
+  "weight_word_lane_order": "lane 0 is bits [7:0], lane 7 is bits [63:56]",
+  "row_order": "output-major; each output row contains contiguous input chunks",
+  "layout": {
+    "adapter_v": {
+      "weight_word_base": 0,
+      "parameter_base": 0,
+      "input_length": 192,
+      "padded_input_length": 192,
+      "chunks_per_output": 24,
+      "total_output_rows": 80,
+      "sessions": 10,
+      "outputs_per_session": 8,
+      "session_weight_word_stride": 192,
+      "session_parameter_stride": 8
+    },
+    "adapter_u": {
+      "weight_word_base": 1920,
+      "parameter_base": 80,
+      "input_length": 8,
+      "padded_input_length": 8,
+      "chunks_per_output": 1,
+      "total_output_rows": 1920,
+      "sessions": 10,
+      "outputs_per_session": 192,
+      "session_weight_word_stride": 192,
+      "session_parameter_stride": 192
+    },
+    "depthwise": {
+      "weight_word_base": 3840,
+      "parameter_base": 2000,
+      "input_length": 13,
+      "padded_input_length": 16,
+      "chunks_per_output": 2,
+      "total_output_rows": 192,
+      "sessions": 1,
+      "outputs_per_session": 192,
+      "session_weight_word_stride": 384,
+      "session_parameter_stride": 192
+    },
+    "pointwise": {
+      "weight_word_base": 4224,
+      "parameter_base": 2192,
+      "input_length": 192,
+      "padded_input_length": 192,
+      "chunks_per_output": 24,
+      "total_output_rows": 80,
+      "sessions": 1,
+      "outputs_per_session": 80,
+      "session_weight_word_stride": 1920,
+      "session_parameter_stride": 80
+    },
+    "gru1_ih": {
+      "weight_word_base": 6144,
+      "parameter_base": 2272,
+      "input_length": 80,
+      "padded_input_length": 80,
+      "chunks_per_output": 10,
+      "total_output_rows": 432,
+      "sessions": 1,
+      "outputs_per_session": 432,
+      "session_weight_word_stride": 4320,
+      "session_parameter_stride": 432
+    },
+    "gru1_hh": {
+      "weight_word_base": 10464,
+      "parameter_base": 2704,
+      "input_length": 144,
+      "padded_input_length": 144,
+      "chunks_per_output": 18,
+      "total_output_rows": 432,
+      "sessions": 1,
+      "outputs_per_session": 432,
+      "session_weight_word_stride": 7776,
+      "session_parameter_stride": 432
+    },
+    "gru2_ih": {
+      "weight_word_base": 18240,
+      "parameter_base": 3136,
+      "input_length": 144,
+      "padded_input_length": 144,
+      "chunks_per_output": 18,
+      "total_output_rows": 432,
+      "sessions": 1,
+      "outputs_per_session": 432,
+      "session_weight_word_stride": 7776,
+      "session_parameter_stride": 432
+    },
+    "gru2_hh": {
+      "weight_word_base": 26016,
+      "parameter_base": 3568,
+      "input_length": 144,
+      "padded_input_length": 144,
+      "chunks_per_output": 18,
+      "total_output_rows": 432,
+      "sessions": 1,
+      "outputs_per_session": 432,
+      "session_weight_word_stride": 7776,
+      "session_parameter_stride": 432
+    },
+    "readout": {
+      "weight_word_base": 33792,
+      "parameter_base": 4000,
+      "input_length": 144,
+      "padded_input_length": 144,
+      "chunks_per_output": 18,
+      "total_output_rows": 32,
+      "sessions": 1,
+      "outputs_per_session": 32,
+      "session_weight_word_stride": 576,
+      "session_parameter_stride": 32
+    }
+  },
+  "files": {
+    "dense_weights_u64": {
+      "file": "accelerator/dense_weights_u64.mem",
+      "shape": [
+        34368
+      ],
+      "elements": 34368,
+      "bits": 64,
+      "signed": false,
+      "sha256": "8324980b50d6f6ca1dda53a1e4fb59c132adda2171fa9eb186d262ac171536c3"
+    },
+    "dense_weights_bank0_u64": {
+      "file": "accelerator/dense_weights_bank0_u64.mem",
+      "shape": [
+        16384
+      ],
+      "elements": 16384,
+      "bits": 64,
+      "signed": false,
+      "sha256": "0631cc73bd787a6d5f9b9d8d51e48dd9e6cc6dd91557c13a5107c05d1a51f4f9"
+    },
+    "dense_weights_bank1_u64": {
+      "file": "accelerator/dense_weights_bank1_u64.mem",
+      "shape": [
+        16384
+      ],
+      "elements": 16384,
+      "bits": 64,
+      "signed": false,
+      "sha256": "6f868be965320b7e431506ad5701ee8cd8d811d56757e880567f2b6a47bad534"
+    },
+    "dense_weights_bank2_u64": {
+      "file": "accelerator/dense_weights_bank2_u64.mem",
+      "shape": [
+        2048
+      ],
+      "elements": 2048,
+      "bits": 64,
+      "signed": false,
+      "sha256": "d70534541a52928ac545105b558c1cd56e769e2c4c29c40f695ba90a9202e982"
+    },
+    "dense_exponents_i16": {
+      "file": "accelerator/dense_exponents_i16.mem",
+      "shape": [
+        4032
+      ],
+      "elements": 4032,
+      "bits": 16,
+      "signed": true,
+      "sha256": "fc1f872227fa435690df9f5fd68a7b2e24c2c582691e218bc7b40f9ea058dcc3"
+    },
+    "dense_bias_i32": {
+      "file": "accelerator/dense_bias_i32.mem",
+      "shape": [
+        4032
+      ],
+      "elements": 4032,
+      "bits": 32,
+      "signed": true,
+      "sha256": "845a2c428bdbced70d3ba56e19900ce06b3bb99905a97111f21f5f9676cee6d6"
+    },
+    "adapter_bias_i8": {
+      "file": "accelerator/adapter_bias_i8.mem",
+      "shape": [
+        10,
+        192
+      ],
+      "elements": 1920,
+      "bits": 8,
+      "signed": true,
+      "sha256": "d45a10e4404268e5ce0d02b2597653b244e3efe2783bca48719e285ac851f13e"
+    },
+    "start_state_1_i16": {
+      "file": "accelerator/start_state_1_i16.mem",
+      "shape": [
+        1,
+        1,
+        144
+      ],
+      "elements": 144,
+      "bits": 16,
+      "signed": true,
+      "sha256": "16b3e375e2e2a657cc973df647a088ff1ae328d583d06f34b8c54947a1effa56"
+    },
+    "start_state_2_i16": {
+      "file": "accelerator/start_state_2_i16.mem",
+      "shape": [
+        1,
+        1,
+        144
+      ],
+      "elements": 144,
+      "bits": 16,
+      "signed": true,
+      "sha256": "9b173f9b07e4ace13d0c593487f4c6eb71c63333df98b9bc2c2582e765ce82f0"
+    },
+    "sigmoid_lut_u16": {
+      "file": "accelerator/sigmoid_lut_u16.mem",
+      "shape": [
+        512
+      ],
+      "elements": 512,
+      "bits": 16,
+      "signed": false,
+      "sha256": "781a0b22cad6ca6b6ef75c183fd4229338da871052e55dad3be1ad9bce77ada9"
+    },
+    "tanh_lut_i16": {
+      "file": "accelerator/tanh_lut_i16.mem",
+      "shape": [
+        512
+      ],
+      "elements": 512,
+      "bits": 16,
+      "signed": true,
+      "sha256": "3d89cbbd3526c30a21e53cc65c4cceb93b641e91edc0c01d3f4a2256397b1128"
+    }
+  }
+}

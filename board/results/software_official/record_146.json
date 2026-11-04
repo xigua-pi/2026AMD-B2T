@@ -1,0 +1,29 @@
+{
+  "record_index": 146,
+  "session_id": 5,
+  "reference": "lowell>felt>like>a>soldier>on>a>battlefield,>stripped>of>ammunition~",
+  "modes": {
+    "0": {
+      "hypothesis": ">kwell>fellt>like>a>soldicr>on>a>battlefield>stripped>of>ammunition~",
+      "low_elements": 0,
+      "total_elements": 475920,
+      "gate_register_bit_flips": 9299325,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">kwell>fellt>like>a>soldicr>on>a>battlefield>stripped>of>ammunition~",
+      "low_elements": 475920,
+      "total_elements": 475920,
+      "gate_register_bit_flips": 6517413,
+      "mismatches_vs_frozen": 16257
+    },
+    "2": {
+      "hypothesis": ">kwell>fellt>like>a>soldicr>on>a>battlefield>stripped>of>ammunition~",
+      "low_elements": 18576,
+      "total_elements": 475920,
+      "gate_register_bit_flips": 9235238,
+      "mismatches_vs_frozen": 9893
+    }
+  },
+  "seconds": 1.8527002334594727
+}

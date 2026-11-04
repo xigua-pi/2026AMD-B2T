@@ -1,0 +1,21 @@
+{
+  "seed": 20261102,
+  "replicates": 5000,
+  "resampling_unit": "sentence paired; does not model participant/session population uncertainty",
+  "differences_pp": {
+    "1": {
+      "observed": -0.3208065994500458,
+      "percentile_ci95": [
+        -0.7462773626036872,
+        0.0462112549917406
+      ]
+    },
+    "2": {
+      "observed": 0.18331805682859761,
+      "percentile_ci95": [
+        -0.14124960025583627,
+        0.5159474671669794
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "record_index": 187,
+  "session_id": 6,
+  "reference": "he>walked>briskly>to>the>door>then>halted~",
+  "modes": {
+    "0": {
+      "hypothesis": "he>wlked>brisky>to>the>e>oon>the>helted~m",
+      "low_elements": 0,
+      "total_elements": 269568,
+      "gate_register_bit_flips": 5239294,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "he>wlked>brisky>to>the>e>oon>the>helted~m",
+      "low_elements": 269568,
+      "total_elements": 269568,
+      "gate_register_bit_flips": 3670695,
+      "mismatches_vs_frozen": 9211
+    },
+    "2": {
+      "hypothesis": "he>wlked>brisky>to>the>e>oon>the>helted~m",
+      "low_elements": 9504,
+      "total_elements": 269568,
+      "gate_register_bit_flips": 5203904,
+      "mismatches_vs_frozen": 8515
+    }
+  },
+  "seconds": 1.0011258125305176
+}

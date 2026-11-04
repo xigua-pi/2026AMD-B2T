@@ -1,0 +1,29 @@
+{
+  "record_index": 78,
+  "session_id": 3,
+  "reference": "would>you>like>me>to>make>you>some>eggs>and>bacon?",
+  "modes": {
+    "0": {
+      "hypothesis": ">would>you>ike>me>to>make>you>some>eggs>ana>baconn",
+      "low_elements": 0,
+      "total_elements": 459072,
+      "gate_register_bit_flips": 8835296,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">would>you>ike>me>to>make>you>some>eggs>ana>baconn",
+      "low_elements": 459072,
+      "total_elements": 459072,
+      "gate_register_bit_flips": 6161624,
+      "mismatches_vs_frozen": 15541
+    },
+    "2": {
+      "hypothesis": ">would>you>ike>me>to>make>you>some>eggs>ana>baconn",
+      "low_elements": 8784,
+      "total_elements": 459072,
+      "gate_register_bit_flips": 8818025,
+      "mismatches_vs_frozen": 13741
+    }
+  },
+  "seconds": 1.6304237842559814
+}

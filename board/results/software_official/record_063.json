@@ -1,0 +1,29 @@
+{
+  "record_index": 63,
+  "session_id": 2,
+  "reference": "if>they're>playing>another>slow>tune,>i'd>like>to>dance~",
+  "modes": {
+    "0": {
+      "hypothesis": "if>theyrebaying>another>sow>tune,>iid>like>to>dance~",
+      "low_elements": 0,
+      "total_elements": 541728,
+      "gate_register_bit_flips": 10231954,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "if>theyrebaying>another>sow>tune,>iid>like>to>dance~",
+      "low_elements": 541728,
+      "total_elements": 541728,
+      "gate_register_bit_flips": 7110436,
+      "mismatches_vs_frozen": 18534
+    },
+    "2": {
+      "hypothesis": "if>theyreebaying>another>sow>tune,>iid>like>to>dance~",
+      "low_elements": 42480,
+      "total_elements": 541728,
+      "gate_register_bit_flips": 10093051,
+      "mismatches_vs_frozen": 18312
+    }
+  },
+  "seconds": 1.8558640480041504
+}

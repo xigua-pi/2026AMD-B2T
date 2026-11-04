@@ -1,0 +1,29 @@
+{
+  "record_index": 62,
+  "session_id": 2,
+  "reference": "the>aim>was>to>build>a>classic>bike~",
+  "modes": {
+    "0": {
+      "hypothesis": "ume>aim>was>to>build>a>cassc>bile~",
+      "low_elements": 0,
+      "total_elements": 361008,
+      "gate_register_bit_flips": 6820343,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "ume>aim>was>to>build>a>cassc>bile~",
+      "low_elements": 361008,
+      "total_elements": 361008,
+      "gate_register_bit_flips": 4742244,
+      "mismatches_vs_frozen": 12357
+    },
+    "2": {
+      "hypothesis": "ume>aim>was>to>build>a>cassc>bile~",
+      "low_elements": 24912,
+      "total_elements": 361008,
+      "gate_register_bit_flips": 6733873,
+      "mismatches_vs_frozen": 11992
+    }
+  },
+  "seconds": 1.2579083442687988
+}

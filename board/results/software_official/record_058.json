@@ -1,0 +1,29 @@
+{
+  "record_index": 58,
+  "session_id": 2,
+  "reference": "you>know>that>was>a>brand>new>passport?",
+  "modes": {
+    "0": {
+      "hypothesis": "kou>know>that>was>a>brand>mew>pasport~",
+      "low_elements": 0,
+      "total_elements": 405216,
+      "gate_register_bit_flips": 7634858,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "kou>know>that>was>a>brand>mew>pasport~",
+      "low_elements": 405216,
+      "total_elements": 405216,
+      "gate_register_bit_flips": 5304394,
+      "mismatches_vs_frozen": 13931
+    },
+    "2": {
+      "hypothesis": "kou>know>that>was>a>brand>mew>pasport~",
+      "low_elements": 38016,
+      "total_elements": 405216,
+      "gate_register_bit_flips": 7499150,
+      "mismatches_vs_frozen": 13583
+    }
+  },
+  "seconds": 1.3829092979431152
+}

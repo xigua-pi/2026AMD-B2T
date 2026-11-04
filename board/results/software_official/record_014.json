@@ -1,0 +1,29 @@
+{
+  "record_index": 14,
+  "session_id": 1,
+  "reference": "that>hurt,>especially>after>all>they>had>been>through>together~",
+  "modes": {
+    "0": {
+      "hypothesis": "that>hurt,>especialy>after>all>they>nad>poen>througn>together",
+      "low_elements": 0,
+      "total_elements": 645984,
+      "gate_register_bit_flips": 12483707,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "that>hurt,>especialy>after>all>they>nad>poen>througn>together",
+      "low_elements": 645984,
+      "total_elements": 645984,
+      "gate_register_bit_flips": 8705262,
+      "mismatches_vs_frozen": 21965
+    },
+    "2": {
+      "hypothesis": "that>hurt,>especialy>after>all>they>nad>poen>througn>together",
+      "low_elements": 8928,
+      "total_elements": 645984,
+      "gate_register_bit_flips": 12468580,
+      "mismatches_vs_frozen": 21777
+    }
+  },
+  "seconds": 2.3381571769714355
+}

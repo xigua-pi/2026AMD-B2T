@@ -1,0 +1,29 @@
+{
+  "record_index": 117,
+  "session_id": 4,
+  "reference": "her>whole>life>had>been>directed>towards>this>one>task~",
+  "modes": {
+    "0": {
+      "hypothesis": ">her>whole>lfe>>had>becn>directed>towards>this>one>task~",
+      "low_elements": 0,
+      "total_elements": 449712,
+      "gate_register_bit_flips": 8696414,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">her>whole>lfe>>had>becn>directed>towards>this>one>task~",
+      "low_elements": 449712,
+      "total_elements": 449712,
+      "gate_register_bit_flips": 6073431,
+      "mismatches_vs_frozen": 15431
+    },
+    "2": {
+      "hypothesis": ">her>whole>lfe>>had>becn>directed>towards>this>one>task~",
+      "low_elements": 10944,
+      "total_elements": 449712,
+      "gate_register_bit_flips": 8663335,
+      "mismatches_vs_frozen": 15391
+    }
+  },
+  "seconds": 1.6177942752838135
+}

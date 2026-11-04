@@ -1,0 +1,29 @@
+{
+  "record_index": 178,
+  "session_id": 6,
+  "reference": "who's>liable>to>pay>the>funeral>expenses?",
+  "modes": {
+    "0": {
+      "hypothesis": "mees>hebl>to>pay>the>funea>>eypeses??",
+      "low_elements": 0,
+      "total_elements": 274752,
+      "gate_register_bit_flips": 5309814,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "mees>hebl>to>pay>the>funea>>eypeses??",
+      "low_elements": 274752,
+      "total_elements": 274752,
+      "gate_register_bit_flips": 3713090,
+      "mismatches_vs_frozen": 9477
+    },
+    "2": {
+      "hypothesis": "mees>hebl>to>pay>the>funea>>eypeses??",
+      "low_elements": 9648,
+      "total_elements": 274752,
+      "gate_register_bit_flips": 5277826,
+      "mismatches_vs_frozen": 6930
+    }
+  },
+  "seconds": 1.116908311843872
+}

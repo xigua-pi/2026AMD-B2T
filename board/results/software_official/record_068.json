@@ -1,0 +1,29 @@
+{
+  "record_index": 68,
+  "session_id": 3,
+  "reference": "i>heard>my>friend>is>going>into>town>today",
+  "modes": {
+    "0": {
+      "hypothesis": ">i>heard>my>friend>is>going>into>town>today>m,>",
+      "low_elements": 0,
+      "total_elements": 525024,
+      "gate_register_bit_flips": 9939770,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">i>heard>my>friend>is>going>into>town>today>m,>",
+      "low_elements": 525024,
+      "total_elements": 525024,
+      "gate_register_bit_flips": 6912042,
+      "mismatches_vs_frozen": 18029
+    },
+    "2": {
+      "hypothesis": ">i>heard>my>friend>is>going>into>town>today>m,>",
+      "low_elements": 63936,
+      "total_elements": 525024,
+      "gate_register_bit_flips": 9711991,
+      "mismatches_vs_frozen": 15675
+    }
+  },
+  "seconds": 1.8642468452453613
+}

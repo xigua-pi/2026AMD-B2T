@@ -1,0 +1,29 @@
+{
+  "record_index": 74,
+  "session_id": 3,
+  "reference": "and>you>must>remember>that>this>aunt>of>mine>is>a>much>respected>figure>in>the>community~",
+  "modes": {
+    "0": {
+      "hypothesis": "eana>you>must>remember>that>this>aunt>of>mine>is>a>much>nespeated>figune>in>the>community",
+      "low_elements": 0,
+      "total_elements": 700704,
+      "gate_register_bit_flips": 13571948,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "eana>you>must>remember>that>this>aunt>of>mine>is>a>much>nespeated>figune>n>the>community",
+      "low_elements": 700704,
+      "total_elements": 700704,
+      "gate_register_bit_flips": 9485607,
+      "mismatches_vs_frozen": 23787
+    },
+    "2": {
+      "hypothesis": "eana>you>must>remember>that>this>aunt>of>mine>is>a>much>nespeated>figune>n>the>community",
+      "low_elements": 7056,
+      "total_elements": 700704,
+      "gate_register_bit_flips": 13555614,
+      "mismatches_vs_frozen": 22722
+    }
+  },
+  "seconds": 2.845777750015259
+}

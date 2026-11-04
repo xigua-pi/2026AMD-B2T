@@ -1,0 +1,29 @@
+{
+  "record_index": 9,
+  "session_id": 1,
+  "reference": "well>they've>got>no>choice~",
+  "modes": {
+    "0": {
+      "hypothesis": "wel>they're>got>no>choice",
+      "low_elements": 0,
+      "total_elements": 280800,
+      "gate_register_bit_flips": 5420107,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "wel>they're>got>no>choice",
+      "low_elements": 280800,
+      "total_elements": 280800,
+      "gate_register_bit_flips": 3780480,
+      "mismatches_vs_frozen": 9532
+    },
+    "2": {
+      "hypothesis": "wel>they're>got>no>choice",
+      "low_elements": 8064,
+      "total_elements": 280800,
+      "gate_register_bit_flips": 5395885,
+      "mismatches_vs_frozen": 8572
+    }
+  },
+  "seconds": 1.0592827796936035
+}

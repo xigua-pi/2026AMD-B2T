@@ -1,0 +1,29 @@
+{
+  "record_index": 70,
+  "session_id": 3,
+  "reference": "when>the>sunlight>strikes>raindrops>in>the>air",
+  "modes": {
+    "0": {
+      "hypothesis": ">when>the>summight>strimes>naindnops>in>the>air",
+      "low_elements": 0,
+      "total_elements": 384336,
+      "gate_register_bit_flips": 7409021,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "when>the>summight>strimes>naindnops>in>the>air",
+      "low_elements": 384336,
+      "total_elements": 384336,
+      "gate_register_bit_flips": 5175250,
+      "mismatches_vs_frozen": 13015
+    },
+    "2": {
+      "hypothesis": ">when>the>summight>strimkes>naindnops>in>the>air",
+      "low_elements": 12816,
+      "total_elements": 384336,
+      "gate_register_bit_flips": 7380266,
+      "mismatches_vs_frozen": 13016
+    }
+  },
+  "seconds": 1.3925836086273193
+}

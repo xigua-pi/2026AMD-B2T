@@ -1,0 +1,29 @@
+{
+  "record_index": 89,
+  "session_id": 3,
+  "reference": "i>still>recognize>that>poem>as>being>utterly>my>own~",
+  "modes": {
+    "0": {
+      "hypothesis": "i>sti>neeoghize>that>poem>as>being>uttery>my>own~",
+      "low_elements": 0,
+      "total_elements": 420192,
+      "gate_register_bit_flips": 8098679,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "i>sti>neeoghize>that>poem>as>being>uttery>my>own~",
+      "low_elements": 420192,
+      "total_elements": 420192,
+      "gate_register_bit_flips": 5651690,
+      "mismatches_vs_frozen": 14302
+    },
+    "2": {
+      "hypothesis": "i>sti>neeoghize>that>poem>as>being>uttery>my>own~",
+      "low_elements": 12672,
+      "total_elements": 420192,
+      "gate_register_bit_flips": 8059575,
+      "mismatches_vs_frozen": 13949
+    }
+  },
+  "seconds": 1.47617506980896
+}

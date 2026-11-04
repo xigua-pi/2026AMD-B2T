@@ -1,0 +1,29 @@
+{
+  "record_index": 172,
+  "session_id": 6,
+  "reference": "he>was>fourteen>then,>thin>and>very>dark,>with>the>intensity>of>adolescence~",
+  "modes": {
+    "0": {
+      "hypothesis": ">he>ws>fouteen>thn,>thin>md>veny>dank,>ath>the>ntesty>f>adolsoenne~",
+      "low_elements": 0,
+      "total_elements": 461376,
+      "gate_register_bit_flips": 8931235,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">he>ws>fouteen>thn,>thin>md>veny>dank,>nth>the>ntesty>f>adolsoenne~",
+      "low_elements": 461376,
+      "total_elements": 461376,
+      "gate_register_bit_flips": 6249208,
+      "mismatches_vs_frozen": 15918
+    },
+    "2": {
+      "hypothesis": ">he>ws>fouteen>thn,>thin>md>veny>dank,>ath>the>ntesty>f>adolsoenne~",
+      "low_elements": 18864,
+      "total_elements": 461376,
+      "gate_register_bit_flips": 8863508,
+      "mismatches_vs_frozen": 15850
+    }
+  },
+  "seconds": 1.8413283824920654
+}

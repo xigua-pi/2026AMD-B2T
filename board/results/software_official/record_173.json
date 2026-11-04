@@ -1,0 +1,29 @@
+{
+  "record_index": 173,
+  "session_id": 6,
+  "reference": "he>preferred>messing>around>with>wires>and>bolts>and>things~",
+  "modes": {
+    "0": {
+      "hypothesis": "he>prferned>messhg>>aund>>ith>mines>ad>bolfs>and>thingg",
+      "low_elements": 0,
+      "total_elements": 411264,
+      "gate_register_bit_flips": 7856587,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "he>prferned>messhg>>ound>>ith>mines>ad>bolfs>and>thing",
+      "low_elements": 411264,
+      "total_elements": 411264,
+      "gate_register_bit_flips": 5486702,
+      "mismatches_vs_frozen": 14268
+    },
+    "2": {
+      "hypothesis": "he>prferned>messhg>>ound>>ith>mines>ad>bolfs>and>thingg",
+      "low_elements": 41904,
+      "total_elements": 411264,
+      "gate_register_bit_flips": 7687608,
+      "mismatches_vs_frozen": 11598
+    }
+  },
+  "seconds": 1.6649982929229736
+}

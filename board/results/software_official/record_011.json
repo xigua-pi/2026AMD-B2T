@@ -1,0 +1,29 @@
+{
+  "record_index": 11,
+  "session_id": 1,
+  "reference": "because>he>had>slowed,>the>man>behind>struck>him>a>blow~",
+  "modes": {
+    "0": {
+      "hypothesis": "peaa'use>hee>had>slowed,,>the>man>benind>struck>mim>a>llowiiiwi~",
+      "low_elements": 0,
+      "total_elements": 701856,
+      "gate_register_bit_flips": 13335024,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "peaa'use>hee>had>slowed,,>the>man>benind>struck>mim>a>llowiiiwi~",
+      "low_elements": 701856,
+      "total_elements": 701856,
+      "gate_register_bit_flips": 9278595,
+      "mismatches_vs_frozen": 23968
+    },
+    "2": {
+      "hypothesis": "peaa'use>hee>had>slowed,,>the>man>benind>struck>mim>a>llowiiiwi~",
+      "low_elements": 59904,
+      "total_elements": 701856,
+      "gate_register_bit_flips": 13150453,
+      "mismatches_vs_frozen": 23751
+    }
+  },
+  "seconds": 2.6632912158966064
+}

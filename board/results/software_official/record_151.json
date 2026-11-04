@@ -1,0 +1,29 @@
+{
+  "record_index": 151,
+  "session_id": 5,
+  "reference": "his>orders>were>quite>specific~",
+  "modes": {
+    "0": {
+      "hypothesis": ">his>onders>were>aquits>specific",
+      "low_elements": 0,
+      "total_elements": 205344,
+      "gate_register_bit_flips": 4038780,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">his>onders>were>aquits>specific",
+      "low_elements": 205344,
+      "total_elements": 205344,
+      "gate_register_bit_flips": 2835806,
+      "mismatches_vs_frozen": 7001
+    },
+    "2": {
+      "hypothesis": ">his>onders>were>aquits>specific",
+      "low_elements": 1728,
+      "total_elements": 205344,
+      "gate_register_bit_flips": 4036290,
+      "mismatches_vs_frozen": 7037
+    }
+  },
+  "seconds": 0.7984888553619385
+}

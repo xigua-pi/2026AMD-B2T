@@ -1,0 +1,29 @@
+{
+  "record_index": 150,
+  "session_id": 5,
+  "reference": "her>words>were>barely>audible,>so>light>that>they>threatened>to>float>away>on>the>breeze~",
+  "modes": {
+    "0": {
+      "hypothesis": ">her>words>wane>banely>audible,>soolight>that>the>>threatencd>toofloat>away>on>the>breale~",
+      "low_elements": 0,
+      "total_elements": 603936,
+      "gate_register_bit_flips": 11779027,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">her>words>wane>banely>audible,>soolight>that>the>>threatencd>toofloat>away>on>the>breale~",
+      "low_elements": 603936,
+      "total_elements": 603936,
+      "gate_register_bit_flips": 8254417,
+      "mismatches_vs_frozen": 20666
+    },
+    "2": {
+      "hypothesis": ">her>words>wane>banely>audible,>soolight>that>the>>threatencd>toofloat>away>on>the>breale~",
+      "low_elements": 20592,
+      "total_elements": 603936,
+      "gate_register_bit_flips": 11710655,
+      "mismatches_vs_frozen": 20640
+    }
+  },
+  "seconds": 2.3922221660614014
+}

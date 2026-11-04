@@ -1,0 +1,29 @@
+{
+  "record_index": 18,
+  "session_id": 1,
+  "reference": "philip>put>his>finger>to>his>lips~",
+  "modes": {
+    "0": {
+      "hypothesis": ">philip>put>his>finger>to>mis>llps~~",
+      "low_elements": 0,
+      "total_elements": 377136,
+      "gate_register_bit_flips": 7259958,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">philip>put>his>finger>to>mis>llps~~",
+      "low_elements": 377136,
+      "total_elements": 377136,
+      "gate_register_bit_flips": 5058515,
+      "mismatches_vs_frozen": 12823
+    },
+    "2": {
+      "hypothesis": ">philip>put>his>finger>to>mis>llps~~",
+      "low_elements": 12096,
+      "total_elements": 377136,
+      "gate_register_bit_flips": 7231715,
+      "mismatches_vs_frozen": 12715
+    }
+  },
+  "seconds": 1.455167531967163
+}

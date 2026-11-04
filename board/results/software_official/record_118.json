@@ -1,0 +1,29 @@
+{
+  "record_index": 118,
+  "session_id": 4,
+  "reference": "ace>was>getting>bored>with>her>laser>duel~",
+  "modes": {
+    "0": {
+      "hypothesis": "ce>was>getting>bored>with>her>laser>duel~",
+      "low_elements": 0,
+      "total_elements": 367488,
+      "gate_register_bit_flips": 7062791,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">ace>was>getting>bored>with>her>laser>duel~",
+      "low_elements": 367488,
+      "total_elements": 367488,
+      "gate_register_bit_flips": 4927894,
+      "mismatches_vs_frozen": 12578
+    },
+    "2": {
+      "hypothesis": "ace>was>getting>bored>with>her>laser>duel~",
+      "low_elements": 31824,
+      "total_elements": 367488,
+      "gate_register_bit_flips": 6938305,
+      "mismatches_vs_frozen": 12363
+    }
+  },
+  "seconds": 1.3578064441680908
+}

@@ -1,0 +1,29 @@
+{
+  "record_index": 192,
+  "session_id": 6,
+  "reference": "you>must>be>the>change>you>wish>to>see>in>the>world",
+  "modes": {
+    "0": {
+      "hypothesis": "you>mst>be>th>change>you>ish>to>see>in>th>wonld",
+      "low_elements": 0,
+      "total_elements": 302112,
+      "gate_register_bit_flips": 5877913,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "you>mst>be>th>change>you>ish>to>see>in>th>wonld",
+      "low_elements": 302112,
+      "total_elements": 302112,
+      "gate_register_bit_flips": 4122298,
+      "mismatches_vs_frozen": 10433
+    },
+    "2": {
+      "hypothesis": "you>mst>be>th>change>you>ish>to>see>in>th>wonld",
+      "low_elements": 25488,
+      "total_elements": 302112,
+      "gate_register_bit_flips": 5771551,
+      "mismatches_vs_frozen": 9530
+    }
+  },
+  "seconds": 1.1082136631011963
+}

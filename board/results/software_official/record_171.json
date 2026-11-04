@@ -1,0 +1,29 @@
+{
+  "record_index": 171,
+  "session_id": 6,
+  "reference": "earnings>per>share>for>the>quarter>were>negligible~",
+  "modes": {
+    "0": {
+      "hypothesis": ">eanings>pen>shee>for>the>menter>wee>ghgbh~",
+      "low_elements": 0,
+      "total_elements": 302832,
+      "gate_register_bit_flips": 5848609,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">eanings>pen>shee>for>the>menter>weee>ghgbh~",
+      "low_elements": 302832,
+      "total_elements": 302832,
+      "gate_register_bit_flips": 4093686,
+      "mismatches_vs_frozen": 10430
+    },
+    "2": {
+      "hypothesis": ">eanings>pen>shhe>for>the>menter>weee>ghgbh~",
+      "low_elements": 20304,
+      "total_elements": 302832,
+      "gate_register_bit_flips": 5761039,
+      "mismatches_vs_frozen": 9768
+    }
+  },
+  "seconds": 1.2785003185272217
+}

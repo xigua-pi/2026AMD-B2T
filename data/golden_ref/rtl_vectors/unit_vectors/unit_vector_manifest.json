@@ -1,0 +1,48 @@
+{
+  "requant_cases": 10035,
+  "lut_cases": 65536,
+  "files": {
+    "requant_accumulator_i32": {
+      "file": "requant_accumulator_i32.mem",
+      "elements": 10035,
+      "bits": 32,
+      "signed": true
+    },
+    "requant_shift_i8": {
+      "file": "requant_shift_i8.mem",
+      "elements": 10035,
+      "bits": 8,
+      "signed": true
+    },
+    "requant_output_is_i16": {
+      "file": "requant_output_is_i16.mem",
+      "elements": 10035,
+      "bits": 8,
+      "signed": false
+    },
+    "requant_expected_i16": {
+      "file": "requant_expected_i16.mem",
+      "elements": 10035,
+      "bits": 16,
+      "signed": true
+    },
+    "lut_expected_index_u16": {
+      "file": "lut_expected_index_u16.mem",
+      "elements": 65536,
+      "bits": 16,
+      "signed": false
+    },
+    "lut_expected_sigmoid_u16": {
+      "file": "lut_expected_sigmoid_u16.mem",
+      "elements": 65536,
+      "bits": 16,
+      "signed": false
+    },
+    "lut_expected_tanh_i16": {
+      "file": "lut_expected_tanh_i16.mem",
+      "elements": 65536,
+      "bits": 16,
+      "signed": true
+    }
+  }
+}

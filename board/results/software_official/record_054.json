@@ -1,0 +1,29 @@
+{
+  "record_index": 54,
+  "session_id": 2,
+  "reference": "he>could>have>bailed>out,>he>was>a>stranger>in>a>strange>land,>he>owed>us>nothing~",
+  "modes": {
+    "0": {
+      "hypothesis": ">he>could>have>bailed>out,>h>was>a>stragen>m>a>strage>land,>he>owd>us>nothhg",
+      "low_elements": 0,
+      "total_elements": 826560,
+      "gate_register_bit_flips": 15541268,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">he>could>have>bailed>out,>h>was>a>stragen>m>a>strage>land,>he>owd>us>nothg",
+      "low_elements": 826560,
+      "total_elements": 826560,
+      "gate_register_bit_flips": 10788001,
+      "mismatches_vs_frozen": 28211
+    },
+    "2": {
+      "hypothesis": ">he>could>have>bailed>out,>h>was>a>stragen>m>a>strage>land,>he>owd>us>nothhg",
+      "low_elements": 70128,
+      "total_elements": 826560,
+      "gate_register_bit_flips": 15328500,
+      "mismatches_vs_frozen": 28160
+    }
+  },
+  "seconds": 2.800095558166504
+}

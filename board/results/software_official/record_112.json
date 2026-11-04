@@ -1,0 +1,29 @@
+{
+  "record_index": 112,
+  "session_id": 4,
+  "reference": "there>were>dozens,>but>in>essence>they>boiled>down>to>only>one~",
+  "modes": {
+    "0": {
+      "hypothesis": "there>were>dozens,,bot>in>essence>they>boiled>down>to>only>ore~",
+      "low_elements": 0,
+      "total_elements": 555552,
+      "gate_register_bit_flips": 10684392,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "there>were>dozens,,bot>in>essence>they>>boiled>down>to>only>ore~",
+      "low_elements": 555552,
+      "total_elements": 555552,
+      "gate_register_bit_flips": 7452962,
+      "mismatches_vs_frozen": 19009
+    },
+    "2": {
+      "hypothesis": "there>were>dozens,,bot>in>essence>they>>boiled>down>to>only>ore~",
+      "low_elements": 29232,
+      "total_elements": 555552,
+      "gate_register_bit_flips": 10582461,
+      "mismatches_vs_frozen": 17955
+    }
+  },
+  "seconds": 1.9876086711883545
+}

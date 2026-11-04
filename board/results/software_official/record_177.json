@@ -1,0 +1,29 @@
+{
+  "record_index": 177,
+  "session_id": 6,
+  "reference": "in>the>world>that>he>created,>there>were>no>wars,>no>political>disputes,>no>dangers~",
+  "modes": {
+    "0": {
+      "hypothesis": ">in>the>wnld>thet>he>eeated,>tere>>eve>o>wans>n>plitical>dspotes,>ne>dagenss",
+      "low_elements": 0,
+      "total_elements": 559728,
+      "gate_register_bit_flips": 10758709,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">in>the>wnld>thet>he>cealed,>tere>>eve>o>wans>n>plitical>dspotes,>ne>dagenss",
+      "low_elements": 559728,
+      "total_elements": 559728,
+      "gate_register_bit_flips": 7518898,
+      "mismatches_vs_frozen": 19275
+    },
+    "2": {
+      "hypothesis": ">in>the>wnld>thht>he>eealed,>tere>>eve>o>wans>n>plitical>dspotes,>ne>dagenss",
+      "low_elements": 40608,
+      "total_elements": 559728,
+      "gate_register_bit_flips": 10614946,
+      "mismatches_vs_frozen": 19163
+    }
+  },
+  "seconds": 2.3857901096343994
+}

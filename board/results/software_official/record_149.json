@@ -1,0 +1,29 @@
+{
+  "record_index": 149,
+  "session_id": 5,
+  "reference": "the>people>are>very>frightened,>and>only>the>bravest>man>will>cross>the>moor>at>night~",
+  "modes": {
+    "0": {
+      "hypothesis": ">che>people>are>very>frighterd,>and>onl>the>bravest>mann>willcross>the>moor>at>night~",
+      "low_elements": 0,
+      "total_elements": 504144,
+      "gate_register_bit_flips": 9943240,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">ehe>people>are>very>frighterd,>and>onl>the>bravest>mann>willcross>the>moor>at>night~",
+      "low_elements": 504144,
+      "total_elements": 504144,
+      "gate_register_bit_flips": 6989281,
+      "mismatches_vs_frozen": 17179
+    },
+    "2": {
+      "hypothesis": ">che>people>are>very>frighterd,>and>onl>the>bravest>mann>willcross>the>moor>at>night~",
+      "low_elements": 5472,
+      "total_elements": 504144,
+      "gate_register_bit_flips": 9925956,
+      "mismatches_vs_frozen": 17164
+    }
+  },
+  "seconds": 1.8414623737335205
+}

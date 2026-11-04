@@ -1,0 +1,29 @@
+{
+  "record_index": 180,
+  "session_id": 6,
+  "reference": "did>you>win>your>hat>trick?",
+  "modes": {
+    "0": {
+      "hypothesis": "did>yu>win>yun>het>thck?",
+      "low_elements": 0,
+      "total_elements": 185472,
+      "gate_register_bit_flips": 3579734,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "did>yu>win>yun>het>thck?",
+      "low_elements": 185472,
+      "total_elements": 185472,
+      "gate_register_bit_flips": 2504067,
+      "mismatches_vs_frozen": 6371
+    },
+    "2": {
+      "hypothesis": "did>yu>win>yun>het>thck?",
+      "low_elements": 7920,
+      "total_elements": 185472,
+      "gate_register_bit_flips": 3558312,
+      "mismatches_vs_frozen": 5482
+    }
+  },
+  "seconds": 0.6766233444213867
+}

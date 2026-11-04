@@ -1,0 +1,29 @@
+{
+  "record_index": 53,
+  "session_id": 2,
+  "reference": "with>typical>bad>grace>they>did>not>attend>the>barbecue~",
+  "modes": {
+    "0": {
+      "hypothesis": "with>typica>bad>gnace>they>did>not>attond>the>barbecue~",
+      "low_elements": 0,
+      "total_elements": 598608,
+      "gate_register_bit_flips": 11284327,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "with>typica>bad>gnace>they>did>not>attond>the>barbecue~",
+      "low_elements": 598608,
+      "total_elements": 598608,
+      "gate_register_bit_flips": 7836667,
+      "mismatches_vs_frozen": 20454
+    },
+    "2": {
+      "hypothesis": "with>typica>bad>gnace>they>did>not>attond>the>barbecve~",
+      "low_elements": 43056,
+      "total_elements": 598608,
+      "gate_register_bit_flips": 11140137,
+      "mismatches_vs_frozen": 19466
+    }
+  },
+  "seconds": 2.1096041202545166
+}

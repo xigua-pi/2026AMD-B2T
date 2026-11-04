@@ -1,0 +1,29 @@
+{
+  "record_index": 121,
+  "session_id": 4,
+  "reference": "she>silenced>him>before>he>could>speak,>shaking>her>head>and>putting>her>finger>before>her>lips~",
+  "modes": {
+    "0": {
+      "hypothesis": ">she>silenced>him>before>he>could>speak,>shaking>her>head>ard>putttng>her>finger>before>her>lps~",
+      "low_elements": 0,
+      "total_elements": 776304,
+      "gate_register_bit_flips": 14939583,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">she>silenced>him>before>he>could>speak,>shaking>her>head>ard>putttng>her>finger>before>her>lps~",
+      "low_elements": 776304,
+      "total_elements": 776304,
+      "gate_register_bit_flips": 10428716,
+      "mismatches_vs_frozen": 26489
+    },
+    "2": {
+      "hypothesis": ">she>silenced>him>before>he>could>speak,>shaking>her>head>ard>putttng>her>finger>before>her>lps~",
+      "low_elements": 60336,
+      "total_elements": 776304,
+      "gate_register_bit_flips": 14677907,
+      "mismatches_vs_frozen": 26350
+    }
+  },
+  "seconds": 2.7711868286132812
+}

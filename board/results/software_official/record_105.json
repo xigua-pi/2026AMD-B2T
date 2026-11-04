@@ -1,0 +1,29 @@
+{
+  "record_index": 105,
+  "session_id": 4,
+  "reference": "lean>times>were>getting>leaner~",
+  "modes": {
+    "0": {
+      "hypothesis": "lean>times>were>gotting>learer",
+      "low_elements": 0,
+      "total_elements": 227520,
+      "gate_register_bit_flips": 4461064,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "lean>times>were>gotting>learer",
+      "low_elements": 227520,
+      "total_elements": 227520,
+      "gate_register_bit_flips": 3122303,
+      "mismatches_vs_frozen": 7795
+    },
+    "2": {
+      "hypothesis": "lean>times>were>gotting>learer",
+      "low_elements": 288,
+      "total_elements": 227520,
+      "gate_register_bit_flips": 4459042,
+      "mismatches_vs_frozen": 3165
+    }
+  },
+  "seconds": 0.8143796920776367
+}

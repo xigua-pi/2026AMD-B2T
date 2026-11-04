@@ -1,0 +1,29 @@
+{
+  "record_index": 143,
+  "session_id": 5,
+  "reference": "he>didn't>want>to>rub>salt>into>her>wounds~",
+  "modes": {
+    "0": {
+      "hypothesis": ">he>didn't>want>to>rob>salt>into>her>wounds~",
+      "low_elements": 0,
+      "total_elements": 258624,
+      "gate_register_bit_flips": 5112551,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">he>didn't>want>to>rob>salt>into>her>wounds~",
+      "low_elements": 258624,
+      "total_elements": 258624,
+      "gate_register_bit_flips": 3596482,
+      "mismatches_vs_frozen": 8848
+    },
+    "2": {
+      "hypothesis": ">he>didn't>want>to>rob>salt>into>her>wounds~",
+      "low_elements": 8928,
+      "total_elements": 258624,
+      "gate_register_bit_flips": 5073230,
+      "mismatches_vs_frozen": 4552
+    }
+  },
+  "seconds": 1.0077300071716309
+}

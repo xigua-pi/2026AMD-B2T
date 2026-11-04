@@ -1,0 +1,29 @@
+{
+  "record_index": 13,
+  "session_id": 1,
+  "reference": "had>a>final>draft>been>posted?",
+  "modes": {
+    "0": {
+      "hypothesis": "had>a>sinal>drauft>beel>posted?",
+      "low_elements": 0,
+      "total_elements": 378288,
+      "gate_register_bit_flips": 7247021,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "had>a>sinal>drauft>beel>posted?",
+      "low_elements": 378288,
+      "total_elements": 378288,
+      "gate_register_bit_flips": 5048856,
+      "mismatches_vs_frozen": 12853
+    },
+    "2": {
+      "hypothesis": "had>a>sinal>drauft>beel>posted?",
+      "low_elements": 17568,
+      "total_elements": 378288,
+      "gate_register_bit_flips": 7197722,
+      "mismatches_vs_frozen": 12752
+    }
+  },
+  "seconds": 1.4065001010894775
+}

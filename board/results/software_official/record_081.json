@@ -1,0 +1,29 @@
+{
+  "record_index": 81,
+  "session_id": 3,
+  "reference": "her>new>coat>was>now>firmly>wrapped>round>her>as>she>waited>for>her>meal~",
+  "modes": {
+    "0": {
+      "hypothesis": ">her>new>cot>was>now>firmly>wrapped>nound>hor>as>she>wavted>for>her>mea~",
+      "low_elements": 0,
+      "total_elements": 589104,
+      "gate_register_bit_flips": 11381733,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">her>new>cot>was>now>firmly>wrapped>round>hor>as>she>wavted>for>her>mea~",
+      "low_elements": 589104,
+      "total_elements": 589104,
+      "gate_register_bit_flips": 7951899,
+      "mismatches_vs_frozen": 20036
+    },
+    "2": {
+      "hypothesis": ">her>new>cot>was>now>firmly>wrapped>round>hor>as>she>wavted>for>her>mea~",
+      "low_elements": 9360,
+      "total_elements": 589104,
+      "gate_register_bit_flips": 11361938,
+      "mismatches_vs_frozen": 19907
+    }
+  },
+  "seconds": 2.1283395290374756
+}

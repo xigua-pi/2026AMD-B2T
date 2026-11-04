@@ -1,0 +1,29 @@
+{
+  "record_index": 154,
+  "session_id": 5,
+  "reference": "i'm>cooking>vegetable>curry>for>them~",
+  "modes": {
+    "0": {
+      "hypothesis": ">i'ml>cooking>regetable>curry>for>themn>",
+      "low_elements": 0,
+      "total_elements": 303552,
+      "gate_register_bit_flips": 5878033,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">i'ml>cooking>regetable>curry>for>themn>",
+      "low_elements": 303552,
+      "total_elements": 303552,
+      "gate_register_bit_flips": 4114717,
+      "mismatches_vs_frozen": 10388
+    },
+    "2": {
+      "hypothesis": ">i'ml>cooking>regetable>curry>for>themn>",
+      "low_elements": 22608,
+      "total_elements": 303552,
+      "gate_register_bit_flips": 5802028,
+      "mismatches_vs_frozen": 9216
+    }
+  },
+  "seconds": 1.1245064735412598
+}

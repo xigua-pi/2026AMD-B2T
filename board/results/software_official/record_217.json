@@ -1,0 +1,29 @@
+{
+  "record_index": 217,
+  "session_id": 7,
+  "reference": "his>tone>had>developed>an>edge>to>it~",
+  "modes": {
+    "0": {
+      "hypothesis": ">lis>tore>had>developed>an>cadge>to>it~>",
+      "low_elements": 0,
+      "total_elements": 320256,
+      "gate_register_bit_flips": 6128179,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">lis>tore>had>developed>an>cadge>to>it~>i",
+      "low_elements": 320256,
+      "total_elements": 320256,
+      "gate_register_bit_flips": 4278494,
+      "mismatches_vs_frozen": 11069
+    },
+    "2": {
+      "hypothesis": ">lis>tore>had>developed>an>cadge>to>it~>",
+      "low_elements": 37872,
+      "total_elements": 320256,
+      "gate_register_bit_flips": 5984043,
+      "mismatches_vs_frozen": 10952
+    }
+  },
+  "seconds": 1.24686598777771
+}

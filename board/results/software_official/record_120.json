@@ -1,0 +1,29 @@
+{
+  "record_index": 120,
+  "session_id": 4,
+  "reference": "although>speech>is>immediate>and>flexible,>it>lacks>permanence~",
+  "modes": {
+    "0": {
+      "hypothesis": ">>>although>speecr>is>immediate>and>flexible,>it>lacks>permanence~",
+      "low_elements": 0,
+      "total_elements": 560592,
+      "gate_register_bit_flips": 10784174,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">>>although>speecr>is>immediate>and>flexible,>it>lacks>permanence~",
+      "low_elements": 560592,
+      "total_elements": 560592,
+      "gate_register_bit_flips": 7529192,
+      "mismatches_vs_frozen": 19108
+    },
+    "2": {
+      "hypothesis": ">>>although>speecr>is>immediate>and>flexible,>it>lacks>permanence~",
+      "low_elements": 30528,
+      "total_elements": 560592,
+      "gate_register_bit_flips": 10674825,
+      "mismatches_vs_frozen": 19102
+    }
+  },
+  "seconds": 2.0394127368927
+}

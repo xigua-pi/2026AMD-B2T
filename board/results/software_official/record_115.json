@@ -1,0 +1,29 @@
+{
+  "record_index": 115,
+  "session_id": 4,
+  "reference": "if>there>is>any>sign>of>cracking>during>operation>we>are>ready~",
+  "modes": {
+    "0": {
+      "hypothesis": "pf>there>is>ary>ssgr>of>cracking>during>operation>we>are>neady",
+      "low_elements": 0,
+      "total_elements": 508464,
+      "gate_register_bit_flips": 9856807,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "pf>there>is>ary>ssgr>of>cracking>during>operation>we>are>neady",
+      "low_elements": 508464,
+      "total_elements": 508464,
+      "gate_register_bit_flips": 6889328,
+      "mismatches_vs_frozen": 17398
+    },
+    "2": {
+      "hypothesis": "pf>there>is>ary>ssgr>of>cracking>during>operation>we>are>neady",
+      "low_elements": 23616,
+      "total_elements": 508464,
+      "gate_register_bit_flips": 9759754,
+      "mismatches_vs_frozen": 16787
+    }
+  },
+  "seconds": 1.9313609600067139
+}

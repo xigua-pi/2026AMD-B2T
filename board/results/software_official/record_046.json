@@ -1,0 +1,29 @@
+{
+  "record_index": 46,
+  "session_id": 2,
+  "reference": "this>produces>annual>rings>in>the>trunk~",
+  "modes": {
+    "0": {
+      "hypothesis": "this>broduces>annual>rings>in>thetrunk",
+      "low_elements": 0,
+      "total_elements": 423648,
+      "gate_register_bit_flips": 7957578,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "this>broduces>annual>rings>in>thetrunk",
+      "low_elements": 423648,
+      "total_elements": 423648,
+      "gate_register_bit_flips": 5524314,
+      "mismatches_vs_frozen": 14438
+    },
+    "2": {
+      "hypothesis": "this>broduces>annual>rings>in>thetrunk",
+      "low_elements": 48816,
+      "total_elements": 423648,
+      "gate_register_bit_flips": 7764643,
+      "mismatches_vs_frozen": 14399
+    }
+  },
+  "seconds": 1.7310028076171875
+}

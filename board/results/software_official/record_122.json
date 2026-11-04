@@ -1,0 +1,29 @@
+{
+  "record_index": 122,
+  "session_id": 4,
+  "reference": "when>were>you>pregnant?",
+  "modes": {
+    "0": {
+      "hypothesis": "when>were>you>pregnart?",
+      "low_elements": 0,
+      "total_elements": 244080,
+      "gate_register_bit_flips": 4620627,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "when>were>you>pregnart?",
+      "low_elements": 244080,
+      "total_elements": 244080,
+      "gate_register_bit_flips": 3216791,
+      "mismatches_vs_frozen": 8369
+    },
+    "2": {
+      "hypothesis": "when>were>you>pregnart?",
+      "low_elements": 33984,
+      "total_elements": 244080,
+      "gate_register_bit_flips": 4481878,
+      "mismatches_vs_frozen": 7838
+    }
+  },
+  "seconds": 0.8630142211914062
+}

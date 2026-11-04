@@ -1,0 +1,29 @@
+{
+  "record_index": 141,
+  "session_id": 5,
+  "reference": "within>thirty>seconds>the>army>had>landed~",
+  "modes": {
+    "0": {
+      "hypothesis": ">within>thirtyyseconds>the>army>had>londed",
+      "low_elements": 0,
+      "total_elements": 287568,
+      "gate_register_bit_flips": 5655780,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">within>thirtyyseconds>the>army>had>landed",
+      "low_elements": 287568,
+      "total_elements": 287568,
+      "gate_register_bit_flips": 3972737,
+      "mismatches_vs_frozen": 9843
+    },
+    "2": {
+      "hypothesis": ">within>thirtyyseconds>the>army>had>londed",
+      "low_elements": 14832,
+      "total_elements": 287568,
+      "gate_register_bit_flips": 5596789,
+      "mismatches_vs_frozen": 906
+    }
+  },
+  "seconds": 1.086540699005127
+}

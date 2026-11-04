@@ -1,0 +1,29 @@
+{
+  "record_index": 210,
+  "session_id": 7,
+  "reference": "the>eye>either>functions>as>a>whole,>or>not>at>all~",
+  "modes": {
+    "0": {
+      "hypothesis": ">ehe>eye>either>furctions>as>a>whell>on>rotat>all~",
+      "low_elements": 0,
+      "total_elements": 324720,
+      "gate_register_bit_flips": 6329201,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">ehe>eye>either>furctions>as>a>whell>on>rotat>all~",
+      "low_elements": 324720,
+      "total_elements": 324720,
+      "gate_register_bit_flips": 4437857,
+      "mismatches_vs_frozen": 11240
+    },
+    "2": {
+      "hypothesis": ">ehe>eye>either>furctions>as>a>whell>on>rotat>all~",
+      "low_elements": 20448,
+      "total_elements": 324720,
+      "gate_register_bit_flips": 6260316,
+      "mismatches_vs_frozen": 11125
+    }
+  },
+  "seconds": 1.2231101989746094
+}

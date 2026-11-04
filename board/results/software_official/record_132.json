@@ -1,0 +1,29 @@
+{
+  "record_index": 132,
+  "session_id": 5,
+  "reference": "imagine>all>the>people>living>life>in>peace",
+  "modes": {
+    "0": {
+      "hypothesis": ">imagine>all>the>peopla>liring>life>in>poace",
+      "low_elements": 0,
+      "total_elements": 344448,
+      "gate_register_bit_flips": 6666325,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">imagine>all>the>peopla>liring>life>in>poace",
+      "low_elements": 344448,
+      "total_elements": 344448,
+      "gate_register_bit_flips": 4668067,
+      "mismatches_vs_frozen": 11801
+    },
+    "2": {
+      "hypothesis": ">imagine>all>the>peopla>liring>life>in>poace",
+      "low_elements": 34848,
+      "total_elements": 344448,
+      "gate_register_bit_flips": 6536121,
+      "mismatches_vs_frozen": 11690
+    }
+  },
+  "seconds": 1.229694128036499
+}

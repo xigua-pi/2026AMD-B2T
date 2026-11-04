@@ -1,0 +1,20 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_activity -s activity_sim 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package work.h144_fixed_pkg
+Compiling package work.h144_layout_pkg
+Compiling package work.h144_fixed_math_pkg
+Compiling module work.h144_dense_mac8
+Compiling module work.h144_activation_lut(PIPELINED_IN...
+Compiling module work.h144_gru_element
+Compiling module work.h144_decoder_core
+Compiling module work.tb_activity
+Built simulation snapshot activity_sim

@@ -1,0 +1,29 @@
+{
+  "record_index": 73,
+  "session_id": 3,
+  "reference": "she>is>proud>and>wise>and>speaks>with>authority>of>many>things~",
+  "modes": {
+    "0": {
+      "hypothesis": ">she>is>broud>ana>wise>and>speaks>with>aauthority>cf>many>things",
+      "low_elements": 0,
+      "total_elements": 511920,
+      "gate_register_bit_flips": 9899934,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">she>is>broud>ana>wise>and>speaks>with>aauthority>cf>many>things",
+      "low_elements": 511920,
+      "total_elements": 511920,
+      "gate_register_bit_flips": 6917385,
+      "mismatches_vs_frozen": 17382
+    },
+    "2": {
+      "hypothesis": ">she>is>broud>ana>wise>and>speaks>with>aauthority>cf>many>things",
+      "low_elements": 21456,
+      "total_elements": 511920,
+      "gate_register_bit_flips": 9828856,
+      "mismatches_vs_frozen": 17458
+    }
+  },
+  "seconds": 1.7303884029388428
+}

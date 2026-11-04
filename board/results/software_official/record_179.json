@@ -1,0 +1,29 @@
+{
+  "record_index": 179,
+  "session_id": 6,
+  "reference": "this>time>cheering>broke>out>in>the>ranks~",
+  "modes": {
+    "0": {
+      "hypothesis": "ths>time>cheeeing>booke>ot>in>th>menks~",
+      "low_elements": 0,
+      "total_elements": 280656,
+      "gate_register_bit_flips": 5396275,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "ths>time>cheeeing>booke>ot>in>th>menks~",
+      "low_elements": 280656,
+      "total_elements": 280656,
+      "gate_register_bit_flips": 3772277,
+      "mismatches_vs_frozen": 9717
+    },
+    "2": {
+      "hypothesis": "ths>time>cheeeing>booke>ot>in>th>menks~",
+      "low_elements": 22320,
+      "total_elements": 280656,
+      "gate_register_bit_flips": 5306781,
+      "mismatches_vs_frozen": 9313
+    }
+  },
+  "seconds": 1.149827241897583
+}

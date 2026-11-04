@@ -1,0 +1,29 @@
+{
+  "record_index": 75,
+  "session_id": 3,
+  "reference": "thrown>in>nuts>and>carrots>and>blend~",
+  "modes": {
+    "0": {
+      "hypothesis": ">>thhown>in>nots>ana>carnots>and>blend~",
+      "low_elements": 0,
+      "total_elements": 396144,
+      "gate_register_bit_flips": 7508704,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">>thhown>in>nots>ana>carnots>and>blend~",
+      "low_elements": 396144,
+      "total_elements": 396144,
+      "gate_register_bit_flips": 5223997,
+      "mismatches_vs_frozen": 13519
+    },
+    "2": {
+      "hypothesis": ">>thhown>in>nots>ana>carnots>and>blend~",
+      "low_elements": 32832,
+      "total_elements": 396144,
+      "gate_register_bit_flips": 7382879,
+      "mismatches_vs_frozen": 13408
+    }
+  },
+  "seconds": 1.3833658695220947
+}

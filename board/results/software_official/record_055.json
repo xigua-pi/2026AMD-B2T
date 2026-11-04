@@ -1,0 +1,29 @@
+{
+  "record_index": 55,
+  "session_id": 2,
+  "reference": "there's>a>pineapple>in>the>refrigerator~",
+  "modes": {
+    "0": {
+      "hypothesis": "therss>a>plneappe>in>the>refrigenator~",
+      "low_elements": 0,
+      "total_elements": 456192,
+      "gate_register_bit_flips": 8513946,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "therss>a>plneappe>in>the>refrigenatr~",
+      "low_elements": 456192,
+      "total_elements": 456192,
+      "gate_register_bit_flips": 5908038,
+      "mismatches_vs_frozen": 15558
+    },
+    "2": {
+      "hypothesis": "therss>a>plneappe>in>the>refrigenatr~",
+      "low_elements": 71136,
+      "total_elements": 456192,
+      "gate_register_bit_flips": 8234624,
+      "mismatches_vs_frozen": 15042
+    }
+  },
+  "seconds": 1.6200711727142334
+}

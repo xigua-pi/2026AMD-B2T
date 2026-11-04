@@ -1,0 +1,29 @@
+{
+  "record_index": 153,
+  "session_id": 5,
+  "reference": "if>you>concentrate>on>maintaining>the>correct>heading>your>feet>will>look>after>themselves~",
+  "modes": {
+    "0": {
+      "hypothesis": "if>youl>concentrote>on>maintaining>the>correct>heading>your>foct>will>lookoifter>themsells~",
+      "low_elements": 0,
+      "total_elements": 719136,
+      "gate_register_bit_flips": 13884725,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "if>youl>concentrote>on>maintaining>the>correct>heading>your>foct>will>lookoifter>themsells~",
+      "low_elements": 719136,
+      "total_elements": 719136,
+      "gate_register_bit_flips": 9714621,
+      "mismatches_vs_frozen": 24645
+    },
+    "2": {
+      "hypothesis": "if>youl>concentrote>on>maintaining>the>correct>heading>your>foct>will>lookoifter>themsells~",
+      "low_elements": 59760,
+      "total_elements": 719136,
+      "gate_register_bit_flips": 13655740,
+      "mismatches_vs_frozen": 24527
+    }
+  },
+  "seconds": 2.7288432121276855
+}

@@ -1,0 +1,29 @@
+{
+  "record_index": 202,
+  "session_id": 7,
+  "reference": "the>victims>lay>dead>in>the>apartment~",
+  "modes": {
+    "0": {
+      "hypothesis": "the>victims>lay>dead>in>thh>apartment~",
+      "low_elements": 0,
+      "total_elements": 247824,
+      "gate_register_bit_flips": 4868720,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "the>victims>lay>dead>in>the>apartment~",
+      "low_elements": 247824,
+      "total_elements": 247824,
+      "gate_register_bit_flips": 3421005,
+      "mismatches_vs_frozen": 8503
+    },
+    "2": {
+      "hypothesis": "the>victims>lay>dead>in>thh>apartment~",
+      "low_elements": 7632,
+      "total_elements": 247824,
+      "gate_register_bit_flips": 4847653,
+      "mismatches_vs_frozen": 963
+    }
+  },
+  "seconds": 0.9350225925445557
+}

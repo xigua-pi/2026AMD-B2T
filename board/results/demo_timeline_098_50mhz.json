@@ -1,0 +1,218 @@
+[
+  {
+    "status": "loading",
+    "record": 125,
+    "input_frames": 1637,
+    "output_frames": 328,
+    "text": "imagine all the people living life in peace",
+    "elapsed_seconds": 2.583
+  },
+  {
+    "status": "loading",
+    "record": 125,
+    "input_frames": 1637,
+    "output_frames": 328,
+    "text": "imagine all the people living life in peace",
+    "elapsed_seconds": 2.583
+  },
+  {
+    "status": "loading",
+    "record": 125,
+    "input_frames": 1637,
+    "output_frames": 328,
+    "text": "imagine all the people living life in peace",
+    "elapsed_seconds": 2.583
+  },
+  {
+    "status": "loading",
+    "record": 125,
+    "input_frames": 1637,
+    "output_frames": 328,
+    "text": "imagine all the people living life in peace",
+    "elapsed_seconds": 2.583
+  },
+  {
+    "status": "loading",
+    "record": 125,
+    "input_frames": 1637,
+    "output_frames": 328,
+    "text": "imagine all the people living life in peace",
+    "elapsed_seconds": 2.583
+  },
+  {
+    "status": "loading",
+    "record": 125,
+    "input_frames": 1637,
+    "output_frames": 328,
+    "text": "imagine all the people living life in peace",
+    "elapsed_seconds": 2.583
+  },
+  {
+    "status": "running",
+    "record": 98,
+    "input_frames": 3,
+    "output_frames": 0,
+    "text": "",
+    "elapsed_seconds": 0.0
+  },
+  {
+    "status": "running",
+    "record": 98,
+    "input_frames": 128,
+    "output_frames": 24,
+    "text": "i",
+    "elapsed_seconds": 0.189
+  },
+  {
+    "status": "running",
+    "record": 98,
+    "input_frames": 253,
+    "output_frames": 50,
+    "text": "ima",
+    "elapsed_seconds": 0.382
+  },
+  {
+    "status": "running",
+    "record": 98,
+    "input_frames": 379,
+    "output_frames": 74,
+    "text": "imagine",
+    "elapsed_seconds": 0.575
+  },
+  {
+    "status": "running",
+    "record": 98,
+    "input_frames": 505,
+    "output_frames": 100,
+    "text": "imagine a",
+    "elapsed_seconds": 0.769
+  },
+  {
+    "status": "running",
+    "record": 98,
+    "input_frames": 635,
+    "output_frames": 126,
+    "text": "imagine all t",
+    "elapsed_seconds": 0.969
+  },
+  {
+    "status": "running",
+    "record": 98,
+    "input_frames": 766,
+    "output_frames": 152,
+    "text": "imagine all the p",
+    "elapsed_seconds": 1.171
+  },
+  {
+    "status": "running",
+    "record": 98,
+    "input_frames": 897,
+    "output_frames": 178,
+    "text": "imagine all the peop",
+    "elapsed_seconds": 1.372
+  },
+  {
+    "status": "running",
+    "record": 98,
+    "input_frames": 1069,
+    "output_frames": 212,
+    "text": "imagine all the people liv",
+    "elapsed_seconds": 1.638
+  },
+  {
+    "status": "running",
+    "record": 98,
+    "input_frames": 1207,
+    "output_frames": 240,
+    "text": "imagine all the people living ",
+    "elapsed_seconds": 1.85
+  },
+  {
+    "status": "running",
+    "record": 98,
+    "input_frames": 1334,
+    "output_frames": 266,
+    "text": "imagine all the people living lif",
+    "elapsed_seconds": 2.046
+  },
+  {
+    "status": "running",
+    "record": 98,
+    "input_frames": 1502,
+    "output_frames": 298,
+    "text": "imagine all the people living life in ",
+    "elapsed_seconds": 2.305
+  },
+  {
+    "status": "running",
+    "record": 98,
+    "input_frames": 1628,
+    "output_frames": 324,
+    "text": "imagine all the people living life in pea",
+    "elapsed_seconds": 2.5
+  },
+  {
+    "status": "running",
+    "record": 98,
+    "input_frames": 1757,
+    "output_frames": 350,
+    "text": "imagine all the people living life in peace",
+    "elapsed_seconds": 2.699
+  },
+  {
+    "status": "restoring",
+    "record": 98,
+    "input_frames": 1773,
+    "output_frames": 355,
+    "text": "imagine all the people living life in peace",
+    "elapsed_seconds": 2.764
+  },
+  {
+    "status": "restoring",
+    "record": 98,
+    "input_frames": 1773,
+    "output_frames": 355,
+    "text": "imagine all the people living life in peace",
+    "elapsed_seconds": 2.764
+  },
+  {
+    "status": "restoring",
+    "record": 98,
+    "input_frames": 1773,
+    "output_frames": 355,
+    "text": "imagine all the people living life in peace",
+    "elapsed_seconds": 2.764
+  },
+  {
+    "status": "restoring",
+    "record": 98,
+    "input_frames": 1773,
+    "output_frames": 355,
+    "text": "imagine all the people living life in peace",
+    "elapsed_seconds": 2.764
+  },
+  {
+    "status": "restoring",
+    "record": 98,
+    "input_frames": 1773,
+    "output_frames": 355,
+    "text": "imagine all the people living life in peace",
+    "elapsed_seconds": 2.764
+  },
+  {
+    "status": "restoring",
+    "record": 98,
+    "input_frames": 1773,
+    "output_frames": 355,
+    "text": "imagine all the people living life in peace",
+    "elapsed_seconds": 2.764
+  },
+  {
+    "status": "idle",
+    "record": 98,
+    "input_frames": 1773,
+    "output_frames": 355,
+    "text": "imagine all the people living life in peace",
+    "elapsed_seconds": 2.764
+  }
+]

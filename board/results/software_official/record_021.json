@@ -1,0 +1,29 @@
+{
+  "record_index": 21,
+  "session_id": 1,
+  "reference": "yes,>we've>been>expecting>you~",
+  "modes": {
+    "0": {
+      "hypothesis": ">kes,>we've>boen>expecting>you~",
+      "low_elements": 0,
+      "total_elements": 326160,
+      "gate_register_bit_flips": 6267141,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">kes,>we've>boen>expecting>you~",
+      "low_elements": 326160,
+      "total_elements": 326160,
+      "gate_register_bit_flips": 4370736,
+      "mismatches_vs_frozen": 11006
+    },
+    "2": {
+      "hypothesis": ">kes,>we've>boen>expecting>you~",
+      "low_elements": 10656,
+      "total_elements": 326160,
+      "gate_register_bit_flips": 6248920,
+      "mismatches_vs_frozen": 10707
+    }
+  },
+  "seconds": 1.280919075012207
+}

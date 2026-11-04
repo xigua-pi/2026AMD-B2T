@@ -1,0 +1,29 @@
+{
+  "record_index": 209,
+  "session_id": 7,
+  "reference": "suspicion>was>inherent>in>the>super>rich~",
+  "modes": {
+    "0": {
+      "hypothesis": "suspicion>was>inherant>in>the>super>rich~",
+      "low_elements": 0,
+      "total_elements": 277200,
+      "gate_register_bit_flips": 5429903,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "suspicion>was>inherant>in>the>super>rich~",
+      "low_elements": 277200,
+      "total_elements": 277200,
+      "gate_register_bit_flips": 3808852,
+      "mismatches_vs_frozen": 9539
+    },
+    "2": {
+      "hypothesis": "suspicion>was>inherant>in>the>super>rich~",
+      "low_elements": 7776,
+      "total_elements": 277200,
+      "gate_register_bit_flips": 5408856,
+      "mismatches_vs_frozen": 6196
+    }
+  },
+  "seconds": 1.0534167289733887
+}

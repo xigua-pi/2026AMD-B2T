@@ -1,0 +1,29 @@
+{
+  "record_index": 60,
+  "session_id": 2,
+  "reference": "he>hesitated>for>a>moment>before>replying~",
+  "modes": {
+    "0": {
+      "hypothesis": "he>esstated>for>a>moment>before>replng~",
+      "low_elements": 0,
+      "total_elements": 471600,
+      "gate_register_bit_flips": 8807201,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "he>esstated>for>a>moment>before>replng~",
+      "low_elements": 471600,
+      "total_elements": 471600,
+      "gate_register_bit_flips": 6110133,
+      "mismatches_vs_frozen": 16105
+    },
+    "2": {
+      "hypothesis": "he>esstated>for>a>moment>before>replng~",
+      "low_elements": 59184,
+      "total_elements": 471600,
+      "gate_register_bit_flips": 8583512,
+      "mismatches_vs_frozen": 15412
+    }
+  },
+  "seconds": 1.6643359661102295
+}

@@ -1,0 +1,608 @@
+{
+  "records": 99,
+  "metrics": {
+    "char_errors": 288,
+    "char_total": 5189,
+    "word_errors": 238,
+    "word_total": 977,
+    "cer": 0.05550202351127385,
+    "wer": 0.2436028659160696
+  },
+  "rows": [
+    {
+      "session": "t5.2019.05.08",
+      "sentence_index": 92,
+      "reference": "she>was>a>terrible>woman~",
+      "hypothesis": "she>was>a>terrible>woman"
+    },
+    {
+      "session": "t5.2019.05.08",
+      "sentence_index": 93,
+      "reference": "the>american>business>community>was>slow>to>figure>out>what>worked>in>this>context~",
+      "hypothesis": "the>american>business>communty>was>slow>to>ffgure>out>what>worked>in>this>context"
+    },
+    {
+      "session": "t5.2019.05.08",
+      "sentence_index": 94,
+      "reference": "like>many>basaltic>volcanic>peaks,>it>is>a>mecca>for>sea>creatures~",
+      "hypothesis": ">llke>many>basaltio>>olcanic>peaks,>it>is>a>mecca>for>sea>sneatures"
+    },
+    {
+      "session": "t5.2019.05.08",
+      "sentence_index": 95,
+      "reference": "are>there>other>such>rituals?",
+      "hypothesis": "are>there>othee>>such>rituals?"
+    },
+    {
+      "session": "t5.2019.05.08",
+      "sentence_index": 96,
+      "reference": "the>agent>on>my>third>trip>was>a>young>woman~",
+      "hypothesis": "the>agent>on>my>third>trip>was>a>young>woman"
+    },
+    {
+      "session": "t5.2019.05.08",
+      "sentence_index": 97,
+      "reference": "this>insight>plays>an>important>role>in>the>economic>analysis>of>criminal>law~",
+      "hypothesis": "this>insiggt>plays>an>impoutant>roe>in>th>economic>aanolysis>of>criminal>low"
+    },
+    {
+      "session": "t5.2019.05.08",
+      "sentence_index": 98,
+      "reference": "i>thought>i>could>fix>it>but>got>trapped>by>my>ego>and>refusal>to>fail~",
+      "hypothesis": "i>ihooslt>i>culd>f>>it>but>got>trapped>by>my>ego>and>refusal>to>fail"
+    },
+    {
+      "session": "t5.2019.05.08",
+      "sentence_index": 99,
+      "reference": "china>is>one>of>the>nations>that>did>not>sign>the>port>agreement~",
+      "hypothesis": "china>is>one>of>the>nations>that>diod>not>sgn>the>port>>geement"
+    },
+    {
+      "session": "t5.2019.05.08",
+      "sentence_index": 100,
+      "reference": "this>marketplace>is>changing>so>fast>that>what>was>news>four>days>ago>is>history>and>is>probably>inaccurate>now~",
+      "hypothesis": "this>marketpac>is>changing>so>fast>that>what>was>nas>four>days>ago>is>history>and>is>probably>maccurate>now"
+    },
+    {
+      "session": "t5.2019.05.08",
+      "sentence_index": 101,
+      "reference": "on>the>other>hand,>let>us>suppose>that>ours>is>the>only>universe~",
+      "hypothesis": "uun>the>other>hand>>let>us>suppose>that>ours>is>the>only>univese"
+    },
+    {
+      "session": "t5.2019.11.25",
+      "sentence_index": 40,
+      "reference": "his>bags>were>packed>and>waiting>on>the>bed~",
+      "hypothesis": "his>bags>were>packed>and>waiting>on>the>bed"
+    },
+    {
+      "session": "t5.2019.11.25",
+      "sentence_index": 41,
+      "reference": "i>was>keeping>it>for>cleaning>the>car~",
+      "hypothesis": "i>was>kecping>it>for>cleaning>the>car"
+    },
+    {
+      "session": "t5.2019.11.25",
+      "sentence_index": 42,
+      "reference": "it's>half>term>isn't>it?",
+      "hypothesis": "it's>half>term>ish't>it?"
+    },
+    {
+      "session": "t5.2019.11.25",
+      "sentence_index": 43,
+      "reference": "i>walked>back>to>the>bar>and>wasted>time>with>the>barman~",
+      "hypothesis": "i>walked>back>to>the>bar>and>wasted>time>with>the>barman"
+    },
+    {
+      "session": "t5.2019.11.25",
+      "sentence_index": 44,
+      "reference": "the>human>was>already>getting>to>its>feet~",
+      "hypothesis": "the>human>was>already>getting>to>its>feet"
+    },
+    {
+      "session": "t5.2019.11.25",
+      "sentence_index": 45,
+      "reference": "i>used>to>live>down>there>towards>one>part>of>that~",
+      "hypothesis": "i>used>to>lire>down>there>towards>one>part>oa>that"
+    },
+    {
+      "session": "t5.2019.11.25",
+      "sentence_index": 46,
+      "reference": "i>never>heard>what>anne>thought>about>it>all~",
+      "hypothesis": "i>never>heard>what>amne>thought>about>it>all"
+    },
+    {
+      "session": "t5.2019.11.25",
+      "sentence_index": 47,
+      "reference": "no,>it's>something>stuck>in>my>throat~",
+      "hypothesis": "no,>it's>something>stuck>rn>my,>thoat"
+    },
+    {
+      "session": "t5.2019.11.25",
+      "sentence_index": 48,
+      "reference": "when>had>her>hair>gone>grey?",
+      "hypothesis": "when>had>her>nair>gome>grey?"
+    },
+    {
+      "session": "t5.2019.11.25",
+      "sentence_index": 49,
+      "reference": "so>there>wasn't>any>overall>plan>of>a>graveyard>arranged~",
+      "hypothesis": "so>there>wasn't>any>oveal>plan>ef>a>gnaveyard>arranged"
+    },
+    {
+      "session": "t5.2019.12.09",
+      "sentence_index": 40,
+      "reference": "her>mouth>was>compressed>into>a>tight>line~",
+      "hypothesis": "her>mouth>was>compressed>into>a>tight>line"
+    },
+    {
+      "session": "t5.2019.12.09",
+      "sentence_index": 41,
+      "reference": "well>let's>decide>and>look>at>that>then~",
+      "hypothesis": "well>let's>decide>and>look>at>that>then"
+    },
+    {
+      "session": "t5.2019.12.09",
+      "sentence_index": 42,
+      "reference": "do>you>wish>us>to>inform>your>father>about>what's>happened?",
+      "hypothesis": "do>you>wish>us>to>inform>your>father>about>what's>happened?"
+    },
+    {
+      "session": "t5.2019.12.09",
+      "sentence_index": 43,
+      "reference": "now>who>the>hell>was>this>guy?",
+      "hypothesis": "now>who>the>hell>was>this>guy?"
+    },
+    {
+      "session": "t5.2019.12.09",
+      "sentence_index": 44,
+      "reference": "without>consulting>her,>matthew>asked>for>a>bottle>of>white>wine>to>be>brought~",
+      "hypothesis": "without>consulting>her,>matthew>asked>for>a>bottle>cf>white>wine>to>be>brought"
+    },
+    {
+      "session": "t5.2019.12.09",
+      "sentence_index": 45,
+      "reference": "rachel's>mind>flew>back>to>her>like>lightning~",
+      "hypothesis": "rachecls>mind>flew>back>to>herylike>lighthing~"
+    },
+    {
+      "session": "t5.2019.12.09",
+      "sentence_index": 46,
+      "reference": "the>table>was>laid>out>fit>for>a>king,>all>gleaming>silver>and>twinkling>crystal~",
+      "hypothesis": "the>table>was>laid>out>fit>for>a>king,>all>gleaming>silver>and>twinkling>crystal"
+    },
+    {
+      "session": "t5.2019.12.09",
+      "sentence_index": 47,
+      "reference": "a>streak>of>lightning>split>the>sky~",
+      "hypothesis": "a>streak>of>lightning>split>the>sky"
+    },
+    {
+      "session": "t5.2019.12.09",
+      "sentence_index": 48,
+      "reference": "they>made>camp>at>the>top>of>a>bank>by>a>fallen>tree~",
+      "hypothesis": "they>made>camp>at>the>top>of>a>bank>by>a>fallen>tree"
+    },
+    {
+      "session": "t5.2019.12.09",
+      "sentence_index": 49,
+      "reference": "on>the>system?",
+      "hypothesis": "on>the>systemm"
+    },
+    {
+      "session": "t5.2019.12.11",
+      "sentence_index": 40,
+      "reference": "whatever>was>left>of>the>buck>landed>way>behind>me~",
+      "hypothesis": ">whatever>was>left>of>the>buck>landed>way>benind>me"
+    },
+    {
+      "session": "t5.2019.12.11",
+      "sentence_index": 41,
+      "reference": "i>want>a>working>model>twelve>months>from>now~",
+      "hypothesis": "i>want>a>working>mmodel>twelve>monthe>from>now"
+    },
+    {
+      "session": "t5.2019.12.11",
+      "sentence_index": 42,
+      "reference": "many>other>test>methods>exist>and>are>described>in>the>literature~",
+      "hypothesis": ">many>other>test>methods>exist>and>are>deseribed>in>the>literature"
+    },
+    {
+      "session": "t5.2019.12.11",
+      "sentence_index": 43,
+      "reference": "it>was>all>your>fault,>you>bloody>idiot~",
+      "hypothesis": "it>was>al>your>fault,>you>bloody>idiet"
+    },
+    {
+      "session": "t5.2019.12.11",
+      "sentence_index": 44,
+      "reference": "think>of>all>the>bedbugs>and>snakes>and>surly>natives~",
+      "hypothesis": "think>of>all>the>bedbugs>and>snakes>and>surly>natives"
+    },
+    {
+      "session": "t5.2019.12.11",
+      "sentence_index": 45,
+      "reference": "but>i>hope>you'll>forgive>me>and>decide>to>stay>on~",
+      "hypothesis": "but>i>hope>youuk>forgive>me>and>decide>to>stay>on~"
+    },
+    {
+      "session": "t5.2019.12.11",
+      "sentence_index": 46,
+      "reference": "every>dead>comrade>made>her>more>determined>to>finish>her>mission~",
+      "hypothesis": "eevery>dead>eomrade>made>her>more>datermined>to>finish>ner>mission"
+    },
+    {
+      "session": "t5.2019.12.11",
+      "sentence_index": 47,
+      "reference": "i>managed>to>get>a>copy>of>it>before>it>hits>the>shops~",
+      "hypothesis": "i>managed>to>gat>a>copy>of>it>before>it>hits>the>shops"
+    },
+    {
+      "session": "t5.2019.12.11",
+      "sentence_index": 48,
+      "reference": "favourite>topics>for>daydreaming>are>housing>and>holidays~",
+      "hypothesis": "faverrite>topics>for>ddaydrearming>are>housing>and>holldays"
+    },
+    {
+      "session": "t5.2019.12.11",
+      "sentence_index": 49,
+      "reference": "i>saw>small>wounds,>red>gashes,>high>on>the>cheek>bones~",
+      "hypothesis": "i>saw>smal>woundss>red>gashes>high>on>the>cheek>bones"
+    },
+    {
+      "session": "t5.2019.12.18",
+      "sentence_index": 40,
+      "reference": "jinny>put>the>bucket>down>ready>to>pour>in>the>swill>and>began>to>tip>the>pan>with>steady>hands~",
+      "hypothesis": ">>jinny>put>the>bucket>down>ready>to>pour>in>the>swill>and>began>to>tip>the>pan>with>steady>hands"
+    },
+    {
+      "session": "t5.2019.12.18",
+      "sentence_index": 41,
+      "reference": "giants>are>big>and>not>very>bright>creatures~",
+      "hypothesis": ">giants>are>big>and>not>very>bright>creatures"
+    },
+    {
+      "session": "t5.2019.12.18",
+      "sentence_index": 42,
+      "reference": "the>wasps>are>enterprising>characters~",
+      "hypothesis": ">the>wasps>are>eterprising>ohanacters"
+    },
+    {
+      "session": "t5.2019.12.18",
+      "sentence_index": 43,
+      "reference": "her>mood>had>changed,>it>seemed,>and>she>was>all>lightness>and>joy~",
+      "hypothesis": "her>mood>had>changed,>it>seemed,>and>she>was>all>lightress>ard>jey"
+    },
+    {
+      "session": "t5.2019.12.18",
+      "sentence_index": 44,
+      "reference": "i>believe>you>were>injured>while>chasing>the>gunman~",
+      "hypothesis": ">i>believe>you>were>injurd>while>chasing>the>gunmen"
+    },
+    {
+      "session": "t5.2019.12.18",
+      "sentence_index": 45,
+      "reference": "many>give>up>flying>altogether>because>of>this~",
+      "hypothesis": "many>give>up>flying>altogether>because>of>this"
+    },
+    {
+      "session": "t5.2019.12.18",
+      "sentence_index": 46,
+      "reference": "his>neck>had>been>broken>and>his>chest>smashed>up~",
+      "hypothesis": ">his>neck>had>been>broken>and>his>chest>smashed>up"
+    },
+    {
+      "session": "t5.2019.12.18",
+      "sentence_index": 47,
+      "reference": "why>go>for>the>chorus>when>you>can>have>the>starring>role?",
+      "hypothesis": "why>go>for>the>chorus>wher>you>chan>have>the>starring>role?"
+    },
+    {
+      "session": "t5.2019.12.18",
+      "sentence_index": 48,
+      "reference": "dear>santa,>can>i>have>this>toy>next>christmas?",
+      "hypothesis": "dear>santa,>can>i>have>this>toy>next>christmas"
+    },
+    {
+      "session": "t5.2019.12.18",
+      "sentence_index": 49,
+      "reference": "early>female>aviators>were>not>short>on>glamour>either~",
+      "hypothesis": "early>femele>aviators>were>not>short>on>qlamour>either"
+    },
+    {
+      "session": "t5.2019.12.20",
+      "sentence_index": 40,
+      "reference": "the>roof>of>the>pub>was>so>low>that>i>could>not>stand>upright~",
+      "hypothesis": ">the>roof>of>the>pub>was>so>low>that>i>could>not>stand>upright"
+    },
+    {
+      "session": "t5.2019.12.20",
+      "sentence_index": 41,
+      "reference": "she>cursed>herself>for>spoiling>the>closeness>between>them~",
+      "hypothesis": "she>cursed>herself>for>spoiling>the>closenens>between>them"
+    },
+    {
+      "session": "t5.2019.12.20",
+      "sentence_index": 42,
+      "reference": "my>feet>were>secured>by>a>length>of>electric>cable>which>could>have>come>from>a>table>lamp~",
+      "hypothesis": ">my>feet>were>secured>by>a>length>of>electric>cable>which>could>hare>come>from>a>tabl>lamp"
+    },
+    {
+      "session": "t5.2019.12.20",
+      "sentence_index": 43,
+      "reference": "she>blew>on>her>soup>and>sipped>carefully~",
+      "hypothesis": "she>blee>on>her>soup>and>sipped>carefuly"
+    },
+    {
+      "session": "t5.2019.12.20",
+      "sentence_index": 44,
+      "reference": "disappointment>sat>like>a>boulder>inside>juliet's>stomach~",
+      "hypothesis": ">disappointment>sat>like>a>bouldor>inside>juliet's>stomach"
+    },
+    {
+      "session": "t5.2019.12.20",
+      "sentence_index": 45,
+      "reference": "then>we>designed>one>of>the>most>sophisticated>suspension>systems>fitted>to>a>production>car~",
+      "hypothesis": ">then>we>desighecd>one>of>the>most>sophistticated>suspension>systems>fitted>to>a>production>car"
+    },
+    {
+      "session": "t5.2019.12.20",
+      "sentence_index": 46,
+      "reference": "it>was>depressing>that>arrogance>paid>off>so>well~",
+      "hypothesis": ">it>was>depressing>that>arrogance>paid>off>so>well"
+    },
+    {
+      "session": "t5.2019.12.20",
+      "sentence_index": 47,
+      "reference": "carrots>and>sticks>are>relative~",
+      "hypothesis": "carrots>and>sticks>are>relative"
+    },
+    {
+      "session": "t5.2019.12.20",
+      "sentence_index": 48,
+      "reference": "he>was>a>bad>influence>without>doing>anything~",
+      "hypothesis": "he>was>a>bad>influencce>without>doing>anything"
+    },
+    {
+      "session": "t5.2019.12.20",
+      "sentence_index": 49,
+      "reference": "they>waited>while>crane>trotted>his>horse>across>to>the>tower~",
+      "hypothesis": ">they>waited>while>crane>trotted>his>horse>acrass>to>the>towrer"
+    },
+    {
+      "session": "t5.2020.01.06",
+      "sentence_index": 40,
+      "reference": "i>made>some>toast>and>a>cup>of>tea~",
+      "hypothesis": "i>node>sone>toost>and>a>cup>of>tea"
+    },
+    {
+      "session": "t5.2020.01.06",
+      "sentence_index": 41,
+      "reference": "we>must>learn>to>live>without>televisions>or>microwave>ovens~",
+      "hypothesis": "we>must>learn>to>live>without>televisions>on>rmicroware>orens"
+    },
+    {
+      "session": "t5.2020.01.06",
+      "sentence_index": 42,
+      "reference": "he>was>wearing>a>motorcycle>jacket>and>jeans~",
+      "hypothesis": "he>was>wearing>a>motorcyol>jacket>and>jeans"
+    },
+    {
+      "session": "t5.2020.01.06",
+      "sentence_index": 43,
+      "reference": "she>made>the>mistake>of>pausing>here>and>inspecting>the>fish~",
+      "hypothesis": "she>made>the>mistake>of>pausing>here>and>inspecting>the>fish~"
+    },
+    {
+      "session": "t5.2020.01.06",
+      "sentence_index": 44,
+      "reference": "the>cabins>were>located>high>on>the>side>of>a>steep>hill~",
+      "hypothesis": "the>cabins>were>locatted>high>on>the>side>ofa>steep>hill"
+    },
+    {
+      "session": "t5.2020.01.06",
+      "sentence_index": 45,
+      "reference": "her>eyes>swept>the>broad>waters>of>the>loch~",
+      "hypothesis": "her>eyes>swapt>the>braad>waterslof>the>loch"
+    },
+    {
+      "session": "t5.2020.01.06",
+      "sentence_index": 46,
+      "reference": "and>what>happened>if>you>failed>to>make>the>grade?",
+      "hypothesis": "and>whaat>happaeed>if>you>feiled>to>make>the>grade?"
+    },
+    {
+      "session": "t5.2020.01.06",
+      "sentence_index": 47,
+      "reference": "which>angel>announced>the>birth>of>christ>to>the>shepherds?",
+      "hypothesis": "which>agel>amnounceed>the>binth>of>crrist>to>the>shepherds?"
+    },
+    {
+      "session": "t5.2020.01.06",
+      "sentence_index": 48,
+      "reference": "none>of>the>accused>gave>evidence>during>the>trial~",
+      "hypothesis": "none>of>the>accused>gare>evidence>during>the>trisl"
+    },
+    {
+      "session": "t5.2020.01.06",
+      "sentence_index": 49,
+      "reference": "jackie>will>budget>for>the>most>expensive>zoology>equipment~",
+      "hypothesis": "jackie>will>budget>for>the>most>expensive>zoology>equipment"
+    },
+    {
+      "session": "t5.2020.01.08",
+      "sentence_index": 40,
+      "reference": "so>what>do>you>reckon's>good>for>a>hangover,>then?",
+      "hypothesis": ">so>what>do>you>reckon's>qood>for>a>hagover,then?"
+    },
+    {
+      "session": "t5.2020.01.08",
+      "sentence_index": 41,
+      "reference": "there's>a>river>not>far>away,>if>my>calculations>are>correct~",
+      "hypothesis": ">therers>a>river>rot>far>away,>if>my>calculations>ar>correct"
+    },
+    {
+      "session": "t5.2020.01.08",
+      "sentence_index": 42,
+      "reference": "then>i>forgot>about>it>as>the>carrots>boiled>over~",
+      "hypothesis": "ther>i>forgot>about>it>aas>the>carrots>boiled>over"
+    },
+    {
+      "session": "t5.2020.01.08",
+      "sentence_index": 43,
+      "reference": "the>air>smelled>of>salt>and>the>sky>was>grey~",
+      "hypothesis": "the>air>smeled>of>salt>and>the>sky>was>greg"
+    },
+    {
+      "session": "t5.2020.01.08",
+      "sentence_index": 44,
+      "reference": "am>i>going>mad,>lydia>asked>herself,>in>her>new>habit>of>introspection>bred>by>grief?",
+      "hypothesis": ">am>i>goinggmad,>lydia>asked>herself,>in>her>how>habit>of>intrspection>bred>bygrief?"
+    },
+    {
+      "session": "t5.2020.01.08",
+      "sentence_index": 45,
+      "reference": "the>defendant>will>not>be>liable>for>the>injuries>caused>by>the>tree~",
+      "hypothesis": "the>deferdant>wil>not>be>liabe>for>the>injuries>caused>by>the>thee"
+    },
+    {
+      "session": "t5.2020.01.08",
+      "sentence_index": 46,
+      "reference": "the>fire>had>died>down,>though>several>branches>still>glowed>red~",
+      "hypothesis": "the>fire>haed>died>down,>though>several>braches>stil>glowed>red"
+    },
+    {
+      "session": "t5.2020.01.08",
+      "sentence_index": 47,
+      "reference": "i>have>as>much>soul>and>heart>as>you~",
+      "hypothesis": "i>have>as>much>soul>and>heant>as>you"
+    },
+    {
+      "session": "t5.2020.01.08",
+      "sentence_index": 48,
+      "reference": "jack>quietly>moved>up>front>and>seized>the>big>ball>of>wax~",
+      "hypothesis": "jack>quietly>moved>upfront>and>seized>the>big>ball>of>wax"
+    },
+    {
+      "session": "t5.2020.01.08",
+      "sentence_index": 49,
+      "reference": "the>ducks>scattered,>and>the>dog>watched>them>go~",
+      "hypothesis": "the>ducks>scattered,>and>th>dog>watched>them>go"
+    },
+    {
+      "session": "t5.2020.01.13",
+      "sentence_index": 120,
+      "reference": "she>ran>upstairs,>busily>chewing>toast~",
+      "hypothesis": "she>ran>upstairs,>busly>chewing>toast"
+    },
+    {
+      "session": "t5.2020.01.13",
+      "sentence_index": 121,
+      "reference": "residents>were>warned>to>prepare>flood>defences~",
+      "hypothesis": "residents>were>warned>to>rrepare>flood>defances"
+    },
+    {
+      "session": "t5.2020.01.13",
+      "sentence_index": 122,
+      "reference": "i>reckon>i>could>learn>a>lot>more~",
+      "hypothesis": "i>re>lon>i>could>learn>a>ot>more"
+    },
+    {
+      "session": "t5.2020.01.13",
+      "sentence_index": 123,
+      "reference": "the>bond>between>man>and>dog>goes>back>ten>thousand>years~",
+      "hypothesis": "the>bond>between>man>nd>dog>goes>back>ten>thousand>yearr"
+    },
+    {
+      "session": "t5.2020.01.13",
+      "sentence_index": 124,
+      "reference": "as>september>drew>on,>the>days>grew>cooler~",
+      "hypothesis": "as>september>drew>>n,>the>days>grow>cocler"
+    },
+    {
+      "session": "t5.2020.01.13",
+      "sentence_index": 125,
+      "reference": "i>felt>marvellous>and>punched>the>air~",
+      "hypothesis": "i>felt>marvellous>and>puncld>the>in"
+    },
+    {
+      "session": "t5.2020.01.13",
+      "sentence_index": 126,
+      "reference": "his>touch>was>like>a>doctor's,>firm>and>impersonal~",
+      "hypothesis": "his>touch>was>like>a>doctor's,>firm>and>impersonl"
+    },
+    {
+      "session": "t5.2020.01.13",
+      "sentence_index": 127,
+      "reference": "never>mind,>i've>got>a>few>cans~",
+      "hypothesis": "never>mind,>i're>got>a>few>cns"
+    },
+    {
+      "session": "t5.2020.01.13",
+      "sentence_index": 129,
+      "reference": "it>was>time>for>a>last>desperate>gamble~",
+      "hypothesis": ">it>was>time>for>a>last>desperate>gamble"
+    },
+    {
+      "session": "t5.2020.01.15",
+      "sentence_index": 120,
+      "reference": "it>was>simply>too>far>and>too>spread>out~",
+      "hypothesis": "it>was>simply>too>far>end>too>spead>out"
+    },
+    {
+      "session": "t5.2020.01.15",
+      "sentence_index": 121,
+      "reference": "you>never>used>to>swear,>you>know~",
+      "hypothesis": "yuu>never>used>wo>swear>you>know"
+    },
+    {
+      "session": "t5.2020.01.15",
+      "sentence_index": 122,
+      "reference": "my>achievements>in>this>department>now>pass>unnoticed~",
+      "hypothesis": "my>ahieven>ents>in>this>departmert>now>passuhnotieed"
+    },
+    {
+      "session": "t5.2020.01.15",
+      "sentence_index": 123,
+      "reference": "ordinary>heat>didn't>itch>the>way>microwave>heat>did~",
+      "hypothesis": ">ordinary>heat>didit>itch>ehe>way>microware>heat>did~"
+    },
+    {
+      "session": "t5.2020.01.15",
+      "sentence_index": 124,
+      "reference": "he>was>a>fluent>and>rapid>prose>writer~",
+      "hypothesis": ">he>was>a>fluert>and>rapid>prose>writer"
+    },
+    {
+      "session": "t5.2020.01.15",
+      "sentence_index": 125,
+      "reference": "he>would>not>become>an>officer>of>our>chapter~",
+      "hypothesis": "he>would>rot>be>ome>an>officer>of>our>chapter"
+    },
+    {
+      "session": "t5.2020.01.15",
+      "sentence_index": 126,
+      "reference": "the>sap>flowed>easily>through>her>veins~",
+      "hypothesis": "the>sap>flowed>easilyythoougn>her>veins"
+    },
+    {
+      "session": "t5.2020.01.15",
+      "sentence_index": 127,
+      "reference": "he>fell>five>hundred>feet>from>a>new>york>apartment>window>last>year~",
+      "hypothesis": "he>fel>five>hundred>feet>from>a>new>yorll>aprtment>window>last>year"
+    },
+    {
+      "session": "t5.2020.01.15",
+      "sentence_index": 128,
+      "reference": "just>poets>wax>boldly>as>kings>and>queens>march>over>fuzz~",
+      "hypothesis": "iustt>poets>wax>boldly>as>kngs>and>queens>march>uver>fuzz"
+    },
+    {
+      "session": "t5.2020.01.15",
+      "sentence_index": 129,
+      "reference": "the>bag>swung>sideways>and>hit>something~",
+      "hypothesis": "the>bas>swwrg>sideways>and>hit>something"
+    }
+  ],
+  "seconds": 312.6533660888672
+}

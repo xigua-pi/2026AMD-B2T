@@ -1,0 +1,29 @@
+{
+  "record_index": 106,
+  "session_id": 4,
+  "reference": "this>sunny>yellow>room>is>instantly>cheering~",
+  "modes": {
+    "0": {
+      "hypothesis": ">chis>summy>yellow>room>is>instantly>cheering~",
+      "low_elements": 0,
+      "total_elements": 354096,
+      "gate_register_bit_flips": 6893612,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">chis>summyyyellow>room>is>instantly>cheering~",
+      "low_elements": 354096,
+      "total_elements": 354096,
+      "gate_register_bit_flips": 4828372,
+      "mismatches_vs_frozen": 12061
+    },
+    "2": {
+      "hypothesis": ">chis>summy>yellow>room>is>instantly>cheering~",
+      "low_elements": 10656,
+      "total_elements": 354096,
+      "gate_register_bit_flips": 6855944,
+      "mismatches_vs_frozen": 11693
+    }
+  },
+  "seconds": 1.2601449489593506
+}

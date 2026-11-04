@@ -1,0 +1,29 @@
+{
+  "record_index": 183,
+  "session_id": 6,
+  "reference": "it>was>obvious>that>she>was>very>upset>and>alarmed~",
+  "modes": {
+    "0": {
+      "hypothesis": "it>was>obbions>thet>she>s>nen>met>ad>alammed",
+      "low_elements": 0,
+      "total_elements": 354096,
+      "gate_register_bit_flips": 6760864,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "it>was>obbions>thet>she>s>nen>met>ad>alammed",
+      "low_elements": 354096,
+      "total_elements": 354096,
+      "gate_register_bit_flips": 4720938,
+      "mismatches_vs_frozen": 12218
+    },
+    "2": {
+      "hypothesis": "it>was>obbious>thet>she>s>nen>met>ad>alammed",
+      "low_elements": 43920,
+      "total_elements": 354096,
+      "gate_register_bit_flips": 6572986,
+      "mismatches_vs_frozen": 11346
+    }
+  },
+  "seconds": 1.3619494438171387
+}

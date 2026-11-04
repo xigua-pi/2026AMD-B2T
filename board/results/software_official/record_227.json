@@ -1,0 +1,29 @@
+{
+  "record_index": 227,
+  "session_id": 7,
+  "reference": "i>like>when>you>sit>with>me>and>read>the>paper",
+  "modes": {
+    "0": {
+      "hypothesis": ">i>like>wer>you>sit>with>me>ad>ead>te>pape",
+      "low_elements": 0,
+      "total_elements": 263232,
+      "gate_register_bit_flips": 5148418,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "i>like>wer>you>sit>with>me>ad>ead>te>pape",
+      "low_elements": 263232,
+      "total_elements": 263232,
+      "gate_register_bit_flips": 3612575,
+      "mismatches_vs_frozen": 9126
+    },
+    "2": {
+      "hypothesis": ">i>like>wer>you>sit>with>me>ad>ead>te>pape",
+      "low_elements": 10224,
+      "total_elements": 263232,
+      "gate_register_bit_flips": 5109584,
+      "mismatches_vs_frozen": 3477
+    }
+  },
+  "seconds": 1.0656516551971436
+}

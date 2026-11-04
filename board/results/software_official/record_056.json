@@ -1,0 +1,29 @@
+{
+  "record_index": 56,
+  "session_id": 2,
+  "reference": "i'll>have>to>pray>for>guidance~",
+  "modes": {
+    "0": {
+      "hypothesis": "iim>have>to>rphay>fon>guudance~",
+      "low_elements": 0,
+      "total_elements": 318528,
+      "gate_register_bit_flips": 6035265,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "iim>have>to>rphay>fon>guudance~",
+      "low_elements": 318528,
+      "total_elements": 318528,
+      "gate_register_bit_flips": 4196868,
+      "mismatches_vs_frozen": 10894
+    },
+    "2": {
+      "hypothesis": "iim>have>to>rphay>fon>guudance~",
+      "low_elements": 18576,
+      "total_elements": 318528,
+      "gate_register_bit_flips": 5988655,
+      "mismatches_vs_frozen": 10691
+    }
+  },
+  "seconds": 1.111692190170288
+}

@@ -1,0 +1,29 @@
+{
+  "record_index": 47,
+  "session_id": 2,
+  "reference": "but>the>objects>that>physicists>study>are>still>basically>simple>objects~",
+  "modes": {
+    "0": {
+      "hypothesis": "but>the>objects>that>physicists>stud>>are>still>basicaly>smple>objects~ww",
+      "low_elements": 0,
+      "total_elements": 787968,
+      "gate_register_bit_flips": 14842782,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "but>the>objects>that>physicists>stud>>are>still>basicaly>smple>objects~ww",
+      "low_elements": 787968,
+      "total_elements": 787968,
+      "gate_register_bit_flips": 10307725,
+      "mismatches_vs_frozen": 26885
+    },
+    "2": {
+      "hypothesis": "but>the>objects>that>physicists>stud>>are>still>basicaly>smple>objects~ww",
+      "low_elements": 74880,
+      "total_elements": 787968,
+      "gate_register_bit_flips": 14590423,
+      "mismatches_vs_frozen": 26263
+    }
+  },
+  "seconds": 3.12221622467041
+}

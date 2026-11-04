@@ -1,0 +1,29 @@
+{
+  "record_index": 144,
+  "session_id": 5,
+  "reference": "shouting>and>swearing,>i>yelled>for>an>epidural~",
+  "modes": {
+    "0": {
+      "hypothesis": ">shouting>ond>sweering,>i>yolled>for>>an>epidural~",
+      "low_elements": 0,
+      "total_elements": 349488,
+      "gate_register_bit_flips": 6778356,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">shouting>ond>sweering,>i>yolled>for>>an>epidural~",
+      "low_elements": 349488,
+      "total_elements": 349488,
+      "gate_register_bit_flips": 4750608,
+      "mismatches_vs_frozen": 12009
+    },
+    "2": {
+      "hypothesis": ">shouting>ond>sweering,>i>yolled>for>>an>epidural~",
+      "low_elements": 33120,
+      "total_elements": 349488,
+      "gate_register_bit_flips": 6648601,
+      "mismatches_vs_frozen": 8940
+    }
+  },
+  "seconds": 1.3392717838287354
+}

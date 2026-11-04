@@ -1,0 +1,29 @@
+{
+  "record_index": 87,
+  "session_id": 3,
+  "reference": "there>are>hazards>associated>with>sharp>equipment~",
+  "modes": {
+    "0": {
+      "hypothesis": "thee>are>nazards>associated>with>sharp>equipment~~",
+      "low_elements": 0,
+      "total_elements": 449280,
+      "gate_register_bit_flips": 8617494,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "thee>are>nazards>associated>with>sharp>equipment~~",
+      "low_elements": 449280,
+      "total_elements": 449280,
+      "gate_register_bit_flips": 6010450,
+      "mismatches_vs_frozen": 15307
+    },
+    "2": {
+      "hypothesis": "thee>are>nazards>associated>with>sharp>equipment~~",
+      "low_elements": 14544,
+      "total_elements": 449280,
+      "gate_register_bit_flips": 8571619,
+      "mismatches_vs_frozen": 15249
+    }
+  },
+  "seconds": 1.6130027770996094
+}

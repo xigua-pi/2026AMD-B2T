@@ -1,0 +1,22 @@
+{
+  "strategy": "max current layer-input difference and previous hidden difference",
+  "input_threshold_gru1": 8,
+  "input_threshold_gru2": 16,
+  "hidden_threshold": 2048,
+  "low_bits": [
+    8,
+    12,
+    16
+  ],
+  "high_bits": [
+    16,
+    16,
+    16
+  ],
+  "first_step_high": true,
+  "hidden_feedback_bits": 16,
+  "decode_threshold": 0.3,
+  "decode_delay": 15,
+  "threshold_selection": "fixed before evaluating official references; no sweep",
+  "qat_performed": false
+}

@@ -1,0 +1,29 @@
+{
+  "record_index": 80,
+  "session_id": 3,
+  "reference": "it>was>almost>like>turning>the>clock>back>a>couple>of>centuries~",
+  "modes": {
+    "0": {
+      "hypothesis": ">it>was>almost>like>torning>the>clock>back>a>coupe>of>centories~",
+      "low_elements": 0,
+      "total_elements": 543168,
+      "gate_register_bit_flips": 10468398,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">it>was>almost>like>torning>the>clock>back>a>coupe>of>centories~",
+      "low_elements": 543168,
+      "total_elements": 543168,
+      "gate_register_bit_flips": 7308312,
+      "mismatches_vs_frozen": 18607
+    },
+    "2": {
+      "hypothesis": ">it>was>almost>like>torning>the>clock>back>a>coupe>of>centories~",
+      "low_elements": 18720,
+      "total_elements": 543168,
+      "gate_register_bit_flips": 10407762,
+      "mismatches_vs_frozen": 18251
+    }
+  },
+  "seconds": 1.9449505805969238
+}

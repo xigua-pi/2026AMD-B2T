@@ -1,0 +1,29 @@
+{
+  "record_index": 52,
+  "session_id": 2,
+  "reference": "four>of>the>coach>passengers>are>still>critically>ill~",
+  "modes": {
+    "0": {
+      "hypothesis": ">efoun>of>the>coach>passengens>ane>stim>cniticaly>ill",
+      "low_elements": 0,
+      "total_elements": 522720,
+      "gate_register_bit_flips": 9851694,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">efoun>of>the>coach>passengens>ane>stim>cniticaly>ill",
+      "low_elements": 522720,
+      "total_elements": 522720,
+      "gate_register_bit_flips": 6846841,
+      "mismatches_vs_frozen": 17967
+    },
+    "2": {
+      "hypothesis": ">efoun>of>the>coach>passengens>ane>stim>cniticaly>ill",
+      "low_elements": 42912,
+      "total_elements": 522720,
+      "gate_register_bit_flips": 9715172,
+      "mismatches_vs_frozen": 17811
+    }
+  },
+  "seconds": 1.8453447818756104
+}

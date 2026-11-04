@@ -1,0 +1,23 @@
+{
+  "record": 125,
+  "rank": 2,
+  "session": "t5.2019.12.18",
+  "low_elements": 6624,
+  "total_elements": 282960,
+  "text": "imagine all the people living life in peace",
+  "reference": "imagine all the people living life in peace",
+  "input_frames": 1637,
+  "output_frames": 328,
+  "elapsed_seconds": 2.539791859999923,
+  "clock_mhz": 50.0,
+  "mismatches": 0,
+  "error_flags": 0,
+  "first_partial_seconds": 0.06186888599995655,
+  "partial_rows_before_done": 316,
+  "pl_cycle_count": 126133831,
+  "max_frame_cycles": 125462,
+  "input_byte_count": 314304,
+  "output_word_count": 10496,
+  "flush_completed_count": 6,
+  "signal_duration_seconds": 32.74
+}

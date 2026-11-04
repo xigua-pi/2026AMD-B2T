@@ -1,0 +1,29 @@
+{
+  "record_index": 203,
+  "session_id": 7,
+  "reference": "newman>held>the>automatic>in>the>palm>of>his>hand~",
+  "modes": {
+    "0": {
+      "hypothesis": ">pewman>held>the>automatie>in>the>palm>of>fmis>hand~",
+      "low_elements": 0,
+      "total_elements": 409824,
+      "gate_register_bit_flips": 7894256,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">pewman>held>the>automatie>in>the>palm>of>fmis>hand~",
+      "low_elements": 409824,
+      "total_elements": 409824,
+      "gate_register_bit_flips": 5518920,
+      "mismatches_vs_frozen": 14081
+    },
+    "2": {
+      "hypothesis": ">pewman>held>the>automatie>in>the>palm>of>fmis>hand~",
+      "low_elements": 36432,
+      "total_elements": 409824,
+      "gate_register_bit_flips": 7762992,
+      "mismatches_vs_frozen": 14015
+    }
+  },
+  "seconds": 1.534447431564331
+}

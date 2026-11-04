@@ -1,0 +1,29 @@
+{
+  "record_index": 10,
+  "session_id": 1,
+  "reference": "his>pot>was>in>his>hand>still,>it>preceded>him>like>the>torch>of>justice~",
+  "modes": {
+    "0": {
+      "hypothesis": "his>pot>was>in>his>hand>still,>iflreceded>lim>lile>the>torcn>of>josticee",
+      "low_elements": 0,
+      "total_elements": 766944,
+      "gate_register_bit_flips": 14807483,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "his>pot>was>in>his>hand>still,>iflreceded>lim>lile>the>torcn>of>josticee",
+      "low_elements": 766944,
+      "total_elements": 766944,
+      "gate_register_bit_flips": 10328918,
+      "mismatches_vs_frozen": 26117
+    },
+    "2": {
+      "hypothesis": "his>pot>was>in>his>hand>still,>iflreceded>lim>lile>the>torcn>of>josticee",
+      "low_elements": 14400,
+      "total_elements": 766944,
+      "gate_register_bit_flips": 14776131,
+      "mismatches_vs_frozen": 25967
+    }
+  },
+  "seconds": 3.0360517501831055
+}

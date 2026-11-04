@@ -1,0 +1,29 @@
+{
+  "record_index": 25,
+  "session_id": 1,
+  "reference": "the>quick>brown>fox>jumps>over>the>lazy>dog",
+  "modes": {
+    "0": {
+      "hypothesis": "the>quick>brown>fox>junps>ouer>the>lazy>dog",
+      "low_elements": 0,
+      "total_elements": 393984,
+      "gate_register_bit_flips": 7680306,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "the>quick>brown>fox>junps>ouer>the>lazy>dog",
+      "low_elements": 393984,
+      "total_elements": 393984,
+      "gate_register_bit_flips": 5371695,
+      "mismatches_vs_frozen": 13433
+    },
+    "2": {
+      "hypothesis": "the>quick>brown>fox>junps>ouer>the>lazy>dog",
+      "low_elements": 5616,
+      "total_elements": 393984,
+      "gate_register_bit_flips": 7672080,
+      "mismatches_vs_frozen": 12721
+    }
+  },
+  "seconds": 1.6993277072906494
+}

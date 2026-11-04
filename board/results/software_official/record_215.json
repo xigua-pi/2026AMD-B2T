@@ -1,0 +1,29 @@
+{
+  "record_index": 215,
+  "session_id": 7,
+  "reference": "the>mother>snapped>back>at>him>and>frowned~",
+  "modes": {
+    "0": {
+      "hypothesis": "the>mothr>shapped>back>at>him>ad>frowned~",
+      "low_elements": 0,
+      "total_elements": 285552,
+      "gate_register_bit_flips": 5573577,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "the>mothr>shapped>back>at>him>ad>frowned~",
+      "low_elements": 285552,
+      "total_elements": 285552,
+      "gate_register_bit_flips": 3906721,
+      "mismatches_vs_frozen": 9787
+    },
+    "2": {
+      "hypothesis": "the>mothr>shapped>back>at>him>ad>frowned~",
+      "low_elements": 11088,
+      "total_elements": 285552,
+      "gate_register_bit_flips": 5530132,
+      "mismatches_vs_frozen": 9730
+    }
+  },
+  "seconds": 1.1387734413146973
+}

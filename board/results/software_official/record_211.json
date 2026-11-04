@@ -1,0 +1,29 @@
+{
+  "record_index": 211,
+  "session_id": 7,
+  "reference": "he'd>spent>the>last>few>days>bouncing>from>resort>to>resort~",
+  "modes": {
+    "0": {
+      "hypothesis": "he'd>spent>the>last>faw>days>bouncing>from>hosort>to>resort~",
+      "low_elements": 0,
+      "total_elements": 368496,
+      "gate_register_bit_flips": 7249264,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "he'd>spent>the>last>faw>days>bouncing>from>hosort>to>resort~",
+      "low_elements": 368496,
+      "total_elements": 368496,
+      "gate_register_bit_flips": 5093993,
+      "mismatches_vs_frozen": 12673
+    },
+    "2": {
+      "hypothesis": "he'd>spent>the>last>faw>days>bouncing>from>hosort>to>resort~",
+      "low_elements": 12384,
+      "total_elements": 368496,
+      "gate_register_bit_flips": 7201721,
+      "mismatches_vs_frozen": 11439
+    }
+  },
+  "seconds": 1.4023215770721436
+}

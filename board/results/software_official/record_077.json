@@ -1,0 +1,29 @@
+{
+  "record_index": 77,
+  "session_id": 3,
+  "reference": "soon>the>baskets>were>unpacked~",
+  "modes": {
+    "0": {
+      "hypothesis": ">soom>the>baskets>were>unpacked~",
+      "low_elements": 0,
+      "total_elements": 267408,
+      "gate_register_bit_flips": 5157529,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">soom>the>baskets>were>unpacked~",
+      "low_elements": 267408,
+      "total_elements": 267408,
+      "gate_register_bit_flips": 3600717,
+      "mismatches_vs_frozen": 9136
+    },
+    "2": {
+      "hypothesis": "soom>the>baskets>were>unpacked~",
+      "low_elements": 4752,
+      "total_elements": 267408,
+      "gate_register_bit_flips": 5150007,
+      "mismatches_vs_frozen": 9062
+    }
+  },
+  "seconds": 0.9705169200897217
+}

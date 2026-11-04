@@ -1,0 +1,3 @@
+numpy>=1.24
+numba>=0.61
+# PYNQ 3.0.1 on board; PyTorch only required for optional GPU/QAT scripts.

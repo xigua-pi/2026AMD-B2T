@@ -1,0 +1,29 @@
+{
+  "record_index": 72,
+  "session_id": 3,
+  "reference": "he>fumbled>in>the>pocket>of>his>jacket>with>stiff>frozen>fingers~",
+  "modes": {
+    "0": {
+      "hypothesis": "he>fumbled>in>the>pocket>of>his>jacket>with>stef>frozen>fingers",
+      "low_elements": 0,
+      "total_elements": 507456,
+      "gate_register_bit_flips": 9874406,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "he>fumbled>in>the>pocket>of>his>jacket>with>stef>frozen>fingers",
+      "low_elements": 507456,
+      "total_elements": 507456,
+      "gate_register_bit_flips": 6908507,
+      "mismatches_vs_frozen": 17307
+    },
+    "2": {
+      "hypothesis": "he>fumbled>in>the>pocket>of>his>jacket>with>stef>frozen>fingers",
+      "low_elements": 3312,
+      "total_elements": 507456,
+      "gate_register_bit_flips": 9868400,
+      "mismatches_vs_frozen": 17238
+    }
+  },
+  "seconds": 1.6428618431091309
+}

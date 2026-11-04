@@ -1,0 +1,29 @@
+{
+  "record_index": 148,
+  "session_id": 5,
+  "reference": "he>slipped>out>and>went>to>his>tent,>got>his>revolver,>and>emptied>it>in>the>direction>of>woolley's>tent~",
+  "modes": {
+    "0": {
+      "hypothesis": "pe>slipped>out>and>went>to>his>tont,>got>his>nevoller,>and>emptied>it>in>the>diirection>ofwoolley's>tont",
+      "low_elements": 0,
+      "total_elements": 678672,
+      "gate_register_bit_flips": 13321569,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "pe>slipped>out>and>went>to>his>tont,>got>his>nevoller,>and>emptied>it>in>the>diirection>ofwoolley's>tont",
+      "low_elements": 678672,
+      "total_elements": 678672,
+      "gate_register_bit_flips": 9349233,
+      "mismatches_vs_frozen": 23211
+    },
+    "2": {
+      "hypothesis": "pe>slipped>out>and>went>to>his>tont,>got>his>nevoller,>and>emptied>it>in>the>diirection>ofwoolley's>tont",
+      "low_elements": 21600,
+      "total_elements": 678672,
+      "gate_register_bit_flips": 13249954,
+      "mismatches_vs_frozen": 16004
+    }
+  },
+  "seconds": 2.488227367401123
+}

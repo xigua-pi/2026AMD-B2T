@@ -1,0 +1,29 @@
+{
+  "record_index": 20,
+  "session_id": 1,
+  "reference": "adrian>who's>responsible>for>resettlement>is>here>if>members>have>any>questions~",
+  "modes": {
+    "0": {
+      "hypothesis": "adrian>who's>responsible>cor>reselllement>is>here>lf>members>haue>an>auesttons~",
+      "low_elements": 0,
+      "total_elements": 774432,
+      "gate_register_bit_flips": 14997473,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "adrian>who's>responsible>cor>reselllement>is>here>lf>members>haue>an>auesttons~",
+      "low_elements": 774432,
+      "total_elements": 774432,
+      "gate_register_bit_flips": 10467734,
+      "mismatches_vs_frozen": 26364
+    },
+    "2": {
+      "hypothesis": "adrian>who's>responsible>cor>reselllement>is>here>lf>members>haue>an>auesttons~",
+      "low_elements": 12528,
+      "total_elements": 774432,
+      "gate_register_bit_flips": 14965606,
+      "mismatches_vs_frozen": 25637
+    }
+  },
+  "seconds": 2.860107898712158
+}

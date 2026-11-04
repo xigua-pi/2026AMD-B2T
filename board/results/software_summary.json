@@ -1,0 +1,49 @@
+{
+  "records": 228,
+  "metrics": {
+    "0": {
+      "char_errors": 1081,
+      "char_total": 11290,
+      "word_errors": 817,
+      "word_total": 2182,
+      "cer": 0.09574844995571302,
+      "wer": 0.37442713107241066
+    },
+    "1": {
+      "char_errors": 1078,
+      "char_total": 11290,
+      "word_errors": 810,
+      "word_total": 2182,
+      "cer": 0.09548272807794508,
+      "wer": 0.3712190650779102
+    },
+    "2": {
+      "char_errors": 1095,
+      "char_total": 11290,
+      "word_errors": 821,
+      "word_total": 2182,
+      "cer": 0.09698848538529672,
+      "wer": 0.3762603116406966
+    }
+  },
+  "totals": {
+    "0": {
+      "low_elements": 0,
+      "total_elements": 93290112,
+      "gate_register_bit_flips": 1796938269,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "low_elements": 93290112,
+      "total_elements": 93290112,
+      "gate_register_bit_flips": 1255041904,
+      "mismatches_vs_frozen": 3189360
+    },
+    "2": {
+      "low_elements": 5155056,
+      "total_elements": 93290112,
+      "gate_register_bit_flips": 1779077954,
+      "mismatches_vs_frozen": 2844524
+    }
+  }
+}

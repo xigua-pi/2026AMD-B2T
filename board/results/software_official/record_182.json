@@ -1,0 +1,29 @@
+{
+  "record_index": 182,
+  "session_id": 6,
+  "reference": "and>she>marched>off>without>looking>back~",
+  "modes": {
+    "0": {
+      "hypothesis": "an>she>menehee>aff>witheut>look>ng>baae",
+      "low_elements": 0,
+      "total_elements": 288432,
+      "gate_register_bit_flips": 5536851,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "aa>she>menehee>aff>witheut>look>ng>baaec",
+      "low_elements": 288432,
+      "total_elements": 288432,
+      "gate_register_bit_flips": 3867087,
+      "mismatches_vs_frozen": 9986
+    },
+    "2": {
+      "hypothesis": "aa>she>menehee>aff>witheut>look>ng>baae",
+      "low_elements": 16704,
+      "total_elements": 288432,
+      "gate_register_bit_flips": 5481601,
+      "mismatches_vs_frozen": 9964
+    }
+  },
+  "seconds": 1.1671571731567383
+}

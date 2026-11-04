@@ -1,0 +1,29 @@
+{
+  "record_index": 88,
+  "session_id": 3,
+  "reference": "he>dashed,>without>a>lamp>to>light>his>way~",
+  "modes": {
+    "0": {
+      "hypothesis": "he>dashedd>without>a>lamp>to>light>his>wax~",
+      "low_elements": 0,
+      "total_elements": 358848,
+      "gate_register_bit_flips": 6921463,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "he>dashedd>without>a>lamp>to>light>his>wax~",
+      "low_elements": 358848,
+      "total_elements": 358848,
+      "gate_register_bit_flips": 4833269,
+      "mismatches_vs_frozen": 12208
+    },
+    "2": {
+      "hypothesis": "he>dashedd>without>a>lamp>to>light>his>wax~",
+      "low_elements": 7200,
+      "total_elements": 358848,
+      "gate_register_bit_flips": 6901625,
+      "mismatches_vs_frozen": 12063
+    }
+  },
+  "seconds": 1.2777485847473145
+}

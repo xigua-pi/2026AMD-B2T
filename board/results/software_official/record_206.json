@@ -1,0 +1,29 @@
+{
+  "record_index": 206,
+  "session_id": 7,
+  "reference": "which>market>segments>in>each>country>will>be>selected?",
+  "modes": {
+    "0": {
+      "hypothesis": "which>market>segments>in>each>contry>wil>be>selected?",
+      "low_elements": 0,
+      "total_elements": 327744,
+      "gate_register_bit_flips": 6479352,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "which>market>segments>in>each>contry>wil>be>selected?",
+      "low_elements": 327744,
+      "total_elements": 327744,
+      "gate_register_bit_flips": 4558526,
+      "mismatches_vs_frozen": 11256
+    },
+    "2": {
+      "hypothesis": "which>market>segments>in>each>contry>wil>be>selected?",
+      "low_elements": 6048,
+      "total_elements": 327744,
+      "gate_register_bit_flips": 6457389,
+      "mismatches_vs_frozen": 671
+    }
+  },
+  "seconds": 1.243739366531372
+}

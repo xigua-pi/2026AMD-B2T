@@ -1,0 +1,29 @@
+{
+  "record_index": 15,
+  "session_id": 1,
+  "reference": "it's>quite>a>wide>brief,>actually~",
+  "modes": {
+    "0": {
+      "hypothesis": "it'ss>auiie>a>wide>brief,>actually~,",
+      "low_elements": 0,
+      "total_elements": 459936,
+      "gate_register_bit_flips": 8743997,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "it'ss>auiie>a>wide>brief,>actually~,",
+      "low_elements": 459936,
+      "total_elements": 459936,
+      "gate_register_bit_flips": 6083320,
+      "mismatches_vs_frozen": 15646
+    },
+    "2": {
+      "hypothesis": "it'ss>auiie>a>wide>brief,>actually~,",
+      "low_elements": 32112,
+      "total_elements": 459936,
+      "gate_register_bit_flips": 8660248,
+      "mismatches_vs_frozen": 14759
+    }
+  },
+  "seconds": 1.7074613571166992
+}

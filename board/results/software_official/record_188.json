@@ -1,0 +1,29 @@
+{
+  "record_index": 188,
+  "session_id": 6,
+  "reference": "for>two>long>years>i>lived>the>life>of>a>slave~",
+  "modes": {
+    "0": {
+      "hypothesis": "for>tto>en>yans>i>lined>the>iife>of>a>saen",
+      "low_elements": 0,
+      "total_elements": 284256,
+      "gate_register_bit_flips": 5506881,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "for>tto>en>yans>i>lined>the>iife>of>a>saen",
+      "low_elements": 284256,
+      "total_elements": 284256,
+      "gate_register_bit_flips": 3852813,
+      "mismatches_vs_frozen": 9769
+    },
+    "2": {
+      "hypothesis": "for>tto>en>yans>i>lined>the>iife>of>a>saen",
+      "low_elements": 17136,
+      "total_elements": 284256,
+      "gate_register_bit_flips": 5433075,
+      "mismatches_vs_frozen": 9507
+    }
+  },
+  "seconds": 1.1104180812835693
+}

@@ -1,0 +1,29 @@
+{
+  "record_index": 142,
+  "session_id": 5,
+  "reference": "that's>when>i>threw>up>on>the>carpet~",
+  "modes": {
+    "0": {
+      "hypothesis": "that's>when>i>threw>uplon>the>carpet~",
+      "low_elements": 0,
+      "total_elements": 232992,
+      "gate_register_bit_flips": 4578492,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "that's>when>i>threw>uplon>the>carpet~",
+      "low_elements": 232992,
+      "total_elements": 232992,
+      "gate_register_bit_flips": 3216244,
+      "mismatches_vs_frozen": 7978
+    },
+    "2": {
+      "hypothesis": "that's>when>i>threw>uplon>the>carpet~",
+      "low_elements": 10512,
+      "total_elements": 232992,
+      "gate_register_bit_flips": 4539816,
+      "mismatches_vs_frozen": 7523
+    }
+  },
+  "seconds": 0.9331977367401123
+}

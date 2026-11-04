@@ -1,0 +1,29 @@
+{
+  "record_index": 186,
+  "session_id": 6,
+  "reference": "the>countryside>here>was>so>different>from>her>native>dales>and>moors~",
+  "modes": {
+    "0": {
+      "hypothesis": "ze>cotnyside>hene>>s>so>diffeent>fom>hee>nstt>dales>nd>moonssmm",
+      "low_elements": 0,
+      "total_elements": 481104,
+      "gate_register_bit_flips": 9223596,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "ze>cotnyside>hene>>s>so>diffeent>fom>hee>nstt>dales>nd>moonssmm",
+      "low_elements": 481104,
+      "total_elements": 481104,
+      "gate_register_bit_flips": 6444039,
+      "mismatches_vs_frozen": 16613
+    },
+    "2": {
+      "hypothesis": "ze>cotnyside>hene>>s>so>diffeent>fom>hee>nstt>dales>nd>moonssmm",
+      "low_elements": 44208,
+      "total_elements": 481104,
+      "gate_register_bit_flips": 9060347,
+      "mismatches_vs_frozen": 15700
+    }
+  },
+  "seconds": 1.796064853668213
+}

@@ -1,0 +1,29 @@
+{
+  "record_index": 84,
+  "session_id": 3,
+  "reference": "are>the>miscreants>aware>that>they>are>guilty>of>trespass>and>criminal>damage?",
+  "modes": {
+    "0": {
+      "hypothesis": "are>the>miscneants>aware>that>they>are>auiltyof>trespass>and>chimina>damagems",
+      "low_elements": 0,
+      "total_elements": 671760,
+      "gate_register_bit_flips": 12909717,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "are>the>miscneants>aware>that>they>are>auiltyof>trespass>and>chiminal>damagems",
+      "low_elements": 671760,
+      "total_elements": 671760,
+      "gate_register_bit_flips": 9007882,
+      "mismatches_vs_frozen": 22912
+    },
+    "2": {
+      "hypothesis": "are>the>miscneants>aware>that>they>are>auiltyof>trespass>and>chimina>damagem",
+      "low_elements": 27360,
+      "total_elements": 671760,
+      "gate_register_bit_flips": 12820990,
+      "mismatches_vs_frozen": 20319
+    }
+  },
+  "seconds": 2.3752708435058594
+}

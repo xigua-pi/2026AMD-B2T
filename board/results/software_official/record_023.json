@@ -1,0 +1,29 @@
+{
+  "record_index": 23,
+  "session_id": 1,
+  "reference": "i>got>next>to>nothing>from>her,>sir~",
+  "modes": {
+    "0": {
+      "hypothesis": "i>got>next>to>nothing>srom>a>>hem",
+      "low_elements": 0,
+      "total_elements": 440640,
+      "gate_register_bit_flips": 8407815,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "i>got>next>to>nothing>srom>a>>hem",
+      "low_elements": 440640,
+      "total_elements": 440640,
+      "gate_register_bit_flips": 5846544,
+      "mismatches_vs_frozen": 14950
+    },
+    "2": {
+      "hypothesis": "i>got>next>to>nothing>srom>a>>hem",
+      "low_elements": 27792,
+      "total_elements": 440640,
+      "gate_register_bit_flips": 8326905,
+      "mismatches_vs_frozen": 14877
+    }
+  },
+  "seconds": 1.6302075386047363
+}

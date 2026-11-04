@@ -1,0 +1,2 @@
+# Preserve exact evidence, ROM and packaged-IP bytes across Windows/Linux clones.
+* -text

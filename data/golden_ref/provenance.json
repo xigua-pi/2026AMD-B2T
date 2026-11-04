@@ -1,0 +1,7 @@
+{
+  "project": "B2Tnet",
+  "legacy_internal_prefix": "h144",
+  "source_archive_sha256": "f7bc7e337d05f06dd5878bb5dc939df06370a509f1f5c3a1f8908d5b84a1f676",
+  "weight_retrained": false,
+  "activity_mode": 2
+}

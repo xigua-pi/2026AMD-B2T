@@ -1,0 +1,29 @@
+{
+  "record_index": 19,
+  "session_id": 1,
+  "reference": "the>magician>woke>up>with>a>yell>of>pain~",
+  "modes": {
+    "0": {
+      "hypothesis": "the>magioian>woke>up>with>a>yoll>of>pain",
+      "low_elements": 0,
+      "total_elements": 384336,
+      "gate_register_bit_flips": 7496297,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "the>magioian>woke>up>with>a>yoll>of>pain",
+      "low_elements": 384336,
+      "total_elements": 384336,
+      "gate_register_bit_flips": 5243311,
+      "mismatches_vs_frozen": 12995
+    },
+    "2": {
+      "hypothesis": "the>magioian>woke>up>with>a>yoll>of>pain",
+      "low_elements": 3024,
+      "total_elements": 384336,
+      "gate_register_bit_flips": 7490464,
+      "mismatches_vs_frozen": 12474
+    }
+  },
+  "seconds": 1.4895861148834229
+}

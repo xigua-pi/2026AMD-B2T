@@ -1,0 +1,29 @@
+{
+  "record_index": 116,
+  "session_id": 4,
+  "reference": "can>you>make>the>blind>see?",
+  "modes": {
+    "0": {
+      "hypothesis": ">can>you>make>the>blnd>ses?",
+      "low_elements": 0,
+      "total_elements": 237024,
+      "gate_register_bit_flips": 4584656,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">can>you>make>the>blnd>ses?",
+      "low_elements": 237024,
+      "total_elements": 237024,
+      "gate_register_bit_flips": 3201968,
+      "mismatches_vs_frozen": 8063
+    },
+    "2": {
+      "hypothesis": ">can>you>make>the>blnd>ses?",
+      "low_elements": 6624,
+      "total_elements": 237024,
+      "gate_register_bit_flips": 4569083,
+      "mismatches_vs_frozen": 8048
+    }
+  },
+  "seconds": 0.8350493907928467
+}

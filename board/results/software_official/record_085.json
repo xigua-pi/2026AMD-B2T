@@ -1,0 +1,29 @@
+{
+  "record_index": 85,
+  "session_id": 3,
+  "reference": "the>nervous>system>is>becoming>exhausted~",
+  "modes": {
+    "0": {
+      "hypothesis": "the>nervous>system>is>becommng>ewhausted~",
+      "low_elements": 0,
+      "total_elements": 328608,
+      "gate_register_bit_flips": 6328855,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "the>nervous>system>is>becommng>ewhausted~",
+      "low_elements": 328608,
+      "total_elements": 328608,
+      "gate_register_bit_flips": 4417928,
+      "mismatches_vs_frozen": 11130
+    },
+    "2": {
+      "hypothesis": "the>nervous>system>is>becommng>ewhausted~",
+      "low_elements": 9792,
+      "total_elements": 328608,
+      "gate_register_bit_flips": 6306494,
+      "mismatches_vs_frozen": 11087
+    }
+  },
+  "seconds": 1.164931058883667
+}

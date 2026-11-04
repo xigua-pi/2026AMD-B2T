@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "synthetic_frames": 64,
+  "modes": [
+    0,
+    1,
+    2
+  ],
+  "compared_logits": 1248,
+  "expected_low_elements": [
+    0,
+    11088,
+    6048
+  ],
+  "seconds": 133.00193905830383
+}

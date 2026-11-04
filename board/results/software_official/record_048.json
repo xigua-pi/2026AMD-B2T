@@ -1,0 +1,29 @@
+{
+  "record_index": 48,
+  "session_id": 2,
+  "reference": "we>reach>the>port>twenty>minutes>before>the>ferry>is>set>to>sail~",
+  "modes": {
+    "0": {
+      "hypothesis": "we>reach>the>port>twenty>mnutes>beone>the>ferry>issset>to>sal~",
+      "low_elements": 0,
+      "total_elements": 627120,
+      "gate_register_bit_flips": 11886034,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">we>reach>the>port>twenty>mnutes>beone>the>ferry>issset>to>sal~",
+      "low_elements": 627120,
+      "total_elements": 627120,
+      "gate_register_bit_flips": 8265166,
+      "mismatches_vs_frozen": 21583
+    },
+    "2": {
+      "hypothesis": "we>reach>the>port>twenty>mnutes>beone>the>ferry>issset>to>sal~",
+      "low_elements": 37152,
+      "total_elements": 627120,
+      "gate_register_bit_flips": 11776160,
+      "mismatches_vs_frozen": 20934
+    }
+  },
+  "seconds": 2.4146156311035156
+}

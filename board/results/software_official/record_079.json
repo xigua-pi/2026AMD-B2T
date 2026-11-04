@@ -1,0 +1,29 @@
+{
+  "record_index": 79,
+  "session_id": 3,
+  "reference": "with>the>pipe>drained,>you>can>attempt>a>repair~",
+  "modes": {
+    "0": {
+      "hypothesis": "wlth>the>pibe>dnained,>cou>can>attempt>a>nepasr~",
+      "low_elements": 0,
+      "total_elements": 417600,
+      "gate_register_bit_flips": 8029869,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "wlth>the>pibe>dnained,>cou>can>attempt>a>nepasr~",
+      "low_elements": 417600,
+      "total_elements": 417600,
+      "gate_register_bit_flips": 5598651,
+      "mismatches_vs_frozen": 14253
+    },
+    "2": {
+      "hypothesis": "wlth>the>pibe>dnained,>cou>can>attempt>a>nepasr~",
+      "low_elements": 12528,
+      "total_elements": 417600,
+      "gate_register_bit_flips": 7996331,
+      "mismatches_vs_frozen": 13761
+    }
+  },
+  "seconds": 1.4730706214904785
+}

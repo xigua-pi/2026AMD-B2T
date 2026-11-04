@@ -1,0 +1,29 @@
+{
+  "record_index": 155,
+  "session_id": 5,
+  "reference": "the>energetic>reader>is>invited>to>supply>the>details~",
+  "modes": {
+    "0": {
+      "hypothesis": ">the>cnengetic>reader>is>invitcd>to>supply>the>details",
+      "low_elements": 0,
+      "total_elements": 418032,
+      "gate_register_bit_flips": 8061324,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">the>enengetic>reader>is>invitcd>to>supply>the>details",
+      "low_elements": 418032,
+      "total_elements": 418032,
+      "gate_register_bit_flips": 5633291,
+      "mismatches_vs_frozen": 14270
+    },
+    "2": {
+      "hypothesis": ">the>enengetic>reader>is>invitcd>to>supply>the>details",
+      "low_elements": 29664,
+      "total_elements": 418032,
+      "gate_register_bit_flips": 7950903,
+      "mismatches_vs_frozen": 14228
+    }
+  },
+  "seconds": 1.6216514110565186
+}

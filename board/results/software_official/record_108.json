@@ -1,0 +1,29 @@
+{
+  "record_index": 108,
+  "session_id": 4,
+  "reference": "he>reckons>his>success>on>the>field>depends>on>learning>the>lingo~",
+  "modes": {
+    "0": {
+      "hypothesis": ">he>reakons>his>success>on>the>fielddepends>on>learning>the>iingo~m",
+      "low_elements": 0,
+      "total_elements": 618912,
+      "gate_register_bit_flips": 11808377,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">he>reakons>his>success>on>the>fielddepends>on>learning>the>iingo~m",
+      "low_elements": 618912,
+      "total_elements": 618912,
+      "gate_register_bit_flips": 8228057,
+      "mismatches_vs_frozen": 21038
+    },
+    "2": {
+      "hypothesis": ">he>reakons>his>success>on>the>fielddepends>on>learning>the>iingo~m",
+      "low_elements": 56016,
+      "total_elements": 618912,
+      "gate_register_bit_flips": 11602450,
+      "mismatches_vs_frozen": 21001
+    }
+  },
+  "seconds": 2.243621349334717
+}

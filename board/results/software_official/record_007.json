@@ -1,0 +1,29 @@
+{
+  "record_index": 7,
+  "session_id": 1,
+  "reference": "i'm>waiting>for>you>to>settle>down~",
+  "modes": {
+    "0": {
+      "hypothesis": "lim>waiting>for>you>to>settle>down",
+      "low_elements": 0,
+      "total_elements": 328032,
+      "gate_register_bit_flips": 6416195,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "lim>waiting>for>you>to>settle>down",
+      "low_elements": 328032,
+      "total_elements": 328032,
+      "gate_register_bit_flips": 4486975,
+      "mismatches_vs_frozen": 11020
+    },
+    "2": {
+      "hypothesis": "lim>waiting>for>you>to>settle>down",
+      "low_elements": 432,
+      "total_elements": 328032,
+      "gate_register_bit_flips": 6415388,
+      "mismatches_vs_frozen": 10426
+    }
+  },
+  "seconds": 1.3251280784606934
+}

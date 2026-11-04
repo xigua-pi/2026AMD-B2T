@@ -1,0 +1,29 @@
+{
+  "record_index": 50,
+  "session_id": 2,
+  "reference": "if>you're>so>intent>on>keeping>the>young>alive>then>why>don't>you>ban>rock>climbing?",
+  "modes": {
+    "0": {
+      "hypothesis": "if>youne>so>intent>cm>leeping>the>yung>alive>then>whiy>don't>you>ba>rock>cllbngg",
+      "low_elements": 0,
+      "total_elements": 913680,
+      "gate_register_bit_flips": 17216548,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "if>youne>so>intent>cm>leeping>the>yung>alive>then>whiy>don't>you>ba>rock>cllbngg",
+      "low_elements": 913680,
+      "total_elements": 913680,
+      "gate_register_bit_flips": 11955912,
+      "mismatches_vs_frozen": 31187
+    },
+    "2": {
+      "hypothesis": "if>youne>so>intent>cm>leeping>the>yung>alive>then>whiy>don't>you>ba>rock>cllbngg",
+      "low_elements": 76032,
+      "total_elements": 913680,
+      "gate_register_bit_flips": 16978492,
+      "mismatches_vs_frozen": 30506
+    }
+  },
+  "seconds": 3.4555795192718506
+}

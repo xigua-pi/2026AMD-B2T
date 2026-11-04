@@ -1,0 +1,29 @@
+{
+  "record_index": 107,
+  "session_id": 4,
+  "reference": "strawberry>plants>should>be>on>sale>next>month~",
+  "modes": {
+    "0": {
+      "hypothesis": ">strawbarry>plants>should>be>on>sale>next>month",
+      "low_elements": 0,
+      "total_elements": 363744,
+      "gate_register_bit_flips": 7061112,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">strawbarry>plants>should>be>on>sale>next>month",
+      "low_elements": 363744,
+      "total_elements": 363744,
+      "gate_register_bit_flips": 4935462,
+      "mismatches_vs_frozen": 12406
+    },
+    "2": {
+      "hypothesis": ">strawbarry>plants>should>be>on>sale>next>month",
+      "low_elements": 11520,
+      "total_elements": 363744,
+      "gate_register_bit_flips": 7019793,
+      "mismatches_vs_frozen": 12218
+    }
+  },
+  "seconds": 1.301069974899292
+}

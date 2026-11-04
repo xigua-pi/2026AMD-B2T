@@ -1,0 +1,29 @@
+{
+  "record_index": 204,
+  "session_id": 7,
+  "reference": "you>could>both>stay>on>in>your>respective>jobs~",
+  "modes": {
+    "0": {
+      "hypothesis": "you>could>both>stay>un>in>yor>hespective>jobe~",
+      "low_elements": 0,
+      "total_elements": 279360,
+      "gate_register_bit_flips": 5512226,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "you>could>both>stay>un>in>yor>hespective>jobe~",
+      "low_elements": 279360,
+      "total_elements": 279360,
+      "gate_register_bit_flips": 3873840,
+      "mismatches_vs_frozen": 9679
+    },
+    "2": {
+      "hypothesis": "you>could>both>stay>un>in>yor>hespective>jobe~",
+      "low_elements": 5472,
+      "total_elements": 279360,
+      "gate_register_bit_flips": 5502817,
+      "mismatches_vs_frozen": 9559
+    }
+  },
+  "seconds": 1.1055138111114502
+}

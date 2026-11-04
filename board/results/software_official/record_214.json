@@ -1,0 +1,29 @@
+{
+  "record_index": 214,
+  "session_id": 7,
+  "reference": "on>the>lower>slopes>was>a>large>herd>of>cows~",
+  "modes": {
+    "0": {
+      "hypothesis": "eon>the>lower>sopes>was>a>lnge>vend>af>cows~",
+      "low_elements": 0,
+      "total_elements": 275184,
+      "gate_register_bit_flips": 5372032,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "eon>the>lower>sopes>was>a>lnge>vend>af>cows~",
+      "low_elements": 275184,
+      "total_elements": 275184,
+      "gate_register_bit_flips": 3766359,
+      "mismatches_vs_frozen": 9519
+    },
+    "2": {
+      "hypothesis": "eon>the>lower>sopes>was>a>lnge>vend>af>cows~",
+      "low_elements": 11664,
+      "total_elements": 275184,
+      "gate_register_bit_flips": 5330342,
+      "mismatches_vs_frozen": 943
+    }
+  },
+  "seconds": 1.067051649093628
+}

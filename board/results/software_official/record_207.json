@@ -1,0 +1,29 @@
+{
+  "record_index": 207,
+  "session_id": 7,
+  "reference": "there's>a>veto>across>the>board>on>any>increase~",
+  "modes": {
+    "0": {
+      "hypothesis": ">there's>a>veto>acruss>the>board>on>an>increase~",
+      "low_elements": 0,
+      "total_elements": 330768,
+      "gate_register_bit_flips": 6424898,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">there's>a>veto>acruss>the>board>on>an>increase~",
+      "low_elements": 330768,
+      "total_elements": 330768,
+      "gate_register_bit_flips": 4497723,
+      "mismatches_vs_frozen": 11314
+    },
+    "2": {
+      "hypothesis": ">there's>a>veto>acruss>the>board>on>an>increase~",
+      "low_elements": 23904,
+      "total_elements": 330768,
+      "gate_register_bit_flips": 6346488,
+      "mismatches_vs_frozen": 11224
+    }
+  },
+  "seconds": 1.3011107444763184
+}

@@ -1,0 +1,29 @@
+{
+  "record_index": 17,
+  "session_id": 1,
+  "reference": "otherwise>you>end>up>with>some>very>very>strange>results~",
+  "modes": {
+    "0": {
+      "hypothesis": "gotherwise>you>end>op>with>some>rery>vory>strange>resulks",
+      "low_elements": 0,
+      "total_elements": 484560,
+      "gate_register_bit_flips": 9482641,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "gotherwise>you>end>op>with>some>rery>vory>strange>resulks",
+      "low_elements": 484560,
+      "total_elements": 484560,
+      "gate_register_bit_flips": 6636576,
+      "mismatches_vs_frozen": 16439
+    },
+    "2": {
+      "hypothesis": "gotherwise>you>end>op>with>some>rery>vory>strange>resulks",
+      "low_elements": 1440,
+      "total_elements": 484560,
+      "gate_register_bit_flips": 9480451,
+      "mismatches_vs_frozen": 6197
+    }
+  },
+  "seconds": 1.796997308731079
+}

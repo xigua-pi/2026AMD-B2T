@@ -1,0 +1,108 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Nov  3 22:04:35 2026
+# Process ID         : 46672
+# Current directory  : E:/brain_to_text
+# Command line       : vivado.exe -mode batch -source E:\brain_to_text\artifacts\github_b2t_20261103\pynq-gru-bci\build\scripts\package_ip.tcl -log E:\brain_to_text\artifacts\github_b2t_20261103\private\package_ip.log -journal E:\brain_to_text\artifacts\github_b2t_20261103\private\package_ip.jou
+# Log file           : E:/brain_to_text/artifacts/github_b2t_20261103/private/package_ip.log
+# Journal file       : E:\brain_to_text\artifacts\github_b2t_20261103\private\package_ip.jou
+# Running On         : LAPTOP-CT26V5H3
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i9-13900H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 34071 MB
+# Swap memory        : 5981 MB
+# Total Virtual      : 40053 MB
+# Available Virtual  : 4828 MB
+#-----------------------------------------------------------
+source {E:\brain_to_text\artifacts\github_b2t_20261103\pynq-gru-bci\build\scripts\package_ip.tcl}
+# set root [file normalize [file join [file dirname [info script]] .. ..]]
+# set output [file join $root src pl ip h144_accel]
+# set project_dir [file join $root build ip_packager]
+# if {[file exists [file join $output component.xml]]} {
+#     error "Packaged IP already exists; preserve or rename it before packaging again."
+# }
+# create_project -force h144_ip_packager $project_dir -part xc7z020clg400-1
+create_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:33 . Memory (MB): peak = 529.410 ; gain = 221.457
+# set_property target_language Verilog [current_project]
+# add_files -norecurse [glob [file join $root src pl rtl *.sv]]
+# add_files -norecurse [glob [file join $root src pl rtl *.v]]
+# set_property top h144_axi_dma_wrapper_bd [current_fileset]
+# update_compile_order -fileset sources_1
+# ipx::package_project -root_dir E:/brain_to_text/artifacts/github_b2t_20261103/pynq-gru-bci/src/pl/ip/h144_accel -vendor bmi.research -library bci -taxonomy /UserIP -import_files -set_current true
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'E:/brain_to_text/artifacts/github_b2t_20261103/pynq-gru-bci/src/pl/rtl/h144_requantizer.sv'.
+INFO: [IP_Flow 19-5654] Module 'h144_axi_dma_wrapper_bd' uses SystemVerilog sources with a Verilog top file. These SystemVerilog files will not be analysed by the packager.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/2025.2/Vivado/data/ip'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'S_AXI' of definition 'xilinx.com:interface:aximm:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'S_AXI' of definition 'xilinx.com:interface:aximm:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'S_AXIS' of definition 'xilinx.com:interface:axis:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'S_AXIS' of definition 'xilinx.com:interface:axis:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'M_AXIS' of definition 'xilinx.com:interface:axis:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'M_AXIS' of definition 'xilinx.com:interface:axis:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'S_AXI'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'FREQ_HZ' with value '50000000'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXIS': Added interface parameter 'TDATA_NUM_BYTES' with value '1'.
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXIS': Added interface parameter 'HAS_TKEEP' with value '1'.
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXIS': Added interface parameter 'HAS_TLAST' with value '1'.
+INFO: [IP_Flow 19-4728] Bus Interface 'M_AXIS': Added interface parameter 'TDATA_NUM_BYTES' with value '2'.
+INFO: [IP_Flow 19-4728] Bus Interface 'M_AXIS': Added interface parameter 'HAS_TKEEP' with value '1'.
+INFO: [IP_Flow 19-4728] Bus Interface 'M_AXIS': Added interface parameter 'HAS_TLAST' with value '1'.
+WARNING: [IP_Flow 19-11888] Component Definition 'bmi.research:bci:h144_axi_dma_wrapper_bd:1.0 (h144_axi_dma_wrapper_bd_v1_0)': IP description "h144_axi_dma_wrapper_bd_v1_0" is not meaningful: same as name or display name
+INFO: [IP_Flow 19-7067] Note that bus interface 'aclk' has a fixed FREQ_HZ of '50000000'. This value will be respected whenever this IP is instantiated in IP Integrator.
+INFO: [IP_Flow 19-2181] Payment is not required for this core.
+WARNING: [IP_Flow 19-2187] The Product Guide file is missing.
+# set core [ipx::current_core]
+# set_property name h144_accel $core
+# set_property display_name {B2Tnet Activity-Aware GRU Decoder} $core
+# set_property description {B2Tnet W8A8/H16/ACC32 decoder, fixed activity gate policy, read-only mode2, version 0x00020001.} $core
+# set_property version 2.0 $core
+# foreach name {S_AXI S_AXIS M_AXIS} {
+#     if {[llength [ipx::get_bus_interfaces $name -of_objects $core]] > 0} {
+#         ipx::associate_bus_interfaces -busif $name -clock aclk $core
+#     }
+# }
+# if {[llength [ipx::get_memory_maps S_AXI -of_objects $core]] == 0} {
+#     set map [ipx::add_memory_map S_AXI $core]
+#     set block [ipx::add_address_block registers $map]
+#     set_property range 4096 $block
+#     set_property width 32 $block
+#     set_property usage register $block
+#     set_property slave_memory_map_ref S_AXI [ipx::get_bus_interfaces S_AXI -of_objects $core]
+# }
+# file mkdir [file join $output accelerator]
+# foreach source [glob [file join $root data golden_ref rtl_vectors accelerator *.mem]] {
+#     file copy -force $source [file join $output accelerator [file tail $source]]
+# }
+# set synth [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects $core]
+# set sim [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects $core]
+# foreach group [list $synth $sim] {
+#     if {[llength $group]} {
+#         foreach source [glob [file join $output accelerator *.mem]] {
+#             set file [ipx::add_file accelerator/[file tail $source] $group]
+#             set_property type memoryInitializationFile $file
+#         }
+#     }
+# }
+# ipx::create_xgui_files $core
+# ipx::update_checksums $core
+# ipx::check_integrity -quiet $core
+# ipx::save_core $core
+# puts "H144_IP_PACKAGE_READY=$output"
+H144_IP_PACKAGE_READY=E:/brain_to_text/artifacts/github_b2t_20261103/pynq-gru-bci/src/pl/ip/h144_accel
+# close_project
+# exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  3 22:05:48 2026...

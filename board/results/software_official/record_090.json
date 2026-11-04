@@ -1,0 +1,29 @@
+{
+  "record_index": 90,
+  "session_id": 3,
+  "reference": "the>chief>inspector>kicked>off>her>shoes>and>poured>a>slug>of>single>malt>whisky~",
+  "modes": {
+    "0": {
+      "hypothesis": "the>chief>inspector>kicked>off>her>shoes>ad>pouned>a>sug>of>singe>mat>whnskyy~",
+      "low_elements": 0,
+      "total_elements": 641088,
+      "gate_register_bit_flips": 12350639,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "the>chief>inspector>kicked>off>her>shoes>ad>pouned>a>sug>of>singe>mat>whnskyy~",
+      "low_elements": 641088,
+      "total_elements": 641088,
+      "gate_register_bit_flips": 8625044,
+      "mismatches_vs_frozen": 21955
+    },
+    "2": {
+      "hypothesis": "the>chief>inspector>kicked>off>her>shoes>ad>pouned>a>sug>of>singe>mat>whnskyy~",
+      "low_elements": 16272,
+      "total_elements": 641088,
+      "gate_register_bit_flips": 12313100,
+      "mismatches_vs_frozen": 17641
+    }
+  },
+  "seconds": 2.196674108505249
+}

@@ -1,0 +1,29 @@
+{
+  "record_index": 76,
+  "session_id": 3,
+  "reference": "rex>removed>the>crocodile>clips>and>disconnected>the>car>battery~",
+  "modes": {
+    "0": {
+      "hypothesis": ">rek>hemoved>the>crocodie>cmps>ana>disconnected>the>car>batteny~",
+      "low_elements": 0,
+      "total_elements": 548496,
+      "gate_register_bit_flips": 10530214,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">rek>hemoved>the>crocodie>cmps>ana>disconnected>the>car>batteny~",
+      "low_elements": 548496,
+      "total_elements": 548496,
+      "gate_register_bit_flips": 7347220,
+      "mismatches_vs_frozen": 18704
+    },
+    "2": {
+      "hypothesis": ">rek>hemoved>the>crocodie>cmps>ana>disconnected>the>car>batteny~",
+      "low_elements": 19008,
+      "total_elements": 548496,
+      "gate_register_bit_flips": 10480032,
+      "mismatches_vs_frozen": 18594
+    }
+  },
+  "seconds": 2.1852900981903076
+}

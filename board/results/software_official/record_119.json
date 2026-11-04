@@ -1,0 +1,29 @@
+{
+  "record_index": 119,
+  "session_id": 4,
+  "reference": "seems>to>me>you>could>grab>him>and>save>the>dough~",
+  "modes": {
+    "0": {
+      "hypothesis": ">seems>to>me>you>could>grab>him>ard>save>the>dough~~",
+      "low_elements": 0,
+      "total_elements": 444096,
+      "gate_register_bit_flips": 8555395,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">seems>to>me>you>could>grab>him>ard>save>the>dough~~",
+      "low_elements": 444096,
+      "total_elements": 444096,
+      "gate_register_bit_flips": 5975220,
+      "mismatches_vs_frozen": 15173
+    },
+    "2": {
+      "hypothesis": ">seems>to>me>you>could>grab>him>ard>save>the>dough~~",
+      "low_elements": 29088,
+      "total_elements": 444096,
+      "gate_register_bit_flips": 8452040,
+      "mismatches_vs_frozen": 14659
+    }
+  },
+  "seconds": 1.576131820678711
+}

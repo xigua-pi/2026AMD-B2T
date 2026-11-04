@@ -1,0 +1,29 @@
+{
+  "record_index": 205,
+  "session_id": 7,
+  "reference": "celia>constantly>refers>to>her>mother's>drowning>accident~",
+  "modes": {
+    "0": {
+      "hypothesis": "celia>constantly>refers>to>her>mothers>drowning>acaident~",
+      "low_elements": 0,
+      "total_elements": 354096,
+      "gate_register_bit_flips": 6950056,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "celia>constantly>refers>to>her>mothers>drowning>acaident~",
+      "low_elements": 354096,
+      "total_elements": 354096,
+      "gate_register_bit_flips": 4881006,
+      "mismatches_vs_frozen": 12109
+    },
+    "2": {
+      "hypothesis": "celia>constantly>refers>to>her>mothers>drowning>acaident~",
+      "low_elements": 8640,
+      "total_elements": 354096,
+      "gate_register_bit_flips": 6934047,
+      "mismatches_vs_frozen": 10804
+    }
+  },
+  "seconds": 1.361884355545044
+}

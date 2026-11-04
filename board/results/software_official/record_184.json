@@ -1,0 +1,29 @@
+{
+  "record_index": 184,
+  "session_id": 6,
+  "reference": "has>the>furniture>been>in>store>for>very>long?",
+  "modes": {
+    "0": {
+      "hypothesis": ">hes>th>funtu>heen>in>store>forlvey>long>",
+      "low_elements": 0,
+      "total_elements": 293184,
+      "gate_register_bit_flips": 5666161,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">hes>th>funtu>heen>in>store>forlvey>long>",
+      "low_elements": 293184,
+      "total_elements": 293184,
+      "gate_register_bit_flips": 3962163,
+      "mismatches_vs_frozen": 10061
+    },
+    "2": {
+      "hypothesis": ">hes>th>funtu>heen>in>store>forlvey>long>",
+      "low_elements": 18288,
+      "total_elements": 293184,
+      "gate_register_bit_flips": 5606454,
+      "mismatches_vs_frozen": 10000
+    }
+  },
+  "seconds": 1.1152124404907227
+}

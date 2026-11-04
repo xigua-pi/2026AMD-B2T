@@ -1,0 +1,29 @@
+{
+  "record_index": 16,
+  "session_id": 1,
+  "reference": "a>vast>mirror>still>covered>the>whole>of>one>wall~",
+  "modes": {
+    "0": {
+      "hypothesis": "o>wast>mirror>still>covered>the>whole>of>ons>wal~",
+      "low_elements": 0,
+      "total_elements": 507168,
+      "gate_register_bit_flips": 9826711,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "o>wast>mirror>still>covered>the>whole>of>ons>wal~",
+      "low_elements": 507168,
+      "total_elements": 507168,
+      "gate_register_bit_flips": 6860739,
+      "mismatches_vs_frozen": 17034
+    },
+    "2": {
+      "hypothesis": "o>wast>mirror>still>covered>the>whole>of>ons>wal~",
+      "low_elements": 11664,
+      "total_elements": 507168,
+      "gate_register_bit_flips": 9792457,
+      "mismatches_vs_frozen": 11812
+    }
+  },
+  "seconds": 1.8773303031921387
+}

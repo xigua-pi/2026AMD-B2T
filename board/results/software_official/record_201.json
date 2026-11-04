@@ -1,0 +1,29 @@
+{
+  "record_index": 201,
+  "session_id": 7,
+  "reference": "the>water>was>ruining>his>leather>jacket~",
+  "modes": {
+    "0": {
+      "hypothesis": "the>water>was>ruining>his>leathn>jacket~",
+      "low_elements": 0,
+      "total_elements": 256176,
+      "gate_register_bit_flips": 5052962,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "the>water>was>ruining>his>leathn>jacket~",
+      "low_elements": 256176,
+      "total_elements": 256176,
+      "gate_register_bit_flips": 3552984,
+      "mismatches_vs_frozen": 8777
+    },
+    "2": {
+      "hypothesis": "the>water>was>ruining>his>leathn>jacket~",
+      "low_elements": 6192,
+      "total_elements": 256176,
+      "gate_register_bit_flips": 5037558,
+      "mismatches_vs_frozen": 6675
+    }
+  },
+  "seconds": 0.9545323848724365
+}

@@ -1,0 +1,29 @@
+{
+  "record_index": 185,
+  "session_id": 6,
+  "reference": "now>the>colonial>era>has>gone,>at>least>in>name,>but>things>haven't>changed~",
+  "modes": {
+    "0": {
+      "hypothesis": "nw>the>oulonicl>ena>hes>qon,>at>east>in>namm>bht>things>havet>chagdn",
+      "low_elements": 0,
+      "total_elements": 522144,
+      "gate_register_bit_flips": 10036659,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "nw>the>oulonicl>ena>hes>qon,>at>east>in>namm>bht>things>haventychagdn",
+      "low_elements": 522144,
+      "total_elements": 522144,
+      "gate_register_bit_flips": 7014121,
+      "mismatches_vs_frozen": 18029
+    },
+    "2": {
+      "hypothesis": "nw>the>oulonicl>ena>hes>qon,>at>east>in>namm>bht>things>haventychagdn",
+      "low_elements": 42912,
+      "total_elements": 522144,
+      "gate_register_bit_flips": 9869823,
+      "mismatches_vs_frozen": 17982
+    }
+  },
+  "seconds": 2.0343947410583496
+}

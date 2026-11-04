@@ -1,0 +1,29 @@
+{
+  "record_index": 181,
+  "session_id": 6,
+  "reference": "this>tale>he>was>telling>was>surely>a>lie~",
+  "modes": {
+    "0": {
+      "hypothesis": ">thsstals>he>ws>telling>ws>sunely>a>hie",
+      "low_elements": 0,
+      "total_elements": 239328,
+      "gate_register_bit_flips": 4649118,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "thsstals>he>ws>telling>ws>sunely>a>hie",
+      "low_elements": 239328,
+      "total_elements": 239328,
+      "gate_register_bit_flips": 3254581,
+      "mismatches_vs_frozen": 8198
+    },
+    "2": {
+      "hypothesis": ">thsstals>he>ws>telling>ws>sunely>e>hie",
+      "low_elements": 1008,
+      "total_elements": 239328,
+      "gate_register_bit_flips": 4648468,
+      "mismatches_vs_frozen": 7052
+    }
+  },
+  "seconds": 0.9440898895263672
+}

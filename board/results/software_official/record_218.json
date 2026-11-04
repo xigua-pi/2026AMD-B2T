@@ -1,0 +1,29 @@
+{
+  "record_index": 218,
+  "session_id": 7,
+  "reference": "daisy>leaned>forward,>at>once>horrified>and>fascinated~",
+  "modes": {
+    "0": {
+      "hypothesis": ">daicy>eand>forward,>at>once>horrified>and>fascinated~",
+      "low_elements": 0,
+      "total_elements": 390096,
+      "gate_register_bit_flips": 7577548,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": ">daicy>eand>forward,>at>once>horrified>and>fascinated~",
+      "low_elements": 390096,
+      "total_elements": 390096,
+      "gate_register_bit_flips": 5307187,
+      "mismatches_vs_frozen": 13449
+    },
+    "2": {
+      "hypothesis": ">daicy>eand>forward,>at>once>horrified>and>fascinated~",
+      "low_elements": 12528,
+      "total_elements": 390096,
+      "gate_register_bit_flips": 7546922,
+      "mismatches_vs_frozen": 13322
+    }
+  },
+  "seconds": 1.4821043014526367
+}

@@ -1,0 +1,114 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Mon Nov  2 13:14:17 2026
+| Host         : LAPTOP-CT26V5H3 running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file E:/bci_vivado/h144_ap_20261102/build/reports/post_route_utilization_hier.rpt
+| Design       : h144_overlay_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-------------------------------------------------------------------+-----------------------------------------------------------------------+------------+------------+---------+------+-------+--------+--------+------------+
+|                              Instance                             |                                 Module                                | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs  | RAMB36 | RAMB18 | DSP Blocks |
++-------------------------------------------------------------------+-----------------------------------------------------------------------+------------+------------+---------+------+-------+--------+--------+------------+
+| h144_overlay_wrapper                                              |                                                                 (top) |      24765 |      21941 |    2650 |  174 | 24907 |     76 |      2 |         12 |
+|   (h144_overlay_wrapper)                                          |                                                                 (top) |          0 |          0 |       0 |    0 |     0 |      0 |      0 |          0 |
+|   h144_overlay_i                                                  |                                                          h144_overlay |      24765 |      21941 |    2650 |  174 | 24907 |     76 |      2 |         12 |
+|     axi_dma_0                                                     |                                              h144_overlay_axi_dma_0_0 |       1514 |       1397 |       8 |  109 |  2164 |      2 |      2 |          0 |
+|       U0                                                          |                                                               axi_dma |       1514 |       1397 |       8 |  109 |  2164 |      2 |      2 |          0 |
+|         INCLUDE_MM2S_SOF_EOF_GENERATOR.I_MM2S_DMA_MNGR            |                                                     axi_dma_mm2s_mngr |         18 |         18 |       0 |    0 |    76 |      0 |      0 |          0 |
+|           GEN_MM2S_DMA_CONTROL.GEN_SIMPLE_DMA_MODE.I_MM2S_SMPL_SM |                                                   axi_dma_smple_sm_54 |         12 |         12 |       0 |    0 |    65 |      0 |      0 |          0 |
+|         INCLUDE_S2MM_SOF_EOF_GENERATOR.I_S2MM_DMA_MNGR            |                                                     axi_dma_s2mm_mngr |         33 |         33 |       0 |    0 |   104 |      0 |      0 |          0 |
+|           GEN_S2MM_DMA_CONTROL.GEN_SIMPLE_DMA_MODE.I_S2MM_SMPL_SM |                                                      axi_dma_smple_sm |         12 |         12 |       0 |    0 |    65 |      0 |      0 |          0 |
+|         I_AXI_DMA_REG_MODULE                                      |                                                    axi_dma_reg_module |        138 |        138 |       0 |    0 |   265 |      0 |      0 |          0 |
+|           GEN_AXI_LITE_IF.AXI_LITE_IF_I                           |                                                       axi_dma_lite_if |        106 |        106 |       0 |    0 |    85 |      0 |      0 |          0 |
+|           GEN_MM2S_REGISTERS.I_MM2S_DMA_REGISTER                  |                                                      axi_dma_register |         19 |         19 |       0 |    0 |    90 |      0 |      0 |          0 |
+|           GEN_S2MM_REGISTERS.I_S2MM_DMA_REGISTER                  |                                                 axi_dma_register_s2mm |         14 |         14 |       0 |    0 |    90 |      0 |      0 |          0 |
+|         I_PRMRY_DATAMOVER                                         |                                                         axi_datamover |       1305 |       1188 |       8 |  109 |  1681 |      2 |      2 |          0 |
+|           GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER                       |                                          axi_datamover_mm2s_full_wrap |        408 |        369 |       0 |   39 |   455 |      1 |      1 |          0 |
+|             GEN_INCLUDE_MM2S_SF.I_RD_SF                           |                                                   axi_datamover_rd_sf |        105 |        102 |       0 |    3 |    62 |      1 |      1 |          0 |
+|               I_DATA_FIFO                                         |                                            axi_datamover_sfifo_autord |         85 |         85 |       0 |    0 |    47 |      1 |      1 |          0 |
+|                 BLK_MEM.I_SYNC_FIFOGEN_FIFO                       |                                                         xpm_fifo_sync |         56 |         56 |       0 |    0 |    47 |      1 |      1 |          0 |
+|                   xpm_fifo_base_inst                              |                                                         xpm_fifo_base |         56 |         56 |       0 |    0 |    47 |      1 |      1 |          0 |
+|             I_CMD_STATUS                                          |                                              axi_datamover_cmd_status |         10 |         10 |       0 |    0 |    71 |      0 |      0 |          0 |
+|               I_CMD_FIFO                                          |                                                 axi_datamover_fifo_44 |          3 |          3 |       0 |    0 |    65 |      0 |      0 |          0 |
+|             I_MSTR_PCC                                            |                                                     axi_datamover_pcc |        176 |        176 |       0 |    0 |   182 |      0 |      0 |          0 |
+|           GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER                       |                                          axi_datamover_s2mm_full_wrap |        897 |        819 |       8 |   70 |  1226 |      1 |      1 |          0 |
+|             GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT                   |                                               axi_datamover_indet_btt |        224 |        216 |       8 |    0 |   354 |      1 |      1 |          0 |
+|               (GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT)               |                                               axi_datamover_indet_btt |         18 |         18 |       0 |    0 |    99 |      0 |      0 |          0 |
+|               ENABLE_AXIS_SKID.I_INDET_BTT_SKID_BUF               |                                axi_datamover_skid_buf__parameterized1 |         87 |         87 |       0 |    0 |   160 |      0 |      0 |          0 |
+|               I_XD_FIFO                                           |                            axi_datamover_sfifo_autord__parameterized0 |         59 |         51 |       8 |    0 |    56 |      0 |      0 |          0 |
+|                 NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO                   |                                         xpm_fifo_sync__parameterized1 |         44 |         36 |       8 |    0 |    56 |      0 |      0 |          0 |
+|                   xpm_fifo_base_inst                              |                                         xpm_fifo_base__parameterized0 |         44 |         36 |       8 |    0 |    56 |      0 |      0 |          0 |
+|             GEN_INCLUDE_IBTTCC.I_S2MM_MSTR_IBTTCC                 |                                                  axi_datamover_ibttcc |        165 |        165 |       0 |    0 |   254 |      0 |      0 |          0 |
+|             GEN_INCLUDE_REALIGNER.I_S2MM_REALIGNER                |                                            axi_datamover_s2mm_realign |        233 |        210 |       0 |   23 |   144 |      0 |      0 |          0 |
+|               GEN_INCLUDE_SCATTER.I_S2MM_SCATTER                  |                                            axi_datamover_s2mm_scatter |        202 |        198 |       0 |    4 |   129 |      0 |      0 |          0 |
+|                 (GEN_INCLUDE_SCATTER.I_S2MM_SCATTER)              |                                            axi_datamover_s2mm_scatter |         79 |         79 |       0 |    0 |    67 |      0 |      0 |          0 |
+|                 I_MSSAI_SKID_BUF                                  |                                          axi_datamover_mssai_skid_buf |         79 |         79 |       0 |    0 |    43 |      0 |      0 |          0 |
+|             I_CMD_STATUS                                          |                              axi_datamover_cmd_status__parameterized0 |         23 |         23 |       0 |    0 |    99 |      0 |      0 |          0 |
+|               I_CMD_FIFO                                          |                                                    axi_datamover_fifo |          4 |          4 |       0 |    0 |    65 |      0 |      0 |          0 |
+|             I_S2MM_MMAP_SKID_BUF                                  |                                             axi_datamover_skid2mm_buf |         68 |         68 |       0 |    0 |   149 |      0 |      0 |          0 |
+|             I_WR_DATA_CNTL                                        |                                             axi_datamover_wrdata_cntl |         86 |         78 |       0 |    8 |    67 |      0 |      0 |          0 |
+|               (I_WR_DATA_CNTL)                                    |                                             axi_datamover_wrdata_cntl |         52 |         52 |       0 |    0 |    60 |      0 |      0 |          0 |
+|     ctrl_interconnect                                             |                                      h144_overlay_ctrl_interconnect_0 |        504 |        443 |       0 |   61 |   657 |      0 |      0 |          0 |
+|       s00_couplers                                                |                                               s00_couplers_imp_MU7Q6Y |        391 |        330 |       0 |   61 |   532 |      0 |      0 |          0 |
+|         auto_pc                                                   |                          h144_overlay_ctrl_interconnect_imp_auto_pc_0 |        391 |        330 |       0 |   61 |   532 |      0 |      0 |          0 |
+|           inst                                                    |                 axi_protocol_converter_v2_1_37_axi_protocol_converter |        391 |        330 |       0 |   61 |   532 |      0 |      0 |          0 |
+|             gen_axilite.gen_b2s_conv.axilite_b2s                  |                                    axi_protocol_converter_v2_1_37_b2s |        391 |        330 |       0 |   61 |   532 |      0 |      0 |          0 |
+|               WR.aw_channel_0                                     |                         axi_protocol_converter_v2_1_37_b2s_aw_channel |         60 |         60 |       0 |    0 |    81 |      0 |      0 |          0 |
+|                 cmd_translator_0                                  |                     axi_protocol_converter_v2_1_37_b2s_cmd_translator |         49 |         49 |       0 |    0 |    63 |      0 |      0 |          0 |
+|               RD.ar_channel_0                                     |                         axi_protocol_converter_v2_1_37_b2s_ar_channel |         61 |         61 |       0 |    0 |    77 |      0 |      0 |          0 |
+|                 cmd_translator_0                                  |                  axi_protocol_converter_v2_1_37_b2s_cmd_translator_30 |         41 |         41 |       0 |    0 |    63 |      0 |      0 |          0 |
+|               RD.r_channel_0                                      |                          axi_protocol_converter_v2_1_37_b2s_r_channel |         61 |         14 |       0 |   47 |    24 |      0 |      0 |          0 |
+|               SI_REG                                              |                         axi_register_slice_v2_1_36_axi_register_slice |        180 |        180 |       0 |    0 |   332 |      0 |      0 |          0 |
+|                 ar.ar_pipe                                        |                        axi_register_slice_v2_1_36_axic_register_slice |         72 |         72 |       0 |    0 |   104 |      0 |      0 |          0 |
+|                 aw.aw_pipe                                        |                     axi_register_slice_v2_1_36_axic_register_slice_29 |         72 |         72 |       0 |    0 |   102 |      0 |      0 |          0 |
+|                 r.r_pipe                                          |        axi_register_slice_v2_1_36_axic_register_slice__parameterized2 |         26 |         26 |       0 |    0 |    96 |      0 |      0 |          0 |
+|       xbar                                                        |                             h144_overlay_ctrl_interconnect_imp_xbar_0 |        113 |        113 |       0 |    0 |   125 |      0 |      0 |          0 |
+|         inst                                                      |                                     axi_crossbar_v2_1_38_axi_crossbar |        113 |        113 |       0 |    0 |   125 |      0 |      0 |          0 |
+|           gen_sasd.crossbar_sasd_0                                |                                    axi_crossbar_v2_1_38_crossbar_sasd |        113 |        113 |       0 |    0 |   125 |      0 |      0 |          0 |
+|             reg_slice_r                                           |        axi_register_slice_v2_1_36_axic_register_slice__parameterized7 |         37 |         37 |       0 |    0 |    74 |      0 |      0 |          0 |
+|             addr_arbiter_inst                                     |                                axi_crossbar_v2_1_38_addr_arbiter_sasd |         64 |         64 |       0 |    0 |    36 |      0 |      0 |          0 |
+|     h144_accel_0                                                  |                                           h144_overlay_h144_accel_0_0 |      22244 |      19610 |    2634 |    0 | 21440 |     74 |      0 |         12 |
+|       inst                                                        |                                               h144_axi_dma_wrapper_bd |      22196 |      19562 |    2634 |    0 | 21440 |     74 |      0 |         12 |
+|         implementation                                            |                                                  h144_axi_dma_wrapper |      22196 |      19562 |    2634 |    0 | 21440 |     74 |      0 |         12 |
+|           (implementation)                                        |                                                  h144_axi_dma_wrapper |        447 |        447 |       0 |    0 |   425 |      0 |      0 |          0 |
+|           decoder_core                                            |                                                     h144_decoder_core |      21751 |      19117 |    2634 |    0 | 21015 |     74 |      0 |         12 |
+|             (decoder_core)                                        |                                                     h144_decoder_core |      11781 |       9675 |    2106 |    0 | 20500 |      0 |      0 |          0 |
+|             dense_mac                                             |                                                       h144_dense_mac8 |       8161 |       7633 |     528 |    0 |   320 |     74 |      0 |          8 |
+|             gru_element                                           |                                                      h144_gru_element |       1818 |       1818 |       0 |    0 |   195 |      0 |      0 |          4 |
+|               (gru_element)                                       |                                                      h144_gru_element |       1308 |       1308 |       0 |    0 |   177 |      0 |      0 |          3 |
+|               activation                                          |                                                   h144_activation_lut |        510 |        510 |       0 |    0 |    18 |      0 |      0 |          1 |
+|     mem_interconnect                                              |                                       h144_overlay_mem_interconnect_0 |        486 |        475 |       8 |    3 |   609 |      0 |      0 |          0 |
+|       s00_couplers                                                |                                              s00_couplers_imp_1SNQD3B |         36 |         36 |       0 |    0 |    86 |      0 |      0 |          0 |
+|         auto_pc                                                   |                           h144_overlay_mem_interconnect_imp_auto_pc_0 |         36 |         36 |       0 |    0 |    86 |      0 |      0 |          0 |
+|           inst                                                    | axi_protocol_converter_v2_1_37_axi_protocol_converter__parameterized0 |         36 |         36 |       0 |    0 |    86 |      0 |      0 |          0 |
+|             gen_axi4_axi3.axi3_conv_inst                          |                              axi_protocol_converter_v2_1_37_axi3_conv |         36 |         36 |       0 |    0 |    86 |      0 |      0 |          0 |
+|               (USE_READ.USE_SPLIT_R.read_addr_inst)               |                            axi_protocol_converter_v2_1_37_a_axi3_conv |          6 |          6 |       0 |    0 |    50 |      0 |      0 |          0 |
+|       s01_couplers                                                |                                              s01_couplers_imp_1YIFQPZ |        177 |        169 |       8 |    0 |   203 |      0 |      0 |          0 |
+|         auto_pc                                                   |                           h144_overlay_mem_interconnect_imp_auto_pc_1 |        177 |        169 |       8 |    0 |   203 |      0 |      0 |          0 |
+|           inst                                                    | axi_protocol_converter_v2_1_37_axi_protocol_converter__parameterized1 |        177 |        169 |       8 |    0 |   203 |      0 |      0 |          0 |
+|             gen_axi4_axi3.axi3_conv_inst                          |              axi_protocol_converter_v2_1_37_axi3_conv__parameterized0 |        177 |        169 |       8 |    0 |   203 |      0 |      0 |          0 |
+|               (USE_WRITE.write_addr_inst)                         |            axi_protocol_converter_v2_1_37_a_axi3_conv__parameterized0 |         80 |         80 |       0 |    0 |   101 |      0 |      0 |          0 |
+|       xbar                                                        |                              h144_overlay_mem_interconnect_imp_xbar_0 |        273 |        270 |       0 |    3 |   320 |      0 |      0 |          0 |
+|         inst                                                      |                     axi_crossbar_v2_1_38_axi_crossbar__parameterized0 |        273 |        270 |       0 |    3 |   320 |      0 |      0 |          0 |
+|           gen_samd.crossbar_samd                                  |                                         axi_crossbar_v2_1_38_crossbar |        255 |        252 |       0 |    3 |   320 |      0 |      0 |          0 |
+|             gen_master_slots[0].reg_slice_mi                      |         axi_register_slice_v2_1_36_axi_register_slice__parameterized1 |         66 |         66 |       0 |    0 |   142 |      0 |      0 |          0 |
+|               r.r_pipe                                            |    axi_register_slice_v2_1_36_axic_register_slice__parameterized11_27 |         60 |         60 |       0 |    0 |   136 |      0 |      0 |          0 |
+|             addr_arbiter_ar                                       |                                     axi_crossbar_v2_1_38_addr_arbiter |         17 |         17 |       0 |    0 |    50 |      0 |      0 |          0 |
+|             addr_arbiter_aw                                       |                                  axi_crossbar_v2_1_38_addr_arbiter_23 |         39 |         39 |       0 |    0 |    51 |      0 |      0 |          0 |
++-------------------------------------------------------------------+-----------------------------------------------------------------------+------------+------------+---------+------+-------+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

@@ -1,0 +1,29 @@
+{
+  "record_index": 219,
+  "session_id": 7,
+  "reference": "the>tiny>cabin>offered>no>opportunity>for>retreat~",
+  "modes": {
+    "0": {
+      "hypothesis": "tle>tiry>cabin>offerd>no>opportunity>for>vetreatw",
+      "low_elements": 0,
+      "total_elements": 368064,
+      "gate_register_bit_flips": 7117178,
+      "mismatches_vs_frozen": 0
+    },
+    "1": {
+      "hypothesis": "tle>tiry>cabin>offerd>no>opportunity>for>vetreatw",
+      "low_elements": 368064,
+      "total_elements": 368064,
+      "gate_register_bit_flips": 4982418,
+      "mismatches_vs_frozen": 12603
+    },
+    "2": {
+      "hypothesis": "tle>tiry>cabin>offerd>no>opportunity>for>vetreatw",
+      "low_elements": 23472,
+      "total_elements": 368064,
+      "gate_register_bit_flips": 7031329,
+      "mismatches_vs_frozen": 12497
+    }
+  },
+  "seconds": 1.4271376132965088
+}
