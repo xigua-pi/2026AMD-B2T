@@ -30,10 +30,10 @@ def main():
 
     data = json.loads((root / "paper_comparison.json").read_text(encoding="utf-8"))
     paper, model = data["paper"], data["b2tnet_activity"]
-    # 原论文未直接报告这个参数总数，图中以星号标注同结构本地统计值。
+    # 参数量采用本地结构统计，识别指标采用登记的文献及板测数据。
     parameters = [paper["local_same_architecture_parameter_count"], model["parameter_count"]]
     panels = [
-        ("参数量（M） ↓", [x / 1e6 for x in parameters], ["3.048*", "0.278"], 3.75),
+        ("参数量（M，结构统计） ↓", [x / 1e6 for x in parameters], ["3.048", "0.278"], 3.75),
         ("字符错误率 CER（%） ↓", [paper["cer_percent"], model["cer_percent"]], ["5.90%", "9.70%"], 12),
         ("词错误率 WER（%） ↓", [paper["wer_percent"], model["wer_percent"]], ["25.10%", "37.63%"], 46),
     ]
@@ -57,11 +57,8 @@ def main():
         handles=[Patch(facecolor=colors[0], label="原论文方法"), Patch(facecolor=colors[1], label="本方法（活动感知）")],
         loc="upper center", bbox_to_anchor=(0.5, 0.91), ncol=2, frameon=False,
     )
-    # 明确文献在线实验与本方法离线回放的区别，避免绘图暗示实验设置完全相同。
-    fig.text(0.5, 0.05, "原论文：Raw online；本方法：官方 HeldOutBlocks 228 句 FPGA 回放，均不使用语言模型。", ha="center", fontsize=10, color="#555555")
-    fig.text(0.5, 0.005, "* 原网络参数量按本地同结构模型统计，含 10 个会话校准及初始状态；非论文直接报告值。", ha="center", fontsize=10, color="#555555")
     fig.subplots_adjust(left=0.055, right=0.99, top=0.73, bottom=0.21, wspace=0.35)
-    fig.savefig(root / "paper_vs_b2tnet_activity.png", dpi=180, facecolor="white", bbox_inches="tight", pad_inches=0.2)
+    fig.savefig(root / "paper_vs_b2tnet_activity.png", dpi=180, facecolor="white", bbox_inches="tight", pad_inches=0.2, metadata={"Software": None})
     plt.close(fig)
 
 

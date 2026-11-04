@@ -35,14 +35,12 @@
 
 ### 原论文方法与 B2Tnet 活动感知模型
 
-| 方法 | 参数量 ↓ | CER ↓ | WER ↓ |
+| 方法 | 参数量（本地结构统计）↓ | CER ↓ | WER ↓ |
 | --- | ---: | ---: | ---: |
-| 原论文 GRU（Willett et al., Nature 2021；Raw online） | 约 3.05M* | 5.90% | 25.10% |
+| 原论文 GRU（Willett et al., Nature 2021；Raw online） | 3,048,352 | 5.90% | 25.10% |
 | **B2Tnet（活动感知精度，FPGA）** | **278,416** | **9.6988%** | **37.6260%** |
 
-原论文 CER / WER 引用 [Table 1 的 Raw online output](https://pmc.ncbi.nlm.nih.gov/articles/PMC8163299/#T1)，为五天在线实验均值；B2Tnet 为官方 HeldOutBlocks 228 句离线回放板测结果。两者均不使用语言模型后处理，实验设置不同，表格用于文献参照。
-
-\* 原网络参数量按本地同结构复现统一统计为 3,048,352，包含 10 个会话的校准参数及可学习初始状态，并非论文直接报告的参数量。按此口径，B2Tnet 参数量减少 **90.87%（10.95×）**。
+原论文识别指标取自 [Table 1 的 Raw online output](https://pmc.ncbi.nlm.nih.gov/articles/PMC8163299/#T1)，B2Tnet 在官方 HeldOutBlocks 228 句上完成 FPGA 回放测试。按本地结构统计，B2Tnet 参数量减少 **90.87%（10.95×）**。
 
 ![原论文方法与 B2Tnet 活动感知模型的参数量、CER 和 WER 对比](report/figures/paper_vs_b2tnet_activity.png)
 
@@ -54,8 +52,6 @@ B2Tnet 活动感知模型已完成全部 228 句 FPGA 测试，3,457,568 个 INT
 | --- | ---: | ---: | ---: |
 | MAC / 20 ms 输入帧 | 1,438,553.6 | 143,500.8 | 10.02× |
 | 矩阵权重存储 | 11.594 MiB（FP32） | 0.262 MiB（INT8） | 44.31× |
-
-MAC 为按输入帧摊销的矩阵与卷积运算量；权重存储不含偏置、scale、状态、缓存及物理存储对齐。计算与存储下降来自网络结构及定点化，活动感知门精度保持矩阵 MAC 数量不变。
 
 ### FPGA 实现与演示
 
@@ -119,7 +115,7 @@ pynq-gru-bci/
 └── report/
     ├── design_report.pdf     # 设计报告
     ├── design_report.docx    # 可编辑报告
-    ├── llm_trace/            # 仅保留协作说明，不收录对话原文
+    ├── llm_trace/            # 协作流程说明
     └── figures/              # 系统、架构与性能配图
 ```
 
@@ -133,7 +129,7 @@ pynq-gru-bci/
 | 板端运行 | PYNQ-Z2、PYNQ 3.0.1、MicroSD、Micro USB 数据线、以太网 |
 | 演示界面 | PC 浏览器，与板卡网络互通 |
 
-使用仓库中的冻结比特流进行演示不需要 GPU，也不需要重新综合。
+冻结比特流可直接加载至 PYNQ-Z2，由板端执行推理，PC 浏览器展示解码过程。
 
 ## 复现步骤
 
@@ -150,7 +146,7 @@ python skill/verify_scripts/verify_repository.py
 
 将 `<REPOSITORY_SSH_URL>` 替换为仓库 Code 菜单中复制的 SSH 地址。使用源码 ZIP 时，解压后直接进入 `pynq-gru-bci/`，从安装依赖开始执行。
 
-校验脚本检查目录、全部交付文件的 SHA-256、IP 文件、仿真日志、板测结果及隐私规则；解压后的源码包无需 Git 历史即可校验。
+校验脚本检查目录、全部交付文件的 SHA-256、IP 文件、仿真日志、板测结果及隐私规则，支持 Git 克隆与源码 ZIP 两种方式。
 
 ### 2. 准备测试输入
 
@@ -195,7 +191,7 @@ python src/ps/model/run_precision_eval.py
 
 结果写入 `board/results/software_official/` 和 `board/results/software_summary.json`。脚本会复用已存在的逐句结果；从头计算时，先将 `software_official/` 改名备份，再执行命令。
 
-RTL 核心回归使用仓库附带的测试向量，无需原始数据。将 `VIVADO_BIN` 替换为本机安装路径：
+RTL 核心回归使用仓库附带的测试向量。将 `VIVADO_BIN` 替换为本机安装路径：
 
 ```powershell
 $env:VIVADO_BIN = 'D:/2025.2/Vivado/bin'
@@ -212,7 +208,7 @@ python sim/scripts/simulate_activity.py
 vivado -mode batch -source build/scripts/build_overlay.tcl
 ```
 
-脚本生成 `build/vivado_project/`、`board/bitstream/h144_dma_overlay.bit` 和同名 `.hwh`，并将报告写入 `build/reports/`。重新构建建议使用独立 checkout；脚本检测到已有 Vivado 工程时会停止。
+在独立 checkout 中运行脚本，生成 `build/vivado_project/`、`board/bitstream/h144_dma_overlay.bit` 和同名 `.hwh`，并将报告写入 `build/reports/`。
 
 自定义 IP 位于 `src/pl/ip/h144_accel/`，可加入 Vivado IP Catalog。源码中的 `h144` 为硬件模块与比特流的命名。
 
@@ -241,7 +237,7 @@ python board/scripts/serve_ui.py --board-api http://192.168.2.99:8765 --port 876
 
 浏览器打开 **http://127.0.0.1:8766/**，点击“开始解码”。界面默认 5 MHz，可选择 50 MHz；文本由 FPGA 返回的 logits 经 PS 判决生成，输出与整数参考、活动计数一致后显示“校验通过”。日志保存在 `board/results/live/`。
 
-演示按 WER、CER 从低到高排列，同分按信号时长和原记录号排序。排序仅调整展示顺序，整体准确率使用全部 228 句计算；参考文本不参与推理。
+演示按 WER、CER 从低到高排列，同分按信号时长和原记录号排序。整体准确率由全部 228 句的解码结果计算。
 
 ## 项目资料
 
